@@ -1,0 +1,5 @@
+"0","fam.data <- subset(anorexia, Treatment == ""Family"")"
+"0","fam.mean <- mean(fam.data$Changes)"
+"0","fam.var <- var(fam.data$Changes)"
+"0","fam.n <- nrow(fam.data)"
+"0",""

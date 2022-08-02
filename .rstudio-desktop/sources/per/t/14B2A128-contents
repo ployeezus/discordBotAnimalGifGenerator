@@ -1,0 +1,106 @@
+---
+title: "Unchit_Ploy_ProblemSet09"
+author: "Ploy Unchit"
+date: "3/30/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1A)
+The data should be analyzed using a one-sample t-test because of the variables instead of comparing the before and after, it should compare one sample mean to a null hypothesis value. 
+
+1B)
+H0: delta = 0
+H1: delta != 0
+```{r}
+t.stat <- 11.5 / (21/sqrt(10))
+t.stat
+#The t-stat is 1.732
+pval <- (1-pt(t.stat, 9)) * 2
+pval
+#The p value is 0.117
+  
+```
+
+1C)
+```{r}
+interval1 <- 11.5 + qt(.975, df = 9) * (21/sqrt(10))
+interval1
+interval2 <- 11.5 - qt(.975, df = 9) * (21/sqrt(10))
+interval2
+#The 95% confidence of the mean difference in glycemic index is between 26.523 and -3.522
+```
+
+1D)
+Even though the authors did not reject the null hypothesis, the sample size is too small to conclude that on average, dates gave the same glycemic index with and without the coffe.
+
+2A)
+We would use the t-distribution because of our small sample size.
+
+2B)
+```{r}
+interval1 <- 3 + 2.187 * (.5/sqrt(7))
+interval1
+interval2 <- 3 - 2.187 * (.5/sqrt(7))
+interval2
+#The 95% confidence of the mean difference in glycemic index is between 3.413 and 2.587
+```
+
+2C)
+Again, I don't think you can conclude anything with a small sample size, especially since it's only 7.
+
+3A)
+The experimental unit is cholesterol levels. The population is heavy, middle age men with type A or type B behavior with 20 units drawn from each population. This is a 1-sample problem. They took 1 measurement each all 20 men in each type group. The parameter is the cholesterol level. The mu is 245.05 for type A and 210.3 for type B. The null hypothesis is 0 and the alternative hypothesis is not 0.
+
+3B)
+It does seem reasonable to asumme that the samples were drawn from normal distributions.
+
+3C)
+```{r}
+typeA <- c(233, 291, 312, 250, 246, 197, 268, 224, 239, 239, 254, 276, 234, 181, 248, 252, 202, 218, 212, 325)
+mean(typeA)
+typeB <- c(344, 185, 263, 246, 224, 212, 188, 250, 148, 169, 226, 175, 242, 252, 153, 183, 137, 202, 194, 213)
+mean(typeB)
+
+t.test(typeA, typeB)
+#The significance probability is 0.0148. We would reject the null hypothesis because it is less than alpha = 0.05. 
+
+m <- 245.05 - 210.3
+s <- sqrt((var(typeA) / 20) + (var(typeB) / 20))
+s
+interval1 <- m - qt(.9, df = 35.413) * (-11.7016/sqrt(20))
+interval1
+interval2 <- m + qt(.9, df = 35.413) * (-11.7016/sqrt(20))
+interval2
+#The interval is between 38.167 and 31.333
+```
+
+4A)
+```{r}
+normal <- c(4.1, 6.3, 7.8, 8.5, 8.9, 10.4, 11.5, 12.0, 13.8, 17.6, 24.3, 37.2)
+diabetic <- c(11.5, 12.1, 16.1, 17.8, 24, 28.8, 33.9, 40.7, 51.3, 56.2, 61.7, 69.2)
+hist(normal)
+hist(diabetic)
+#Not symmetric because you can't draw a line in the middle and each side mirrors each other
+```
+
+4B)
+```{r}
+hist(log(normal))
+hist(sqrt(normal))
+hist(log(diabetic))
+hist(sqrt(diabetic))
+#I prefer the log
+```
+
+4C)
+No, none of them looks like a bell curve.
+
+4D)
+```{r}
+t.test(normal, diabetic)
+#The significance probability is 0.00398. We would reject the null hypothesis because it is less than alpha = 0.05. 
+```

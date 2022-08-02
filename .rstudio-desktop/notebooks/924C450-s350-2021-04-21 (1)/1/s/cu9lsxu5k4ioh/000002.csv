@@ -1,0 +1,4 @@
+"0","cog.data <- subset(anorexia, Treatment == ""Cognitive"")"
+"0","cog.mean <- mean(cog.data$Changes)"
+"0","cog.var <- var(cog.data$Changes)"
+"0","cog.n <- nrow(cog.data)"

@@ -1,0 +1,4 @@
+"0","std.data <- subset(anorexia, Treatment == ""Standard"")"
+"0","std.mean <- mean(std.data$Changes)"
+"0","std.var <- var(std.data$Changes)"
+"0","std.n <- nrow(std.data)"

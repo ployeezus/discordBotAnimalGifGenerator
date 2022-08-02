@@ -1,0 +1,3851 @@
+1598833537129:98+1
+1598895616142:8/2
+1598895637341:C = a + b
+1598895640698:a = 1+1
+1598895664244:a = 1+1
+1598895664244:b = 1
+1598895664245:c = a + b
+1598895672599:c = a + b
+1598895675139:b = 1
+1598895677269:a = 1+1
+1598895685615:c
+1598896279252:data1 <- read.csv("~/Downloads/data1.txt", sep="")
+1598896279255:View(data1)
+1598896607930:install.packages("fivethirtyeight")
+1598896663101:library(fivethirtyeight)
+1598896907501:install.packages("fivethirtyeight")
+1598896937957:library(fivethirtyeight)
+1598897050530:dg
+1598897069247:library(fivethirtyeight)
+1598897072183:dg = bechdel$domgross
+1598897074560:dg
+1598897147621:sum(dg)
+1598897157431:summary(dg)
+1598897315748:drinks = drinks$country
+1598897352772:drinks = drinks$country
+1598897398722:drinks = drinks$country
+1598897406333:dr = drinks$country
+1598897504143:drinks
+1598897706851:sum(drinks$total_litres_of_pure_alcohol)
+1598897745761:sum(dr)
+1598897750257:library(fivethirtyeight)
+1598897750258:dr = drinks$total_litres_of_pure_alcohol
+1598897750259:sum(dr)
+1598897755437:dr = drinks$total_litres_of_pure_alcohol
+1598897773498:sum(dr)
+1598897775806:dr = drinks$total_litres_of_pure_alcohol
+1598897777642:library(fivethirtyeight)
+1598897780410:dr = drinks$total_litres_of_pure_alcohol
+1598897817289:sum(dg)
+1598897940215:dr = drinks$country
+1598897950494:summary(dr)
+1598897975518:drinks = drinks$country
+1598898063103:drinks
+1598898068571:drinks$country
+1598898141285:drinks$beer_servings
+1598898209631:drinks$element
+1598898225910:drinks$total_litres_of_pure_alcohol
+1598898236567:sum(dr)
+1598898602869:mydata <- read.delim("~/Downloads/mydata.txt")
+1598898602871:View(mydata)
+1598898670018:#Q1
+1598898670020:summary(treat)
+1598898681893:#Q1
+1598898681894:summary(mydata$Treat)
+1598898763857:diff = c(Postwt - Prewt)
+1598898775933:diff = c(mydata$Postwt - mydata$Prewt)
+1598898791070:sum(diff)
+1598898810548:199/n
+1598898822355:sum(diff)/n
+1598898855263:(sum(diff)) / n
+1598898859256:n = 72
+1598898859256:diff = c(mydata$Postwt - mydata$Prewt)
+1598898859257:(sum(diff)) / n
+1598898983780:install.packages("MASS")
+1598899009927:summary(Mass)
+1598899024289:library(Mass)
+1598899036736:library(MASS)
+1598899112580:dim(MASS$Pima.tr2)
+1598899121383:library(MASS)
+1598899121384:dim(MASS$Pima.tr2)
+1598899183624:pi = Pima.tr2
+1598899217780:Pima.tr2
+1598899235347:dim(Pima.tr2)
+1598899281825:sum(pima.tr2$bp)
+1598899288407:sum(Pima.tr2$bp)
+1598899371594:summry(pi)
+1598899376401:summary(pi)
+1598899459842:pim1 = na.omit(pim)
+1598899465216:sum(Pima.tr2$bp)
+1598899465217:pim = Pima.tr2$bp
+1598899465218:summary(pim)
+1598899465219:#This means there are 13 NA's
+1598899465220:pim1 = na.omit(pim)
+1598899479930:sum(pim1)
+1598969923314:install.packages("tinytex")
+1598970209760:install.packages("rmarkdown")
+1612807466281:```{}
+1612807466283:2+2
+1612807466284:```
+1612807480510:```{}
+1612807480510:2 + 2
+1612807480511:```
+1612807487157:knitr::opts_chunk$set(echo = TRUE)
+1612807487335:```{r}
+1612807521272:x <- 2 + 2
+1612807523904:x <- 2 + 2
+1612807531152:x <- 2 + 2
+1612807531154:x
+1612807619540:x <- 2 + 2
+1612807619543:y <- 2^4
+1612807619552:x + y
+1612807784480:pbinon(279, 500, 0.5)
+1612807791042:pbinom(279, 500, 0.5)
+1612807822472:CDF <- pbinom(279, 500, 0.5)
+1612807822474:1 - pbinom(279, 500, 0.5)
+1612808316489:runif(1)
+1612808317330:runif(1)
+1612808318176:runif(1)
+1612808392915:runif(1)
+1612808392919:runif(5)
+1612808479015:x <- runif(100000)
+1612808479027:hist(x)
+1613677490479:knitr::opts_chunk$set(echo = TRUE)
+1613677490665:1.
+1613677490667:n <- 50000
+1613677490670:p <- .02
+1613677490672:expectedValue = n*p
+1613677490674:standardDev = sqrt(np(1-p))
+1613677497910:1.
+1613677497914:n <- 50000
+1613677497916:p <- .02
+1613677497926:expectedValue = n*p
+1613677497929:standardDev = sqrt(n*p(1-p))
+1613677514935:1.
+1613677514938:n <- 50000
+1613677514944:p <- .02
+1613677514950:expectedValue = n*p
+1613677514953:standardDev = sqrt(n*p * (1-p))
+1613677514957:2.
+1613677534514:1.
+1613677534521:n <- 50000
+1613677534525:p <- .02
+1613677534528:expectedValue = n*p
+1613677534537:standardDev = sqrt(n*p * (1-p))
+1613677534544:expectedValue
+1613677534547:2.
+1613677556125:1.
+1613677556129:n <- 50000
+1613677556135:p <- .02
+1613677556140:expectedValue = n*p
+1613677556143:expectedValue
+1613677556147:standardDev = sqrt(n*p * (1-p))
+1613677556153:standardDev
+1613677556160:2.
+1613677592850:n <- 50000
+1613677592853:p <- .02
+1613677592856:expectedValue = n*p
+1613677592863:expectedValue
+1613677592866:standardDev = sqrt(n*p * (1-p))
+1613677592869:standardDev
+1613677615451:n <- 50000
+1613677615454:p <- .02
+1613677615460:expectedValue = n*p
+1613677615464:expectedValue
+1613677615465:standardDev = sqrt(n*p * (1-p))
+1613677615468:standardDev
+1613677628820:knitr::opts_chunk$set(echo = TRUE)
+1613677679484:n <- 50000
+1613677679488:p <- .4
+1613677679496:expectedValue = n*p
+1613677679499:expectedValue
+1613677679501:standardDev = sqrt(n*p*(1-p))
+1613677679504:standardDev
+1613677691321:knitr::opts_chunk$set(echo = TRUE)
+1613677691333:n <- 50000
+1613677691336:p <- .02
+1613677691339:expectedValue = n*p
+1613677691348:expectedValue
+1613677691356:standardDev = sqrt(n*p*(1-p))
+1613677691361:standardDev
+1613677694650:n <- 50000
+1613677694654:p <- .4
+1613677694662:expectedValue = n*p
+1613677694666:expectedValue
+1613677694667:standardDev = sqrt(n*p*(1-p))
+1613677694670:standardDev
+1613677981920:prob = 1 - pbinom(0, 420, .4)
+1613677990980:prob = 1 - pbinom(0, 420, .4)
+1613677990982:prob
+1613678032475:prob = 1 - pbinom(420, 420, .4)
+1613678032479:prob
+1613678041361:prob = 1 - pbinom(420, 420, .4)
+1613678041364:prob
+1613678173126:people <- .4 * 50000
+1613678173132:people
+1613678173136:prob <- 1 - pbinom(420, 420, .4)
+1613678173139:prob
+1613678220447:n <- .4 * 50000
+1613678220450:n
+1613678220453:prob <- 1 - pbinom(420, n, .4)
+1613678220459:prob
+1613678271740:n <- 50000
+1613678271743:prob <- 1 - pbinom(420, n, .4)
+1613678271751:prob
+1613678295703:n <- 50000
+1613678295706:prob <- 1 - pbinom(419, n, .4)
+1613678295713:prob
+1613678431090:n <- 50000
+1613678431092:prob <- 1 - pbinom(4, n, .4)
+1613678431098:prob
+1613678435192:n <- 50000
+1613678435195:prob <- 1 - pbinom(4, n, .4)
+1613678435201:prob
+1613678514026:n <- 50000
+1613678514028:prob <- 1 - pbinom(420, n, 0.4)
+1613678514034:prob
+1613679092359:n <- 50000
+1613679092370:prob <- 1-pbinom(420, n, 0.4)
+1613679092373:prob
+1613679231460:n <- 50000
+1613679231462:1-pbinom(420, n, .4)
+1613685075250:n <- 20000*.4
+1613685075262:prob <- 1-pbinom(420, n, 0.4)
+1613685075265:prob
+1613685088063:prob
+1613685222225:n <- 20000*.4
+1613685222228:prob <- 1-pbinom(419, n, 0.4)
+1613685222235:prob
+1613685225076:n <- 50000
+1613685225084:p <- .4
+1613685225087:expectedValue = n*p
+1613685225090:expectedValue
+1613685225093:standardDev = sqrt(n*p*(1-p))
+1613685225096:standardDev
+1613685227427:n <- 20000*.4
+1613685227429:prob <- 1-pbinom(419, n, 0.4)
+1613685227433:prob
+1613685230542:n <- 20000*.4
+1613685230545:prob <- 1-pbinom(419, n, 0.4)
+1613685230553:prob
+1613685292723:n <- 20000*.4
+1613685292725:prob <- pbinom(419, n, 0.4)
+1613685292731:prob
+1613685322310:n <- 20000*.4
+1613685322312:prob <- pbinom(419, 8000, 0.4)
+1613685322320:prob
+1613685395132:n <- 20000*.4
+1613685395136:prob <- pbinom(4, 12, 0.2)
+1613685395142:prob
+1613685406525:n <- 20000*.4
+1613685406528:prob <- 1 - pbinom(419, n, 0.4)
+1613685406531:prob
+1613685751282:n <- 20000*.4
+1613685751284:prob <- 1 - pbinom(419, n, 0.4, true, false)
+1613685758202:n <- 20000*.4
+1613685758205:prob <- 1 - pbinom(419, n, 0.4)
+1613685758213:prob
+1613685831615:n <- 20000*.4
+1613685831618:prob <- 1 - pbinom(419, n, 0.4, lower.tail = TRUE, log.p = FALSE)
+1613685831625:prob
+1613685833528:n <- 20000*.4
+1613685833530:prob <- 1 - pbinom(419, n, 0.4, lower.tail = TRUE, log.p = FALSE)
+1613685833535:prob
+1613685896881:dbinom(0, 25, .2)
+1613686131176:x <- binom(25, .2)
+1613686185875:n <- 50
+1613686185878:p <- .2
+1613686185886:n*p
+1613686217148:n <- 50
+1613686217150:p <- .2
+1613686217152:expectedValue <- n*p
+1613686232298:n <- 50
+1613686232313:p <- .2
+1613686232318:expectedValue <- n*p
+1613686232320:expectedValue
+1613686243443:knitr::opts_chunk$set(echo = TRUE)
+1613686243456:n <- 50000
+1613686243458:p <- .02
+1613686243464:expectedValue = n*p
+1613686243470:expectedValue
+1613686243473:standardDev = sqrt(n*p*(1-p))
+1613686243475:standardDev
+1613686243491:n <- 50000
+1613686243493:p <- .4
+1613686243496:expectedValue = n*p
+1613686243499:expectedValue
+1613686243501:standardDev = sqrt(n*p*(1-p))
+1613686243504:standardDev
+1613686243509:n <- 20000*.4
+1613686243511:prob <- 1 - pbinom(419, n, 0.4)
+1613686243514:prob
+1613686250603:knitr::opts_chunk$set(echo = TRUE)
+1613686250615:n <- 50000
+1613686250617:p <- .02
+1613686250620:expectedValue = n*p
+1613686250627:expectedValue
+1613686250630:standardDev = sqrt(n*p*(1-p))
+1613686250641:standardDev
+1613686250650:n <- 50000
+1613686250653:p <- .4
+1613686250656:expectedValue = n*p
+1613686250661:expectedValue
+1613686250665:standardDev = sqrt(n*p*(1-p))
+1613686250674:standardDev
+1613686250681:n <- 20000*.4
+1613686250683:prob <- 1 - pbinom(419, n, 0.4)
+1613686250686:prob
+1613686253836:n <- 50
+1613686253839:p <- .2
+1613686253846:expectedValue <- n*p
+1613686253850:expectedValue
+1613686405886:n <- 20
+1613686405890:prob <- 1 - pbinom(6, n, expectedValue)
+1613686405899:prob
+1613686418373:n <- 20
+1613686418375:expectedValue <- n*p
+1613686418379:expectedValue
+1613686418386:prob <- 1 - pbinom(6, n, expectedValue)
+1613686418389:prob
+1613686683440:n <- 25
+1613686683442:p <- .2
+1613686683449:expectedValue <- n*p
+1613686683453:expectedValue
+1613686715389:n <- 20
+1613686715392:p <- .2
+1613686715399:prob <- 1 - pbinom(6, n, p)
+1613686715402:prob
+1613686721943:n <- 25
+1613686721946:p <- .2
+1613686721954:prob <- 1 - pbinom(6, n, p)
+1613686721957:prob
+1613686746972:n <- 20
+1613686746975:p <- .2
+1613686746982:prob <- 1 - pbinom(6, n, p)
+1613686746985:prob
+1613686882049:p <- 1 - pbinom(6, n, .2)
+1613686882052:prob <- 1 - dbinom(0, 20, p)
+1613686882055:prob
+1613686929687:p <- 1 - pbinom(6, 20, .2)
+1613686929690:prob <- 1 - dbinom(0, 20, p)
+1613686929697:prob
+1613686941769:p <- 1 - pbinom(6, 20, .2)
+1613686941771:prob <- 1 - dbinom(0, 20, p)
+1613686941778:prob
+1613687188891:x -> dbinom(0, 20, 1/20)
+1613688091462:x -> dbinom(1, 20, 1/20)
+1613688114743:x -> dbinom(1, 20, .05)
+1613688134443:x -> dbinom(4, 20, .05)
+1613688140800:xz -> dbinom(4, 20, .05)
+1613688153102:2A
+1613688156689:xz
+1613688166792:xz <- dbinom(4, 20, .05)
+1613688166794:xz
+1613688265257:xz <- pbinom(4, 20, .05)
+1613688265261:xz
+1613688271897:xz <- pbinom(0, 20, .05)
+1613688271899:xz
+1613688274194:xz <- pbinom(0, 20, .05)
+1613688274197:xz
+1613696520748:x<-seq(from=-3,to=+3,length.out=100)
+1613696520760:plot(x,dnorm(x))
+1613696574593:x<-seq(from=1,to=+2,length.out=100)
+1613696574596:plot(x,dnorm(x))
+1613696866269:#
+1613696866271:x <- rnorm(100)
+1613696866280:hist(x,freq=F)
+1613697534572:x <- numbers[0:3]
+1613697541238:x <- [0:3]
+1613698102930:upper <- 1.75^2/2
+1613698102932:lower <- 1.5^2/2
+1613698102936:CDF <- upper - lower
+1613698102943:CDF
+1613699082255:prob <- pnorm(135, 120, 20) - pnorm(115, 120, 20)
+1613699082262:prob
+1613699270295:p <- pnorm(159, 10, 20)
+1613699270298:p
+1613699285231:p <- 1 - pnorm(159, 10, 20)
+1613699285234:p
+1613699356454:p <- 1 - pnorm(159, 120, 20)
+1613699356457:prob <- 1 - pnorm(0, 10, p)
+1613699356464:prob
+1613699398138:p <- 1 - pnorm(160, 120, 20)
+1613699398142:prob <- 1 - pnorm(0, 10, p)
+1613699398149:prob
+1613699400730:p <- 1 - pnorm(160, 120, 20)
+1613699400732:prob <- 1 - pnorm(0, 10, p)
+1613699400741:prob
+1613699433129:p <- 1 - pnorm(160, 120, 20)
+1613699433131:p
+1613699433137:prob <- 1 - pnorm(0, 10, p)
+1613699433141:prob
+1613699457615:p <- 1 - pnorm(160, 120, 20)
+1613699457619:p
+1613699457626:prob <- 1 - binom(0, 10, p)
+1613699476820:p <- 1 - pnorm(160, 120, 20)
+1613699476823:p
+1613699476828:prob <- 1 - pbinom(0, 10, p)
+1613699476834:prob
+1613699512088:p <- 1 - pnorm(159, 120, 20)
+1613699512091:p
+1613699512097:prob <- 1 - pbinom(0, 10, p)
+1613699512102:prob
+1613699525622:p <- 1 - pnorm(159, 120, 20)
+1613699525624:p
+1613699525627:prob <- 1 - pbinom(0, 10, p)
+1613699525635:prob
+1613699611728:prob <- 1-pnorm(320, 240, sqrt(20^2 + 20^2))
+1613699611730:prob
+1613699624583:prob <- 1-pnorm(320, 240, sqrt(20^2 + 20^2))
+1613699624586:prob
+1613699730403:prob <- pnorm(72, 69.2, 2.9)
+1613699730415:prob
+1613699735293:prob <- pnorm(71, 69.2, 2.9)
+1613699735295:prob
+1613700203600:expectedValue <- 69.2 + 63.8
+1613700203605:expectedValue
+1613700419694:expectedValue <- 69.2 + 63.8
+1613700419698:expectedValue
+1613700419704:variance <- 2 (2.9^2)
+1613700426776:expectedValue <- 69.2 + 63.8
+1613700426778:expectedValue
+1613700426782:variance <- 2 * (2.9^2)
+1613700426788:variance
+1613700482521:prob <- 1 -pnorm(144, 133, sqrt(16.82))
+1613700482524:prob
+1613700583508:expectedValue <- 69.2 - 63.8
+1613700583511:expectedValue
+1613700627983:expectedValue <- 69.2 - 63.8
+1613700627987:expectedValue
+1613700627995:variance <- 2 * (2.9^2)
+1613700627998:variance
+1613700671675:prob <- pnorm(0, 5.4, sqrt(16.82)) - dnorm(0, 5.4, sqrt(16.82))
+1613700671677:prob
+1614017757616:knitr::opts_chunk$set(echo = TRUE)
+1614017757796:singer <- read.csv("singer.txt", sep = "")
+1614017775632:singer <- read.csv("singer.txt", sep = "")
+1614017886288:singer <- read.csv("singer.txt", sep = "")
+1614017886303:singer
+1614017891003:head(singer)
+1614017948174:head(singer)
+1614017973697:mean(head(singer))
+1614017992573:mean(singer$height)
+1614018016726:summary(singer$height)
+1614018018894:median(singer$height)
+1614018020585:mean(singer$height)
+1614018022922:head(singer)
+1614018076044:summary(singer$height)
+1614018076866:plot(ecdf(singer$height))
+1614050116723:knitr::opts_chunk$set(echo = TRUE)
+1614050116864:plot(ecdf(singer$height))
+1614050154540:hist(singer$height)
+1614050159650:hist(singer$height)
+1614050167880:hist(singer$height)
+1614050209931:hist(singer$height, breaks = 59.5:76.5)
+1614050286872:hist(singer$height, breaks = 59.5:76.5,
+1614050286874:main = "Heights of the NY Choral Society",
+1614050286876:xlab = "Height (in)")
+1614050372118:plot(density(singer$height))
+1614050463493:plot(density(singer$height[1]))
+1614050469895:plot(density(singer$height[2]))
+1614050476599:plot(density(singer$height[1:2]))
+1614050498264:plot(density(singer$height[1:3]))
+1614050506713:plot(density(singer$height[1:4]))
+1614050512828:plot(density(singer$height[1:5]))
+1614050538289:plot(density(singer$height[1:30]))
+1614050557874:plot(density(singer$height[1:100]))
+1614050654145:install.packages("ggplot2")
+1614050786340:library(ggplot2)
+1614050786654:ggplot(singer, aes(x=height)) + geom_histogram(breaks = 59.5: 76.5)
+1614050879066:library(ggplot2)
+1614050879069:ggplot(singer, aes(x=height)) + geom_histogram(breaks = 59.5: 76.5) +
+1614050879072:facet_wrap(~voice.part)
+1614050927645:library(ggplot2)
+1614050927647:ggplot(singer, aes(x=height)) + geom_histogram(breaks = 59.5: 76.5) +
+1614050927649:facet_wrap(~voice.part, ncol = 2)
+1614271185145:1A.
+1614271185148:1A.
+1614271185242:```{r}
+1614271185242:```
+1614278790097:knitr::opts_chunk$set(echo = TRUE)
+1614278790249:q25 <- .25/30
+1614278790253:q75 <- 60(.75)+20
+1614278809333:q25 <- .25/30
+1614278809336:q25
+1614278809338:q75 <- 60(.75)+20
+1614278835615:q25 <- .25/30
+1614278835619:q25
+1614278835627:q75 <- (60 * .75) + 20
+1614278835629:q75
+1614278835631:iqr <- q75 - q25
+1614278835635:iqr
+1614299848387:knitr::opts_chunk$set(echo = TRUE)
+1614299848522:median <- .5/30
+1614299848524:median
+1614300391778:q25 <- .25*30
+1614300391781:q25
+1614300391784:q75 <- (60 * .75) - 1/3
+1614300391789:q75
+1614300391795:iqr <- q75 - q25
+1614300391799:iqr
+1614301021292:q25 <- .25*30
+1614301021302:q25
+1614301021304:q75 <- 60 * (.75 - 1/3)
+1614301021309:q75
+1614301021312:iqr <- q75 - q25
+1614301021315:iqr
+1614301154352:median <- .5 * 30
+1614301154355:median
+1614301214862:q1 <- .25*30
+1614301214866:q1
+1614301214872:q3 <- 60 * (.75 - 1/3)
+1614301214875:q3
+1614301214877:iqr <- q3 - q1
+1614301214884:iqr
+1614301593027:4A.
+1614301593027:4A.
+1614301593058:4A.
+1614301931362:pnorm(0, .74, 25)
+1614302039279:1- pnorm(0, .74, 25)
+1614302082708:1- pnorm(-100), .74, 25)
+1614302089513:1- pnorm(-100, .74, 25)
+1614302107187:1- pnorm(.75, .74, 25)
+1614302144897:1- pnorm(0, .75, 25)
+1614302147052:qnorm(.75, .75, 25)
+1614302147841:pnorm(-100, .75, 25)
+1614302764364:pnorm(65.5, 63.8, 2.9)
+1614302789356:1 - pnorm(65.5, 63.8, 2.9)
+1614302904496:qnorm(.5, 63.8, 2.9)
+1614302934059:qnorm(.75, 63.8, 2.9) - qnorm(.25, 63.8, 2.9)
+1614303570853:median <- .5 * 30
+1614303570857:median
+1614356867950:knitr::opts_chunk$set(echo = TRUE)
+1614356868065:set.seed(350)
+1614356868068:x <- rnorm(50, 0, 1)
+1614356869361:sort(x)
+1614356906020:sort(x)
+1614356906045:qnorm(seq(.01, .99, .02))
+1614356973545:sort(x)
+1614356973564:qnorm(seq(.01, .99, .02)), sort(x))
+1614356982269:sort(x)
+1614356982298:plot(qnorm(seq(.01, .99, .02)), sort(x))
+1614356990280:sort(x)
+1614356990299:plot(qnorm(seq(.01, .99, .02)), sort(x))
+1614357051576:x1 <- rnorm(50, mean = 10, sd = 20)
+1614357051581:plot(qnorm(seq(.01, .99, .02)), sort(x1))
+1614357116826:qqnorm(rnorm(50, mean = 10, sd = 20), main = "Normal Data")
+1614357178657:qqnorm(rexp(50), main = "Exponential Data")
+1614357251554:library(lattice)
+1614357251613:library(ggplot2)
+1614357251935:ggplot(singer, aes(sample - height)) + stat_qq()
+1614357263887:library(lattice)
+1614357263889:library(ggplot2)
+1614357263890:ggplot(singer, aes(sample = height)) + stat_qq()
+1614357270734:library(lattice)
+1614357270735:library(ggplot2)
+1614357270737:ggplot(singer, aes(sample = height)) + stat_qq()
+1614357333319:ggplot(singer, aes(sample = height)) + stat_qq() + facet_wrap(~voice.part, ncol= 4 )
+1614357405519:qqnorm(rnorm(200, main = "Normal Data")
+1614357405521:qqnorm(runif(200, main = "Uniform Data")
+1614357414616:qqnorm(rnorm(200), main = "Normal Data")
+1614357414668:qqnorm(runif(200), main = "Uniform Data")
+1614357461077:qqnorm(rnorm(10), main = "Normal Data")
+1614357461114:qqnorm(runif(10), main = "Uniform Data")
+1614362372871:knitr::opts_chunk$set(echo = TRUE)
+1614362372985:stereograms <- read.table("stereograms.txt", header = TRUE)
+1614362416253:stereograms <- read.table("stereograms.txt", header = TRUE)
+1614362416263:summary(stereograms)
+1614362420728:stereograms <- read.table("stereograms.txt", header = TRUE)
+1614362420733:summary(stereograms)
+1614362639044:# Boring boxplot
+1614362639047:boxplot(stereograms$time)
+1614362772632:boxplot(time ~ group, data = stereograms)
+1614362890318:boxplot(time ~ group, data = stereograms,
+1614362890327:xlab = "Group 1: No visual cue, Group 2: Visual cue",
+1614362890329:ylab = "Viewing time(seconds)",
+1614362890330:main = "Stereogram Viewing Times in Experiemnt")
+1614363182035:nocue <- subset(stereograms, group == 1)
+1614363182046:summary(nocue)
+1614363222227:cue <- subset(stereograms, group == 2)
+1614363222237:summary(nocue)
+1614363228068:cue <- subset(stereograms, group == 2)
+1614363228078:summary(nocue)
+1614363256719:cue <- subset(stereograms, group == 2)
+1614363256735:summary(cue)
+1614363407384:plot(density(nocue$time), main "No-cue group", xlab = "VIewing time")
+1614363420944:plot(density(nocue$time), main = "No-cue group", xlab = "VIewing time")
+1614363420971:plot(density(cue$time), main = "Cue group", xlab = "VIewing time")
+1614363460882:plot(density(nocue$time), main = "No-cue group", xlab = "Viewing time(seconds)")
+1614363460914:plot(density(cue$time), main = "Cue group", xlab = "VIewing time (seconds)")
+1614363519034:plot(ecdf(nocue$time))
+1614363563618:qqnorm(nocue$time)
+1614363563655:qqnorm(cue$time)
+1614363648980:qqnorm(nocue$time, main = "No cue")
+1614363649018:qqnorm(cue$time, main = "No visual cue")
+1614620531488:knitr::opts_chunk$set(echo = TRUE)
+1614620531681:IUSalaries2020 <- ("IUSalaries.txt", header = TRUE)
+1614620539022:IUSalaries2020 <- ("IUSalaries.txt", header = TRUE)
+1614620552641:IUSalaries2020 <- readtable("IUSalaries.txt", header = TRUE)
+1614620566588:IUSalaries2020 <- readtable("IUSalaries2020.txt", header = TRUE)
+1614620585447:IUSalaries2020 <- read.table("IUSalaries2020.txt", header = TRUE)
+1614620585471:head(IUSalaries2020)
+1614620591485:IUSalaries2020 <- read.table("IUSalaries2020.txt", header = TRUE)
+1614620591505:head(IUSalaries2020)
+1614620649463:plot(density(IUSalaries2020$Salary))
+1614620760021:hist(IUSalaries2020$Salary)
+1614620834254:hist(IUSalaries2020$Salary, breaks = seq(0, 450000, 5000))
+1614621023174:#seq(start, end, interval)
+1614621023176:hist(IUSalaries2020$Salary, breaks = seq(0, 450000, 5000),
+1614621023177:main = "IUB academic salaries, 2020-21",
+1614621023180:xlab = ("Salary $"))
+1614621074638:boxplot(IUSalaries2020$Salary)
+1614621186673:boxplot(IUSalaries2020$Salary)
+1614621186707:boxplot(Salary - Class, data = IUSalaries2020)
+1614621290397:boxplot(IUSalaries2020$Salary)
+1614621290425:boxplot(Salary - Class, data = IUSalaries2020$Salary)
+1614621325583:boxplot(IUSalaries2020$Salary)
+1614621325608:boxplot(Salary ~ Class, data = IUSalaries2020)
+1614621334571:boxplot(IUSalaries2020$Salary)
+1614621334599:boxplot(Salary ~ Class, data = IUSalaries2020, horizontal = TRUE)
+1614621485380:boxplot(IUSalaries2020$Salary)
+1614621485405:boxplot(Salary ~ Class, data = IUSalaries2020, horizontal = TRUE,
+1614621485407:las = 2)
+1614621531168:boxplot(IUSalaries2020$Salary)
+1614621531192:boxplot(Salary ~ Class, data = IUSalaries2020, horizontal = TRUE,
+1614621531194:las = 2, label.cex = .1)
+1614621725030:# install.packages("ggplot2")
+1614621725034:library(ggplot2)
+1614621809967:# install.packages("ggplot2")
+1614621809969:library(ggplot2)
+1614621809978:ggplot(IUSalaries2020) + geom_boxplot(aes(x = Salaray, y = Class))
+1614621816206:# install.packages("ggplot2")
+1614621816208:library(ggplot2)
+1614621816215:ggplot(IUSalaries2020) + geom_boxplot(aes(x = Salary, y = Class))
+1614622189199:qqnorm(IUSalaries2020$Salary
+1614622212547:qqnorm(IUSalaries2020$Salary, main = "Normal QQ plot of IU salaries")
+1614622270541:qqnorm(IUSalaries2020$Salary, main = "Normal QQ plot of IU salaries")
+1614622270660:qqnorm(log(IUSalaries2020$Salary, main = "Normal QQ plot of logged IU salaries"))
+1614622290652:qqnorm(IUSalaries2020$Salary, main = "Normal QQ plot of IU salaries")
+1614622290776:qqnorm(log(IUSalaries2020$Salary, main = "Normal QQ plot of logged IU salaries"))
+1614622316123:qqnorm(IUSalaries2020$Salary, main = "Normal QQ plot of IU salaries")
+1614622316250:qqnorm(log(IUSalaries2020$Salary), main = "Normal QQ plot of logged IU salaries")
+1614622333113:qqnorm(IUSalaries2020$Salary, main = "Normal QQ plot of IU salaries")
+1614622333231:qqnorm(log(IUSalaries2020$Salary), main = "Normal QQ plot of logged IU salaries")
+1614622414227:summary(IUSalaries2020$Salary)
+1614622419626:summary(IUSalaries2020$Salary)
+1614622544867:summary(IUSalaries2020$Salary)
+1614622544879:sd(IUSalaries2020$Salary)
+1614622549081:summary(IUSalaries2020$Salary)
+1614622549090:sd(IUSalaries2020$Salary)
+1614793591834:knitr::opts_chunk$set(echo = TRUE)
+1614793591983:IUSalaries2020 <- read.table("IUSalaries2020.txt", header = TRUE)
+1614793592002:summary(IUSalaries2020)
+1614793643253:sample(IUSalaries2020, 10, replace = TRUE)
+1614793655331:sample(IUSalaries2020, 10, replace = TRUE)
+1614793773681:mean(sample(IUSalaries2020, 10, replace = TRUE))
+1614793796976:mean(sample(IUSalaries2020$Salary, 10, replace = TRUE))
+1614793999372:means10 <- replicate(9999, mean(sample(IUSalaries2020$Salary, 10, replace = TRUE)))
+1614794087666:summary(means10)
+1614794773971:plot(density(means10))
+1614794874654:# Variance of the sample mean (of a sample of size 10)
+1614794874655:var(means10) #dollars squared
+1614794874661:sd(means10) # dollars
+1614795151561:mean1000 <= replicate(9999, mean(sample(IUSalaries2020$Salary, 1000, replace = "TRUE")))
+1614795160084:means1000 <= replicate(9999, mean(sample(IUSalaries2020$Salary, 1000, replace = "TRUE")))
+1614795168121:means1000 <- replicate(9999, mean(sample(IUSalaries2020$Salary, 1000, replace = "TRUE")))
+1614795200698:means1000 <- replicate(9999, mean(sample(IUSalaries2020$Salary, 1000, replace = "TRUE")))
+1614795252453:means1000 <- replicate(9999, mean(sample(IUSalaries2020$Salary, 10, replace = TRUE)))
+1614795252600:plot(density(means1000))
+1614795257391:means1000 <- replicate(9999, mean(sample(IUSalaries2020$Salary, 1000, replace = TRUE)))
+1614795258027:plot(density(means1000))
+1614795278488:summary(meabns1000)
+1614795283972:summary(means1000)
+1614795362458:summary(means1000)
+1614795362467:sd(means1000)
+1614886900187:knitr::opts_chunk$set(echo = TRUE)
+1614886900326:dbinom(3, 3, .57)
+1614886900330:dbinom
+1614886926180:answer <- dbinom(3, 3, .57)
+1614886926182:answer
+1614905831242:knitr::opts_chunk$set(echo = TRUE)
+1614905831407:answer <- .66 * .49
+1614905831409:answer
+1614905831411:#The answer is 18.519%
+1614906747756:answer <- (.66 + .49) - 2 * (.66 * .49)
+1614906747760:answer
+1614906747762:#The answer is 32.34%
+1614907378883:ex <- (0 *.4) + (2 * .5) + (3 * .1)
+1614907378885:ex
+1614907378890:v <-
+1614907378894:sd <-
+1614907390428:ex <- (0 *.4) + (2 * .5) + (3 * .1)
+1614907390431:ex
+1614907473452:ex <- (0 *.4) + (2 * .5) + (3 * .1)
+1614907473456:ex
+1614907473462:#The expected value is 1.3
+1614907473464:dev <- 3 - 1.3
+1614907473467:dev
+1614907473474:-
+1614907478176:ex <- (0 *.4) + (2 * .5) + (3 * .1)
+1614907478179:ex
+1614907478184:#The expected value is 1.3
+1614907478188:dev <- 3 - 1.3
+1614907478190:dev
+1614907632954:ex <- (0 *.4) + (2 * .5) + (3 * .1)
+1614907632958:ex
+1614907632964:#The expected value is 1.3
+1614907632968:var <- ((-1.7)^2 * .4) + ((.7)^2 * .5) + ((1.7)^2 * .1)
+1614907632970:var
+1614907718877:ex <- (0 *.4) + (2 * .5) + (3 * .1)
+1614907718879:ex
+1614907718884:#The expected value is 1.3
+1614907718890:var <- ((-1.7)^2 * .4) + ((.7)^2 * .5) + ((1.7)^2 * .1)
+1614907718893:var
+1614907718896:#The variance is 1.69
+1614907718897:sd <- sqrt(var)
+1614907718900:sd
+1614907718902:#The standard deviation is
+1614908698650:answer <- 1 - pbinom(4, 2.6, .5)
+1614908698660:answer
+1614908873950:#Skip for now
+1614908873953:#answer <- 1 - pbinom(4, 2.6, .5)
+1614909014972:answer <= 1-pbinom(11, 1, 12/38)
+1614909025679:answer <= 1-pbinom(11, 1, .316)
+1614909033803:answer <= 1-pbinom(11, 3, 12/38)
+1614909040948:answer <= 1-pbinom(11, 1, 12/38)
+1614909040953:answer
+1614909049925:answer <= 1-pbinom(11, 1, .316)
+1614909049929:answer
+1614909051130:answer <= 1-pbinom(11, 1, .316)
+1614909051134:answer
+1614909052056:answer <= 1-pbinom(11, 1, .316)
+1614909052061:answer
+1614909058714:answer <- 1-pbinom(11, 1, .316)
+1614909058716:answer
+1614909063347:answer <- 1-pbinom(11, 4, .316)
+1614909063349:answer
+1614909287348:answer <- pbinom(11, 1, .316)
+1614909287350:answer
+1614909293006:answer <- pbinom(11, 4, .316)
+1614909293009:answer
+1614909297896:answer <- pbinom(1, 4, .316)
+1614909297900:answer
+1614909310016:answer <- pbinom(1, 12, .316)
+1614909310019:answer
+1614909371629:answer <- pbinom(1, 500, .316)
+1614909371631:answer
+1614909376479:answer <- pbinom(12, 500, .316)
+1614909376482:answer
+1614909768274:#The expected value is .316
+1614909768276:sd <- sqrt(.316)
+1614909768279:sd
+1614909984478:win <- (12/38) * 2
+1614909984481:loss <- (26/38) * 1
+1614909984487:ex <- win - loss
+1614909984491:ex
+1614909984494:#The standard deviation is .562
+1614909984622:win <- (12/38) * 2
+1614909984636:loss <- (26/38) * 1
+1614909984640:ex <- win - loss
+1614909984645:ex
+1614909984650:#The standard deviation is .562
+1614910194860:win <- (12/38) * 2
+1614910194864:loss <- (26/38) * 1
+1614910194872:ex <- win - loss
+1614910194876:ex
+1614910194880:#The expected value is -5.263 %
+1614910194883:sd <- sqrt(ex)
+1614910194889:sd
+1614910194898:#The standard deviation is .562
+1614910377551:ex <- 24/38
+1614910377555:ex
+1614910377561:#The expected value is -0.0526
+1614910377564:sd <- sqrt(ex)
+1614910377566:sd
+1614910377575:#The standard deviation is -0.229
+1614910790374:answer <- pbinom(12, 500, .316)
+1614910795905:answer <- pbinom(12, 500, .316)
+1614910795909:answer
+1614911190113:answer <- pbinom(166, 500, .316)
+1614911190116:answer
+1614911251197:answer <- 1- pbinom(166, 500, .316)
+1614911251200:answer
+1614911251205:#The probability is 79%
+1614911290242:answer <- 1- pbinom(166, 2000, .316)
+1614911290244:answer
+1614911290250:#The probability is 20.622%
+1614911313260:answer <- 1- pbinom(664, 2000, .316)
+1614911313265:answer
+1614911313273:#The probability is 20.622%
+1614911389622:ex <- (24/38) * 500
+1614911389625:ex
+1614911389630:#The expected value is 0.632
+1614911389635:sd <- sqrt(ex)
+1614911389639:sd
+1614911389641:#The standard deviation is 0.795
+1614913538446:ex <- (.6 * 7.5) + (.3 * 22.5) + (.1 * 35)
+1614913538453:ex
+1614914061799:answer <- 1 - pbinom(4, 2, 1.69)
+1614914760527:# uhhhh I'm not sure but I'm gonna try pnorm
+1614914760529:answer <- pnorn(5, 1.3, 1.3)
+1614914766883:# uhhhh I'm not sure but I'm gonna try pnorm
+1614914766885:answer <- pnorm(5, 1.3, 1.3)
+1614914766889:answer
+1614966800601:knitr::opts_chunk$set(echo = TRUE)
+1614966800776:means.unif10 <- replicate(9999, mean(runif(10)))
+1614966801219:plot(desnsity(means.unif10))
+1614966809231:means.unif10 <- replicate(9999, mean(runif(10)))
+1614966809424:plot(density(means.unif10))
+1614966906338:means.unif10 <- replicate(9999, mean(runif(10)))
+1614966906480:plot(density(means.unif10))
+1614966906701:qqnorm(means.unif100)
+1614966930494:means.unif10 <- replicate(9999, mean(runif(10)))
+1614966930726:plot(density(means.unif10))
+1614966930774:qqnorm(means.unif10)
+1614966950534:means.unif100 <- replicate(9999, mean(runif(100)))
+1614966950720:plot(density(means.unif100))
+1614966950756:qqnorm(means.unif100)
+1614966994860:means.unif100 <- replicate(9999, mean(runif(100)))
+1614966995327:plot(density(means.unif100))
+1614966995469:qqnorm(means.unif100)
+1614967031771:means.exp10 <- replicate(9999, mean(rexp(10)))
+1614967032023:qqnorm(means.exp10)
+1614967039689:means.unif100 <- replicate(9999, mean(runif(100)))
+1614967039924:plot(density(means.unif100))
+1614967039984:qqnorm(means.unif100)
+1614967068508:means.exp10000 <- replicate(9999, mean(rexp(10000)))
+1614967080776:qqnorm(means.exp10000)
+1614967148402:means.exp10 <- replicate(9999, mean(rexp(10)))
+1614967148554:qqnorm(means.exp10)
+1615218703419:knitr::opts_chunk$set(echo = TRUE)
+1615218703530:answer <- pnorm(97000, 100000, 40000/sqrt(400))
+1615218703532:answer
+1615218763304:answer <- pnorm(97000, 100000, 400000/sqrt(400))
+1615218763306:answer
+1615218805091:answer <- pnorm(97000, 100000, 40000/sqrt(400))
+1615218805094:answer
+1615218826353:answer <- pnorm(97000, 100000, 40000/sqrt(400))
+1615218826356:answer
+1615218856265:answer <- pnorm(97001, 100000, 40000/sqrt(400))
+1615218856267:answer
+1615218941720:answer <- pnorm(97001, 100000, 40000/20)
+1615218941722:answer
+1615219017053:answer <- pnorm(97001, 100000, 40000/20)
+1615219017057:answer
+1615219021523:answer <- pnorm(97000, 100000, 40000/20)
+1615219021527:answer
+1615219277554:answer <- 1-pnorm(97000, 100000, 40000/20)
+1615219277558:answer
+1615262220741:knitr::opts_chunk$set(echo = TRUE)
+1615262220872:mean(wings)
+1615262232961:answer <- mean(wings)
+1615262249091:wings <- scan("https://seattlecentral.edu/qelp/sets/057/s057.txt")
+1615262249688:answer <- mean(wings)
+1615262249691:answer
+1615262255978:wings <- scan("https://seattlecentral.edu/qelp/sets/057/s057.txt")
+1615262256545:answer <- mean(wings)
+1615262256548:answer
+1615262257652:wings <- scan("https://seattlecentral.edu/qelp/sets/057/s057.txt")
+1615262258220:answer <- mean(wings)
+1615262258222:answer
+1615262391970:wings <- scan("https://seattlecentral.edu/qelp/sets/057/s057.txt")
+1615262444719:wings <- scan("wings.txt")
+1615262453875:wings <- scan("wings.txt")
+1615262453884:answer <- mean(wings)
+1615262453890:answer
+1615262542468:wings <- scan("wings.txt")
+1615262542478:mean <- mean(wings)
+1615262542484:mean
+1615262564882:# Plug-in
+1615262564883:mean <- mean(wings)
+1615262564889:sd <- sqrt(mean(wings^2) - mean(wings)^2)
+1615262564896:sd
+1615262564899:# Sample SD
+1615262564900:sd(wings)
+1615262587398:# Plug-in
+1615262587399:#mean <- mean(wings)
+1615262587401:sd <- sqrt(mean(wings^2) - mean(wings)^2)
+1615262587409:sd
+1615262587412:# Sample SD
+1615262587414:sd(wings)
+1615262626015:summary <- summary(wings)
+1615262631040:summary <- summary(wings)
+1615262631046:summary
+1615262671306:plot(ecdf(wings), main = "ECDF of housefly wing lengths",
+1615262671308:xlab = "Wing length (mm)", ylab = "Empirical CDF")
+1615262738234:hist(wings, breaks = 35.5:55.5, main = "Frequency histogram of housefly wing lengths",
+1615262738236:xlab = "Wing length (mm)", ylab = "Empirical CDF")
+1615262745485:hist(wings, breaks = 35.5:55.5, main = "Frequency histogram of housefly wing lengths",
+1615262745487:xlab = "Wing length (mm)")
+1615262885015:hist(wings, breaks = 35.5:55.5, main = "Frequency histogram of housefly wing lengths", "Breaks=20",
+1615262885017:xlab = "Wing length (mm)")
+1615262899420:hist(wings, breaks = 35.5:55.5, main = "Frequency histogram of housefly wing lengths", main = "Breaks=20",
+1615262899422:xlab = "Wing length (mm)")
+1615262911406:hist(wings, breaks = 35.5:55.5, main = "Frequency histogram of housefly wing lengths",
+1615262911408:xlab = "Wing length (mm)")
+1615262998108:boxplot(wings, main = "Boxplot of housefly wing lengths",
+1615262998110:ylab = "Wing length (mm)")
+1615263009681:plot(density(wings), main = "Kernel density plot of housefly wing lengths",
+1615263009682:xlab = "Wing length (mm)")
+1615263037419:qqnorm(wings, main = "Normal QQ plot of housefly wing lengths")
+1615310054618:knitr::opts_chunk$set(echo = TRUE)
+1615310054739:pulse <- scan("pulses.dat")
+1615310054743:summary(pulse)
+1615310174533:pulses <- scan("pulses.dat")
+1615310174537:plot(ecdf(pulses), main = "ECDF of Peruvian Indian Pulses",
+1615310174539:xlab = "Pulse Rate (bpm)", ylab = "Empirical CDF")
+1615310212056:pulses <- scan("pulses.dat")
+1615310212071:plot(ecdf(pulses), main = "ECDF of Peruvian Indian Pulses",
+1615310212073:xlab = "Pulse Rate (bpm)", ylab = "Empirical CDF")
+1615310277873:mean(pulses)
+1615310307043:mean(pulses)
+1615310307046:#The mean is 70.307
+1615310307048:variance(pulses)
+1615310334315:mean(pulses)
+1615310334318:#The mean is 70.307
+1615310334324:var(pulses)
+1615310387803:summary(pulses)
+1615310387813:#
+1615310959345:ratio <- (12/sqrt(var(pulses)))
+1615310959353:ratio
+1615311160064:plot(density(pulses), main = "Kernel density plot of Peruvian Indian Pulses",
+1615311160065:xlab = "Pulse rate (bpm)")
+1615311220947:boxplot(pulses, main = "Boxplot of Peruvian Indian Pulses",
+1615311220949:ylab = "Pulse rate (bpm)")
+1615343060779:knitr::opts_chunk$set(echo = TRUE)
+1615343060892:qqnorm(pulses, main = "Normal QQ plot of Peruvian Indian Pulses")
+1615343092608:plot(density(pulses), main = "Kernel density plot of Peruvian Indian Pulses",
+1615343092609:xlab = "Pulse rate (bpm)")
+1615343262804:t <- scan("Trosset.dat")
+1615343262814:plot(ecdf(t), main = "ECDF of Peruvian Indian Pulses",
+1615343262816:xlab = "Pulse Rate (bpm)", ylab = "Empirical CDF")
+1615343333989:t <- scan("Trosset.dat")
+1615343333997:plot(ecdf(t), main = "ECDF of Trosset Data",
+1615343333999:xlab = "in", ylab = "Empirical CDF")
+1615343363640:t <- scan("Trosset.dat")
+1615343363649:plot(ecdf(t), main = "ECDF of Trosset Data",
+1615343363651:xlab = "Units", ylab = "Empirical CDF")
+1615343378142:t <- scan("Trosset.dat")
+1615343378151:plot(ecdf(t), main = "ECDF of Trosset Data",
+1615343378152:xlab = "Units", ylab = "Empirical CDF")
+1615343406483:summary(t)
+1615343406493:#The median is 72
+1615343406495:#The IQR is 12
+1615343462425:summary(t)
+1615343462434:mean(t)
+1615343462437:#The mean is
+1615343462439:#The median is 1.076
+1615343462441:#The IQR is 1.108
+1615343487440:summary(t)
+1615343487446:mean(t)
+1615343487448:var(t)
+1615343487451:#The mean is 1.4876
+1615343487455:#The variance is
+1615343487460:#The median is 1.076
+1615343487463:#The IQR is 1.108
+1615343504621:summary(t)
+1615343504633:mean(t)
+1615343504636:var(t)
+1615343504638:#The mean is 1.488
+1615343504640:#The variance is 2.934
+1615343504642:#The median is 1.076
+1615343504643:#The IQR is 1.108
+1615343701426:Tratio <- (sqrt(var(t))/1.108)
+1615343706109:Tratio <- (sqrt(var(t))/1.108)
+1615343706111:Tratio
+1615344125363:qqnorm(t, main = "Normal QQ plot of Trosset Data")
+1615344169217:qqnorm(t, main = "Normal QQ plot of Trosset Data")
+1615344169242:#It is not drawn froma normal distribution because it isn't straight and linear at all.
+1615344223582:newT <- > y <- log(t)
+1615344230018:> y <- log(t)
+1615344235113:y <- log(t)
+1615344235118:qqnorm(t, main = "Normal QQ plot of Trosset Data")
+1615344235139:#It is not drawn froma normal distribution because it isn't straight and linear at all.
+1615344241064:y <- log(t)
+1615344241069:qqnorm(y, main = "Normal QQ plot of Trosset Data")
+1615344241093:#It is not drawn froma normal distribution because it isn't straight and linear at all.
+1615344305501:y <- log(t)
+1615344305505:qqnorm(y, main = "Normal QQ plot of Trosset Data")
+1615344305526:#It is better than the original graph because it is more linear and straight.
+1615344314504:plot(density(t), main = "Kernel density plot of Peruvian Indian Pulses",
+1615344314505:xlab = "Pulse rate (bpm)")
+1615344840142:ex <- (.3 * -2) + (.6 * -1) + (.1 * 12)
+1615344840145:ex
+1615344939314:ex <- ((.3 * -2) + (.6 * -1) + (.1 * 12))
+1615344939317:ex
+1615344939323:#The E(X) is 2.220e-16
+1615345077548:answer <- pnorm(.5, 3, 5)
+1615345077550:answer
+1615346052722:#dev = -2^2, -1^2, 12^2
+1615346052723:#dev^2 = -4, -1, 144
+1615346052726:varx <- ((-4 * .3) + (-1 * .6) + (144 * .1))
+1615346052730:varx
+1615346437499:var(100)
+1615346498442:var <- mean((100-mean(100))^2)
+1615346498446:var
+1615346529354:answer <- pnorm(.5, 0, 0)
+1615346529358:answer
+1615398565537:knitr::opts_chunk$set(echo = TRUE)
+1615398565709:twenty <- read.table("twenty.txt")
+1615398570959:twenty <- read.table("twenty.txt")
+1615398571056:twenty
+1615398580932:twenty <- read.table("twenty.txt", header = TRUE)
+1615398581017:twenty
+1615398589621:twenty <- read.table("twenty.txt", header = TRUE)
+1615398589712:twenty
+1615398632607:plot(density(twenty$Height))
+1615398669057:hist(twenty$Height)
+1615398677685:hist(twenty$Height)
+1615398723486:qqnorm(twenty$Height)
+1615398856630:library(ggplot2)
+1615398856995:ggplot(twenty, aes(x = Height, y = Gender)) + geom_boxplot()
+1615398989680:summary(twenty$Height)
+1615399777846:women <- subset(twenty, Gender == "female")
+1615399777912:summary(women$Height)
+1615399782347:women <- subset(twenty, Gender == "female")
+1615399782419:summary(women$Height)
+1615399877888:xbar <- mean(women$Height)
+1615399877891:s <- sd(women$Height)
+1615399877898:n <- nrow(women)
+1615399877901:c(xbar, s, n)
+1615399885931:xbar <- mean(women$Height)
+1615399885936:s <- sd(women$Height)
+1615399885942:n <- nrow(women)
+1615399885946:c(xbar, s, n)
+1615399967031:#lower bound
+1615399967036:xbar - qnorm(.975) * s / sqrt(n)
+1615399967043:#upper bound
+1615399967045:xbar + qnorm(.975) * s /sqrt(n)
+1615400126127:xbar - qnorm(.9) * s / sqrt(n)
+1615400126131:xbar + qnorm(.9) * s /sqrt(n)
+1615400147718:xbar - qnorm(.9) * s / sqrt(n)
+1615400147723:xbar + qnorm(.9) * s /sqrt(n)
+1615400234939:xbar - qnorm(.995) * s / sqrt(n)
+1615400234946:xbar + qnorm(.995) * s /sqrt(n)
+1615571741840:knitr::opts_chunk$set(echo = TRUE)
+1615571741973:twenty <- raed.table("twenty.txt", header = TRUE)
+1615571749937:twenty <- read.table("twenty.txt", header = TRUE)
+1615571750019:head(twenty$Work)
+1615571774574:twenty <- read.table("twenty.txt", header = TRUE)
+1615571774662:# names(twenty)
+1615571774664:head(twenty$Work)
+1615571774666:summary(twenty$Work)
+1615571849113:twenty <- read.table("twenty.txt", header = TRUE)
+1615571849200:# names(twenty)
+1615571849203:head(twenty$Work)
+1615571849206:summary(factor(twenty$Work))
+1615571902610:# Sample proportion
+1615571902611:xbar <- 82/141
+1615571902616:xbar
+1615571989067:# Sample proportion
+1615571989068:xbar <- 82/141
+1615571989075:xbar
+1615571989078:q <- qnorm(.975)
+1615571989081:n <- 141
+1615571989088:# Estimate standard error
+1615571989095:se <- (xbar * (1 - xbar) / n)
+1615572043850:# Lower bound
+1615572043852:xbar - q * se
+1615572043857:# Upper bound
+1615572043860:xbar + q * se
+1616088877597:knitr::opts_chunk$set(echo = TRUE)
+1616088877716:answer <- pbinom(60, 100, .5)
+1616088877721:answer
+1616088877723:#The answer is 1
+1616088914668:p1 <- pbinom(60, 100, .5)
+1616088914670:p1
+1616088914672:#The answer is 1
+1616088949291:p1 <- 1 - pbinom(60, 100, .5)
+1616088949294:p1
+1616088949296:#The answer is 1
+1616089096595:p1 <- 1 - pbinom(60, 100, .5)
+1616089096597:p1
+1616089096599:p2 <- 1 - pbinom(40, 100, .5)
+1616089096612:p2
+1616089096615:#The answer is 1
+1616089121182:p1 <- 1 - pbinom(60, 100, .5)
+1616089121185:p1
+1616089121190:p2 <- 1 - pbinom(40, 100, .5)
+1616089121193:p2
+1616089121195:answer <- p1-p2
+1616089121198:answer
+1616089121201:#The answer is 1
+1616089364056:p1 <- pbinom(60, 100, .5)
+1616089364060:p1
+1616089364063:p2 <- pbinom(40, 100, .5)
+1616089364070:p2
+1616089364074:answer <- p1-p2
+1616089364078:answer
+1616089364084:#The answer is 1
+1616089697382:p1 <- pbinom(60, 100, .5) - pbinom(40, 100, .5)
+1616089697384:p1
+1616089697387:#The answer is 0.954
+1616114783358:knitr::opts_chunk$set(echo = TRUE)
+1616114783482:answer <- pnorm(.5, 0, 0)
+1616114783484:answer
+1616114783486:#The answer is 1
+1616115143659:p1 <- pnorm(100, 0.605, sqrt(0.605* (1 - 0.605) / 100)) - pnorm(100, 0.395, sqrt(0.395* (1 - 0.395) / 100))
+1616115143662:p1
+1616115143663:#The answer is 0.954
+1616115172696:p1 <- pnorm(100, 0.605, sqrt(0.605* (1 - 0.605) / 100)) - pnorm(100, 0.395, sqrt(0.395* (1 - 0.395) / 100))
+1616115172699:p1
+1616115172704:#The answer is 0.954
+1616115367283:p1 <- pnorm(0.605, .5, .05) - pnorm(.395, .5, .05)
+1616115367287:p1
+1616115367292:#The answer is 0.954
+1616115392864:p1 <- pnorm(0.605, .5, .05) - pnorm(.395, .5, .05)
+1616115392866:p1
+1616115392871:#The answer is 0.964
+1616115581506:household_sizes <- rep(1:7, c(27, 34, 16, 13, 6, 3, 1))
+1616115581510:m <- mean(household_sizes)
+1616115581516:m
+1616115660520:sd <- sqrt(2.5 * (x - 2.5)^2)
+1616115660524:sd
+1616115660540:#The answer is 2.5
+1616115765343:sds <- sqrt(2.5 * (x - 2.5)^2)
+1616115765347:sds
+1616115765365:#The answer is 2.5
+1616115778530:sd <- sqrt(m * (x - m)^2)
+1616115778536:sd
+1616115778552:#The answer is 2.5
+1616115859038:sd <- var(m)
+1616115859042:sd
+1616115859049:#The answer is 2.5
+1616115865499:sd <- var(2.5)
+1616115865503:sd
+1616115865507:#The answer is 2.5
+1616115866915:sd <- var(2.5)
+1616115866917:sd
+1616115866920:#The answer is 2.5
+1616115905785:sd <- sqrt(m * (x - m)^2)
+1616115905788:sd
+1616115905810:#The answer is 2.5
+1616116102263:sd <- sd(m)
+1616116102266:sd
+1616116102271:#The answer is
+1616116225115:sd <- sqrt(mean * (x - m)^2)
+1616116225124:sd
+1616116225144:#The answer is
+1616116273092:sd <- sqrt(mean * (m - mean(m))^2)
+1616116273094:sd
+1616116273099:#The answer is
+1616116373290:sd <- sqrt(mean * (m - mean(m))^2)
+1616116373292:sd
+1616116373297:sd <- sd(household_sizes)
+1616116373301:sd
+1616116373303:#The answer is 0
+1616116755205:sd <- sd/sqrt(7)
+1616116755208:sd
+1616116853337:sd <- sd/sqrt(10)
+1616116853340:sd
+1616116853346:#The answer is 0.533
+1616116918135:sd <- sd/sqrt(100)
+1616116918137:sd
+1616116918142:#The answer is 0.533
+1616116919966:sd <- sd/sqrt(100)
+1616116919970:sd
+1616116919974:#The answer is 0.533
+1616116921879:sd <- sd/sqrt(100)
+1616116921882:sd
+1616116921887:#The answer is 0.533
+1616116922501:sd <- sd/sqrt(100)
+1616116922503:sd
+1616116922509:#The answer is 0.533
+1616116925542:sd <- sd/sqrt(100)
+1616116925545:sd
+1616116925549:#The answer is 0.533
+1616116926197:sd <- sd/sqrt(100)
+1616116926199:sd
+1616116926206:#The answer is 0.533
+1616116958454:sd <- sd(household_sizes)/sqrt(100)
+1616116958457:sd
+1616116958464:#The answer is 0.533
+1616116959545:sd <- sd(household_sizes)/sqrt(100)
+1616116959547:sd
+1616116959551:#The answer is 0.533
+1616117675875:a <- qnorm(.005, 2.5, sd)
+1616117682859:a <- qnorm(.005, 2.5, sd)
+1616117682862:a
+1616117702410:a <- qnorm(.005, 2.5, sd)
+1616117702413:a
+1616117702418:b <- qnorm(-.005, 2.5, sd)
+1616117702422:b
+1616117880437:a <- pnorm(.005, 2.5, sd)
+1616117880440:a
+1616117880446:b <- pnorm(-.005, 2.5, sd)
+1616117880449:b
+1616117887016:a <- pnorm(.005, 2.5, sd)
+1616117887018:a
+1616117887024:b <- pnorm(-.005, 2.5, sd)
+1616117887028:b
+1616117900518:a <- pnorm(.005, 2.5, 0.1410638)
+1616117900521:a
+1616117900526:b <- pnorm(-.005, 2.5, 0.1410638)
+1616117900530:b
+1616117908405:a <- pnorm(.05, 2.5, 0.1410638)
+1616117908408:a
+1616117908411:b <- pnorm(-.05, 2.5, 0.1410638)
+1616117908416:b
+1616118088364:a <- pnorm(.05, 2.5, 0.1410638)
+1616118088367:a
+1616118088373:b <- pnorm(-.05, 2.5, 0.1410638)
+1616118088377:b
+1616118161900:a <- pnorm(.5, 0, 0.1410638)
+1616118161903:a
+1616118161910:b <- pnorm(-.5, 0, 0.1410638)
+1616118161913:b
+1616118299710:a <- pnorm(.5, 0, 0.1410638)
+1616118299713:a
+1616118299717:b <- pnorm(-.5, 0, 0.1410638)
+1616118299722:b
+1616118299723:answer <- a-b
+1616118299727:answer
+1616118597778:answer <- qnorm(.975, 121.1, 17.6)
+1616118597780:answer
+1616118613124:answer <- qnorm(.975, 0, 17.6)
+1616118613127:answer
+1616118726296:answer <- qnorm(.8, 0, sd/sqrt(963))
+1616118726299:answer
+1616118741724:answer <- qnorm(.8, 0, 0.1410638/sqrt(963))
+1616118741727:answer
+1616118744788:answer <- qnorm(.8, 0, /sqrt(963))
+1616118746676:answer <- qnorm(.8, 0, sd/sqrt(963))
+1616118746684:answer
+1616118759109:answer <- qnorm(.8, 0, sd/sqrt(963))
+1616118759112:answer
+1616118817695:answer <- qnorm(.95, 0, sd/sqrt(963))
+1616118817697:answer
+1616118817700:#The answer is 0.00383
+1616118819281:answer <- qnorm(.99, 0, sd/sqrt(963))
+1616118819284:answer
+1616118819290:#The answer is 0.00383
+1616118880022:answer <- qnorm(.99, 0, sd/sqrt(963))
+1616118880026:answer
+1616118880032:#The answer is 0.0106
+1616118968470:twenty <- scan("twenty.txt")
+1616119402608:m <- 121.1
+1616119402612:sd <- 17.6
+1616119402618:answer <- m * qnorm(.8, 0, 17.6/sqrt(963))
+1616119402621:answer
+1616119402623:#The answer is 0.00383
+1616119482031:answer <-  m * qnorm(.95, 0, 17.6/sqrt(963))
+1616119482034:answer
+1616119482039:#The answer is .00748
+1616119483530:answer <-  m * qnorm(.99, 0, 17.6/sqrt(963))
+1616119483534:answer
+1616119483541:#The answer is 0.0106
+1616119518303:answer <-  m * qnorm(.99, 0, 17.6/sqrt(963))
+1616119518306:answer
+1616119518309:a <-  m * qnorm(-.99, 0, 17.6/sqrt(963))
+1616119518316:a
+1616119518318:#The answer is 159.779
+1616119540318:answer <-  m * qnorm(.99, 0, 17.6/sqrt(963))
+1616119540321:answer
+1616119540324:a <-  m * -qnorm(.99, 0, 17.6/sqrt(963))
+1616119540331:a
+1616119540333:#The answer is 159.779
+1616119581271:answer <-  m * qnorm(.95, 0, 17.6/sqrt(963))
+1616119581274:answer
+1616119581278:a <-  m * -qnorm(.95, 0, 17.6/sqrt(963))
+1616119581282:a
+1616119581284:#The answer is +-112.972
+1616119583818:m <- 121.1
+1616119583820:sd <- 17.6
+1616119583825:answer <- m * qnorm(.8, 0, 17.6/sqrt(963))
+1616119583829:answer
+1616119583831:a <-  m * -qnorm(.8, 0, 17.6/sqrt(963))
+1616119583835:a
+1616119583838:#The answer is +-57.804
+1616119641188:twenty <- read.table("twenty.txt")
+1616119641277:#The answer is 0.0106
+1616119642695:twenty <- read.table("twenty.txt")
+1616119642773:#The answer is 0.0106
+1616119647383:twenty <- read.table("twenty.txt")
+1616119647492:twenty
+1616119647628:#The answer is 0.0106
+1616119730422:twenty <- read.table("twenty.txt")
+1616119730497:twenty
+1616119730690:s <- summary(twenty$weight)
+1616119730695:s
+1616119730701:#The answer is 0.0106
+1616120131087:twenty <- read.table("twenty.txt", header = TRUE)
+1616120131162:twenty
+1616120131259:s <- summary(twenty$weight)
+1616120131265:s
+1616120131272:#The answer is 0.0106
+1616120154312:twenty <- read.table("twenty.txt", header = TRUE)
+1616120154385:twenty
+1616120154499:summary(twenty$Weight)
+1616120154505:#The answer is 0.0106
+1616120162507:twenty <- read.table("twenty.txt", header = TRUE)
+1616120162589:summary(twenty$Weight)
+1616120162595:#The answer is 0.0106
+1616120252506:twenty <- read.table("twenty.txt", header = TRUE)
+1616120252582:summary(twenty$Weight)
+1616120252588:#The first quantile is 126.3 and the third quantile is 183.4
+1616120315613:mean(twenty$Weight)
+1616120315616:answer <-  m * qnorm(.99, 0, 17.6/sqrt(963))
+1616120315623:answer
+1616120315625:a <-  m * -qnorm(.99, 0, 17.6/sqrt(963))
+1616120315628:a
+1616120315630:#The answer is +-159.779
+1616120367720:m <- mean(twenty$Weight)
+1616120367723:sd <- sd(twenty$Weight)
+1616120367730:answer <-  m * qnorm(.5, 0, 17.6/sqrt(963))
+1616120367734:answer
+1616120367736:a <-  m * -qnorm(.5, 0, 17.6/sqrt(963))
+1616120367739:a
+1616120367742:#The answer is +-159.779
+1616120379621:m <- mean(twenty$Weight)
+1616120379624:m
+1616120379628:sd <- sd(twenty$Weight)
+1616120379632:sd
+1616120379634:answer <-  m * qnorm(.5, 0, 17.6/sqrt(963))
+1616120379637:answer
+1616120379640:a <-  m * -qnorm(.5, 0, 17.6/sqrt(963))
+1616120379643:a
+1616120379645:#The answer is +-159.779
+1616120456620:twenty <- read.table("twenty.txt", header = TRUE)
+1616120456707:summary(twenty$Weight)
+1616120456712:#The first quantile is 126.3 and the third quantile is 183.4
+1616120465257:twenty <- read.table("twenty.txt", header = TRUE)
+1616120465333:twenty
+1616120465442:summary(twenty$Weight)
+1616120465448:#The first quantile is 126.3 and the third quantile is 183.4
+1616120479282:twenty <- read.table("twenty.txt", header = TRUE)
+1616120479351:summary(twenty$Weight)
+1616120479355:#The first quantile is 126.3 and the third quantile is 183.4
+1616120819261:m <- mean(twenty$Weight)
+1616120819264:m
+1616120819269:sd <- sd(twenty$Weight)
+1616120819272:sd
+1616120819274:answer <-  m * qnorm(.5, 0, sd/sqrt(76))
+1616120819276:answer
+1616120819279:a <-  m * -qnorm(.5, 0, sd/sqrt(76))
+1616120819283:a
+1616120819285:#The answer is +-159.779
+1616120847091:m <- mean(twenty$Weight)
+1616120847093:m
+1616120847099:sd <- sd(twenty$Weight)
+1616120847102:sd
+1616120847105:answer <-  m * qnorm(.5, 0, sd/sqrt(76))
+1616120847108:answer
+1616120847112:a <-  m * -qnorm(.5, 0, sd/sqrt(76))
+1616120847117:a
+1616120847119:#The answer is +-159.779
+1616120874821:m <- mean(twenty$Weight)
+1616120874824:m
+1616120874828:sd <- sd(twenty$Weight)
+1616120874832:sd
+1616120874835:answer <-  m * qnorm(.5, 0, sd/sqrt(141))
+1616120874838:answer
+1616120874842:a <-  m * -qnorm(.5, 0, sd/sqrt(141))
+1616120874849:a
+1616120874853:#The answer is +-159.779
+1616121010882:m <- mean(twenty$Weight)
+1616121010886:m
+1616121010891:sd <- sd(twenty$Weight)
+1616121010893:sd
+1616121010896:answer <-  m * qnorm(.5, 0, sd/sqrt(141))
+1616121010900:answer
+1616121010902:a <-  m * -qnorm(.5, 0, sd/sqrt(141))
+1616121010904:a
+1616121010906:#The answer is +-0
+1616121341679:m <- mean(twenty$Weight)
+1616121341681:m
+1616121341686:sd <- sd(twenty$Weight)
+1616121341692:sd
+1616121341694:n <- length(twenty$Weight)
+1616121341699:n
+1616121341702:answer <-  m * qnorm(.5, 0, sd/sqrt(n))
+1616121341710:answer
+1616121341713:a <-  m * -qnorm(.5, 0, sd/sqrt(n))
+1616121341716:a
+1616121341718:#The answer is 0
+1616121477755:m <- mean(twenty$Weight)
+1616121477758:m
+1616121477762:sd <- sd(twenty$Weight)
+1616121477765:sd
+1616121477767:n <- length(twenty$Weight)
+1616121477771:n
+1616121477773:answer <-  m + qnorm(.5, 0, sd/sqrt(n))
+1616121477776:answer
+1616121477779:a <-  m * -qnorm(.5, 0, sd/sqrt(n))
+1616121477783:a
+1616121477788:#The answer is 0
+1616121484299:m <- mean(twenty$Weight)
+1616121484302:m
+1616121484307:sd <- sd(twenty$Weight)
+1616121484311:sd
+1616121484314:n <- length(twenty$Weight)
+1616121484317:n
+1616121484319:answer <-  m + qnorm(.5, 0, sd/sqrt(n))
+1616121484323:answer
+1616121484324:a <-  m - qnorm(.5, 0, sd/sqrt(n))
+1616121484327:a
+1616121484328:#The answer is 0
+1616121543731:m <- mean(twenty$Weight)
+1616121543734:m
+1616121543740:sd <- sd(twenty$Weight)
+1616121543743:sd
+1616121543745:n <- length(twenty$Weight)
+1616121543751:n
+1616121543755:q <- qnorm(.75)
+1616121543762:q
+1616121543765:answer <-  m + q * (.5, 0, sd/sqrt(n))
+1616121582119:m <- mean(twenty$Weight)
+1616121582121:m
+1616121582126:sd <- sd(twenty$Weight)
+1616121582130:sd
+1616121582131:n <- length(twenty$Weight)
+1616121582134:n
+1616121582137:q <- qnorm(.75)
+1616121582139:q
+1616121582143:answer <-  m + q * (sd/sqrt(n))
+1616121582147:answer
+1616121582149:a <-  m - q * (sd/sqrt(n))
+1616121582151:a
+1616121582153:#The answer is 0
+1616121779841:m <- 121.1
+1616121779844:sd <- 17.6
+1616121779850:answer <- m + qnorm(.8, 0, 17.6/sqrt(963))
+1616121779853:answer
+1616121779856:a <-  m - qnorm(.8, 0, 17.6/sqrt(963))
+1616121779859:a
+1616121779862:#The answer is +-57.804
+1616121805822:answer <-  m + qnorm(.95, 0, 17.6/sqrt(963))
+1616121805824:answer
+1616121805829:a <-  m - qnorm(.95, 0, 17.6/sqrt(963))
+1616121805833:a
+1616121805835:#The answer is +-112.972
+1616121829013:answer <-  m + qnorm(.99, 0, 17.6/sqrt(963))
+1616121829015:answer
+1616121829019:a <-  m - qnorm(.99, 0, 17.6/sqrt(963))
+1616121829026:a
+1616121829028:#The answer is +-159.779
+1616122662026:xbar <- .58 * 1009
+1616122662031:q <- qnorm(.975)
+1616122662038:se <- sqrt(xbar * (1 - xbar) / 1009)
+1616122662041:xminus <- xbar - q * se
+1616122662044:xplus<- xbar + q * se
+1616122662046:xminus
+1616122662048:xplus
+1616122872331:xbar <- .58 * 1009
+1616122872334:xbar
+1616122872341:q <- qnorm(.975)
+1616122872369:q
+1616122872371:se <- sqrt(xbar * (1 - xbar) / 1009)
+1616122872377:se
+1616122872379:xminus <- xbar - q * se
+1616122872381:xplus<- xbar + q * se
+1616122872384:xminus
+1616122872386:xplus
+1616122969767:xbar <- .58 * 1009
+1616122969770:xbar
+1616122969774:q <- qnorm(.975)
+1616122969778:q
+1616122969780:sd <- sqrt(1009 * .58 * (1 - .58))
+1616122969785:sd
+1616122969787:se <- sd / sqrt(1000)
+1616122969790:se
+1616122969793:xminus <- xbar - q * se
+1616122969795:xplus<- xbar + q * se
+1616122969798:xminus
+1616122969801:xplus
+1616123025190:xbar <- (.58 * 1009) / 1009
+1616123025193:xbar
+1616123025199:q <- qnorm(.975)
+1616123025203:q
+1616123025205:sd <- sqrt(1009 * .58 * (1 - .58))
+1616123025209:sd
+1616123025212:se <- sd / sqrt(1000)
+1616123025220:se
+1616123025222:xminus <- xbar - q * se
+1616123025225:xplus<- xbar + q * se
+1616123025227:xminus
+1616123025229:xplus
+1616123041049:xbar <- 585 / 1009
+1616123041053:xbar
+1616123041058:q <- qnorm(.975)
+1616123041063:q
+1616123041065:sd <- sqrt(1009 * .58 * (1 - .58))
+1616123041068:sd
+1616123041071:se <- sd / sqrt(1000)
+1616123041073:se
+1616123041075:xminus <- xbar - q * se
+1616123041078:xplus<- xbar + q * se
+1616123041080:xminus
+1616123041082:xplus
+1616123111271:xbar <- 585 / 1009
+1616123111274:xbar
+1616123111281:q <- qnorm(.975)
+1616123111286:q
+1616123111290:se <- sqrt(xbar * (1 - xbar)/ 1009)
+1616123111296:se
+1616123111300:xminus <- xbar - q * se
+1616123111305:xplus<- xbar + q * se
+1616123111308:xminus
+1616123111310:xplus
+1616123228749:xbar <- 585 / 1009
+1616123228752:xbar
+1616123228758:q <- qnorm(.975)
+1616123228761:q
+1616123228763:sd <- sqrt(1009 * .58 * (1 - .58))
+1616123228768:sd
+1616123228772:se <- sd / sqrt(1000)
+1616123228780:se
+1616123228785:xminus <- xbar - q * se
+1616123228787:xplus<- xbar + q * se
+1616123228790:xminus
+1616123228792:xplus
+1616123329941:xbar <- 20
+1616123329943:xbar
+1616123329950:q <- qnorm(.975)
+1616123329954:q
+1616123329956:sd <- sqrt(1009 * .58 * (1 - .58))
+1616123329961:sd
+1616123329966:se <- sd / sqrt(1000)
+1616123329973:se
+1616123329975:xminus <- xbar - q * se
+1616123329978:xplus<- xbar + q * se
+1616123329981:xminus
+1616123329983:xplus
+1616123354128:xbar <- 585.22 / 1009
+1616123354131:xbar
+1616123354134:q <- qnorm(.975)
+1616123354139:q
+1616123354141:sd <- sqrt(1009 * .58 * (1 - .58))
+1616123354144:sd
+1616123354146:se <- sd / sqrt(1000)
+1616123354151:se
+1616123354153:xminus <- xbar - q * se
+1616123354156:xplus<- xbar + q * se
+1616123354159:xminus
+1616123354161:xplus
+1616123395423:xbar <- 585.22 / 1009
+1616123395425:xbar
+1616123395427:q <- qnorm(.975)
+1616123395431:q]
+1616123398896:xbar <- 585.22 / 1009
+1616123398900:xbar
+1616123398907:q <- qnorm(.975)
+1616123398910:q
+1616123398913:se <- sqrt(xbar * (1 - xbar) / 1009)
+1616123398915:se
+1616123398917:xminus <- xbar - q * se
+1616123398922:xplus<- xbar + q * se
+1616123398928:xminus
+1616123398932:xplus
+1616174944606:knitr::opts_chunk$set(echo = TRUE)
+1616174944729:a <- 2 * (1 - pbinom(267, 500, 0.5))
+1616174944732:a
+1616547446351:knitr::opts_chunk$set(echo = TRUE)
+1616547446459:pval <- 1 - pbinom(236, 720, .25)
+1616547446462:pval
+1616549766194:a <- 720 * .25
+1616549766197:a
+1616549766198:#The second option is the best option
+1616550465506:pval <- 1 - pbinom(236, 720, .25)
+1616550465509:pval
+1616550465514:#The second option is the best option
+1616550465516:pval1 <- 1 - pbinom(11, 20, .5)
+1616550465519:pval1
+1616554539390:pval <- 1 - pbinom(236, 720, .25)
+1616554539396:pval
+1616554539401:#The second option is the best option
+1616555547815:ANESpilot <- read.table("ANESpilot.txt", header = TRUE)
+1616555547828:summary(ANESpilot$ClintonFT)
+1616555547835:sum(ANESpilot$ClintonFT > ANESpilot$TrumpFT)
+1616555781816:ANESpilot <- read.table("ANESpilot.txt", header = TRUE)
+1616555781828:sum(ANESpilot$ClintonFT > ANESpilot$TrumpFT)
+1616555781830:#623 respondents in the sample gave Clinton a higher FT score than Trump
+1616555798593:ANESpilot <- read.table("ANESpilot.txt", header = TRUE)
+1616555798605:sum(ANESpilot$ClintonFT > ANESpilot$TrumpFT)
+1616555798608:#623 respondents in the sample gave Clinton a higher FT score than Trump
+1616555798611:sum(ANESpilot$ClintonFT < ANESpilot$TrumpFT)
+1616556584513:left <- pbinom(623, 1163, .5)
+1616556584516:left
+1616556584520:right <- 1 - pbinom(622, 1163, .5)
+1616556584525:right
+1616557076394:left <- pbinom(623, 1163, .5)
+1616557076397:left
+1616557076403:right <- 1 - pbinom(622, 1163, .5)
+1616557076407:right
+1616557076410:sp <- right * 2
+1616557076414:#The significant probability is 0.008079136
+1616557098982:left <- pbinom(623, 1163, .5)
+1616557098984:left
+1616557098989:right <- 1 - pbinom(622, 1163, .5)
+1616557098993:right
+1616557098994:sp <- right * 2
+1616557098997:#The significant probability is 0.008079136
+1616557108158:left <- pbinom(623, 1163, .5)
+1616557108161:left
+1616557108166:right <- 1 - pbinom(622, 1163, .5)
+1616557108171:right
+1616557108173:sp <- right * 2
+1616557108189:sp
+1616557108192:#The significant probability is 0.008079136
+1616557368228:xbar <- 6.5
+1616557368231:mu0 <- 0
+1616557368238:sd <- 12
+1616557368240:n <- 61
+1616557368242:tstat <- (xbar - mu0) / (sd/sqrt(n))
+1616557368247:tstat
+1616557455349:onetail <- pnorm(tstat)
+1616557455352:onetail
+1616557506635:onetail <- 1 - pnorm(tstat)
+1616557506637:onetail
+1616557629172:onetail <- 1 - pnorm(tstat)
+1616557629175:onetail
+1616557629177:#The one-tailedP-value is .0000117
+1616777361421:knitr::opts_chunk$set(echo = TRUE)
+1616777361556:skulls <- read.table("skulls.dat", header = TRUE)
+1616777415688:skulls <- read.table("skulls.txt", header = TRUE)
+1616777416947:skulls <- read.table("skulls.txt", header = TRUE)
+1616777444069:skulls <- scan("skulls.txt")
+1616777444078:summary(skulls)
+1616777678508:skulls <- scan("skulls.txt")
+1616777678517:summary(skulls)
+1616777678522:etruscan <- skulls[1:84]
+1616777678526:italian <- skulls[85:154]
+1616777678529:#Sample means:
+1616777678530:mean(etruscan)
+1616777678532:mean(italian)
+1616777801886:skulls <- scan("skulls.txt")
+1616777801894:summary(skulls)
+1616777801901:etruscan <- skulls[1:84]
+1616777801907:italian <- skulls[85:154]
+1616777801918:#Sample means:
+1616777801920:mean(etruscan)
+1616777801922:mean(italian)
+1616777801924:#delta
+1616777801926:mean(etruscan) - mean(italian)
+1616778586355:skulls <- scan("skulls.txt")
+1616778586364:summary(skulls)
+1616778586369:etruscan <- skulls[1:84]
+1616778586372:italian <- skulls[85:154]
+1616778586375:#Sample means:
+1616778586377:mean(etruscan)
+1616778586381:mean(italian)
+1616778586383:#delta
+1616778586386:delta.hat <- mean(etruscan) - mean(italian)
+1616778586391:SE <- sqrt(var(etruscan)/ 84 + var(italian)/70)
+1616778586397:#11.33095
+1616778592265:skulls <- scan("skulls.txt")
+1616778592269:summary(skulls)
+1616778592275:etruscan <- skulls[1:84]
+1616778592282:italian <- skulls[85:154]
+1616778592289:#Sample means:
+1616778592290:mean(etruscan)
+1616778592293:mean(italian)
+1616778592295:#delta
+1616778592297:delta.hat <- mean(etruscan) - mean(italian)
+1616778592300:SE <- sqrt(var(etruscan)/ 84 + var(italian)/70)
+1616778592303:SE
+1616778592305:#11.33095
+1616778614689:skulls <- scan("skulls.txt")
+1616778614696:summary(skulls)
+1616778614703:etruscan <- skulls[1:84]
+1616778614706:italian <- skulls[85:154]
+1616778614714:#Sample means:
+1616778614717:mean(etruscan)
+1616778614720:mean(italian)
+1616778614725:#delta
+1616778614727:delta.hat <- mean(etruscan) - mean(italian)
+1616778614729:delta.hat
+1616778614731:#11.33095
+1616778614734:SE <- sqrt(var(etruscan)/ 84 + var(italian)/70)
+1616778614738:SE 0.946933
+1616778623131:skulls <- scan("skulls.txt")
+1616778623141:summary(skulls)
+1616778623146:etruscan <- skulls[1:84]
+1616778623150:italian <- skulls[85:154]
+1616778623153:#Sample means:
+1616778623154:mean(etruscan)
+1616778623158:mean(italian)
+1616778623160:#delta
+1616778623164:delta.hat <- mean(etruscan) - mean(italian)
+1616778623168:delta.hat
+1616778623175:#11.33095
+1616778623178:SE <- sqrt(var(etruscan)/ 84 + var(italian)/70)
+1616778623186:SE
+1616778623189:#0.946933
+1616778706986:t.welch <- Delta.hat / SE
+1616778712886:t.welch <- delta.hat / SE
+1616778712889:t.welch
+1616778887020:#Degrees of freedom (long):
+1616778887022:df <- (var(etruscan) / 84 + var(italian) / 70)^2 /
+1616778887024:((var(etruscan) / 84) ^2 /83 + (var(italian) / 70) ^2 /69)
+1616778891692:#Degrees of freedom (long):
+1616778891694:df <- (var(etruscan) / 84 + var(italian) / 70)^2 /
+1616778891696:((var(etruscan) / 84) ^2 /83 + (var(italian) / 70) ^2 /69)
+1616778891704:df
+1616779199110:delta.hat - qt(.975, df =df) * SE
+1616779199112:delta.hat + qt(.975, df =df) * SE
+1616779220022:t.test(etruscan, italian)
+1617069701732:knitr::opts_chunk$set(echo = TRUE)
+1617069701850:native <- c(8.50, 9.48, 8.65, 8.16, 8.83, 7.76, 8.63)
+1617069701853:white <- c(8.27, 8.20, 8.25, 8.14, 9.00, 8.10, 7.20, 8.32, 7.70)
+1617069701862:t.test(native, white)
+1617204862042:knitr::opts_chunk$set(echo = TRUE)
+1617204862159:t.stat <- (53-41.5) / ((19-17)/sqrt(10))
+1617204862165:t.stat
+1617204996954:interval1 <- 11.5 + qt(.975, df = 9) * (21/sqrt(10))
+1617204996957:interval1
+1617205013910:interval1 <- 11.5 + qt(.975, df = 9) * (21/sqrt(10))
+1617205013915:interval1
+1617205013919:interval2 <- 11.5 - qt(.975, df = 9) * (21/sqrt(10))
+1617205013922:interval2
+1617205522065:t.stat <- (53-41.5) / ((19-17)/sqrt(10))
+1617205522068:t.stat
+1617205522073:#The t-stat is 18.183
+1617205522075:pval <- 1-pbinom(41.5, 53, .5)
+1617205522077:pval
+1617205702944:t.stat <- (41.5-53) / (21/sqrt(10))
+1617205702946:t.stat
+1617205702947:#The t-stat is 18.183
+1617205702949:pval <- 1-pbinom(41.5, 53, .5)
+1617205702955:pval
+1617205702957:#The p value is 1.124e-05
+1617206530682:interval1 <- (68.5-65.5) + qt(.975,df=11.62) * (sd(3-2.5)/sqrt(7))
+1617206530690:interval1
+1617206530693:interval2 <- (68.5-65.5) - qt(.975,df=11.62) * (sd(3-2.5)/sqrt(7))
+1617206530696:interval2
+1617206573885:interval1 <- (68.5-65.5) + qt(.975,df=11.62) * (sd(.5)/sqrt(7))
+1617206573887:interval1
+1617206573892:interval2 <- (68.5-65.5) - qt(.975,df=11.62) * (sd(.5)/sqrt(7))
+1617206573897:interval2
+1617206595209:interval1 <- (3) + qt(.975,df=11.62) * (sd(.5)/sqrt(7))
+1617206595212:interval1
+1617206595217:interval2 <- (3) - qt(.975,df=11.62) * (sd(.5)/sqrt(7))
+1617206595222:interval2
+1617206944951:interval1 <- 11.5 + qt(.975, df = 9) * (2/sqrt(10))
+1617206944954:interval1
+1617206944960:interval2 <- 11.5 - qt(.975, df = 9) * (2/sqrt(10))
+1617206944963:interval2
+1617206944965:#The 95% confidence of the mean difference in glycemic index is between 26.5225 and -3.522
+1617207108684:interval1 <- 3 + 2.187 * (sd(.5)/sqrt(7))
+1617207108689:interval1
+1617207108692:interval2 <- 3 - 2.187 * (sd(.5)/sqrt(7))
+1617207108694:interval2
+1617207134429:interval1 <- 3 + 2.187 * (.5/sqrt(7))
+1617207134431:interval1
+1617207134434:interval2 <- 3 - 2.187 * (.5/sqrt(7))
+1617207134440:interval2
+1617212134058:typeA <- c(233, 291, 312, 250, 246, 197, 268, 224, 239, 239, 254, 276, 234, 181, 248, 252, 202, 218, 212, 325)
+1617212134066:mean(typeA)
+1617212196795:typeA <- c(233, 291, 312, 250, 246, 197, 268, 224, 239, 239, 254, 276, 234, 181, 248, 252, 202, 218, 212, 325)
+1617212196800:mean(typeA)
+1617212196804:typeB <- c(344, 185, 263, 246, 224, 212, 188, 250, 148, 169, 226, 175, 242, 252, 153, 183, 137, 202, 194, 213)
+1617212196808:mean(typeB)
+1617212513819:t.test(typeA, typeB)
+1617212514941:t.test(typeA, typeB)
+1617212637858:t.test(typeA, typeB)
+1617212637873:#The significance probability is 0.0148. We would reject the null hypothesis because it is less than alpha = 0.05.
+1617214965610:t.test(typeA, typeB)
+1617214965622:#The significance probability is 0.0148. We would reject the null hypothesis because it is less than alpha = 0.05.
+1617214965624:interval1 <- mean(typeA) - qt(.9, df = 19) * (sd(typeA)/sqrt(20))
+1617214965630:interval1
+1617214977543:t.test(typeA, typeB)
+1617214977559:#The significance probability is 0.0148. We would reject the null hypothesis because it is less than alpha = 0.05.
+1617214977561:interval1 <- mean(typeA) - qt(.9, df = 19) * (sd(typeA)/sqrt(20))
+1617214977568:interval1
+1617214977570:interval2 <- mean(typeB) - qt(.9, df = 19) * (sd(typeA)/sqrt(20))
+1617214977574:interval3
+1617214986186:t.test(typeA, typeB)
+1617214986200:#The significance probability is 0.0148. We would reject the null hypothesis because it is less than alpha = 0.05.
+1617214986202:interval1 <- mean(typeA) - qt(.9, df = 19) * (sd(typeA)/sqrt(20))
+1617214986206:interval1
+1617214986208:interval2 <- mean(typeB) - qt(.9, df = 19) * (sd(typeA)/sqrt(20))
+1617214986210:interval2
+1617214999210:interval1 <- 11.5 + qt(.975, df = 9) * (21/sqrt(10))
+1617214999212:interval1
+1617214999214:interval2 <- 11.5 - qt(.975, df = 9) * (21/sqrt(10))
+1617214999216:interval2
+1617214999218:#The 95% confidence of the mean difference in glycemic index is between 12.931 and 10.0693
+1617215076629:t.test(typeA, typeB)
+1617215076645:#The significance probability is 0.0148. We would reject the null hypothesis because it is less than alpha = 0.05.
+1617215076649:newmean <- (mean(typeA) + mean(typeB))/2
+1617215076652:newmean
+1617215076654:interval1 <- mean(typeA) - qt(.9, df = 19) * (sd(typeA)/sqrt(20))
+1617215076656:interval1
+1617215076658:interval2 <- mean(typeB) - qt(.9, df = 19) * (sd(typeA)/sqrt(20))
+1617215076661:interval2
+1617215505481:t.test(typeA, typeB)
+1617215505496:#The significance probability is 0.0148. We would reject the null hypothesis because it is less than alpha = 0.05.
+1617215505513:m <- typeA - typeB
+1617215505518:interval1 <- m - qt(.9, df = 19) * (sd(typeA)/sqrt(20))
+1617215505522:interval1
+1617215505529:interval2 <- m + qt(.9, df = 19) * (sd(typeA)/sqrt(20))
+1617215505542:interval2
+1617215617345:t.test(typeA, typeB)
+1617215617365:#The significance probability is 0.0148. We would reject the null hypothesis because it is less than alpha = 0.05.
+1617215617368:m <- typeA - typeB
+1617215617376:s <- sd(typeA) - sd(typeB)
+1617215617380:s
+1617215617383:interval1 <- m - qt(.9, df = 19) * (sd(typeA)/sqrt(20))
+1617215617387:interval1
+1617215617395:interval2 <- m + qt(.9, df = 19) * (sd(typeA)/sqrt(20))
+1617215617407:interval2
+1617215643969:t.test(typeA, typeB)
+1617215643993:#The significance probability is 0.0148. We would reject the null hypothesis because it is less than alpha = 0.05.
+1617215644001:#m <- typeA - typeB
+1617215644003:s <- sd(typeA) - sd(typeB)
+1617215644006:s
+1617215644008:interval1 <- m - qt(.9, df = 19) * (sd(typeA)/sqrt(20))
+1617215644012:#interval1
+1617215644016:interval2 <- m + qt(.9, df = 19) * (sd(typeA)/sqrt(20))
+1617215644020:#interval2
+1617215693810:t.test(typeA, typeB)
+1617215693843:#The significance probability is 0.0148. We would reject the null hypothesis because it is less than alpha = 0.05.
+1617215693844:#m <- typeA - typeB
+1617215693848:s <- sd(typeA) - sd(typeB)
+1617215693851:s
+1617215693854:interval1 <- m - qt(.9, df = 35.413) * (sd(typeA)/sqrt(20))
+1617215693860:#interval1
+1617215693861:interval2 <- m + qt(.9, df = 35.413) * (sd(typeA)/sqrt(20))
+1617215693866:#interval2
+1617215708987:t.test(typeA, typeB)
+1617215709010:#The significance probability is 0.0148. We would reject the null hypothesis because it is less than alpha = 0.05.
+1617215709015:#m <- typeA - typeB
+1617215709026:s <- sd(typeA) - sd(typeB)
+1617215709031:s
+1617215709034:interval1 <- m - qt(.9, df = 35.413) * (-11.7016/sqrt(20))
+1617215709040:#interval1
+1617215709041:interval2 <- m + qt(.9, df = 35.413) * (-11.7016/sqrt(20))
+1617215709044:#interval2
+1617215717321:t.test(typeA, typeB)
+1617215717349:#The significance probability is 0.0148. We would reject the null hypothesis because it is less than alpha = 0.05.
+1617215717355:#m <- typeA - typeB
+1617215717360:s <- sd(typeA) - sd(typeB)
+1617215717375:s
+1617215717384:interval1 <- m - qt(.9, df = 35.413) * (-11.7016/sqrt(20))
+1617215717388:interval1
+1617215717409:interval2 <- m + qt(.9, df = 35.413) * (-11.7016/sqrt(20))
+1617215717420:interval2
+1617215916482:t.test(typeA, typeB)
+1617215916504:#The significance probability is 0.0148. We would reject the null hypothesis because it is less than alpha = 0.05.
+1617215916507:m <- typeA - typeB
+1617215916512:s <- sd(typeA) + sd(typeB)
+1617215916519:s
+1617215916522:interval1 <- m - qt(.9, df = 35.413) * (-11.7016/sqrt(20))
+1617215916526:interval1
+1617215916538:interval2 <- m + qt(.9, df = 35.413) * (-11.7016/sqrt(20))
+1617215916543:interval2
+1617322141131:knitr::opts_chunk$set(echo = TRUE)
+1617322141250:normal <- c(4.1, 6.3, 7.8, 8.5, 8.9, 10.4, 11.5, 12.0, 13.8, 17.6, 24.3, 37.2)
+1617322141257:diabetic <- c(11.5, 12.1, 16.1, 17.8, 24, 28.8, 33.9, 40.7, 51.3, 56.2, 61.7, 69.2)
+1617322141260:t.test(normal, diabetic)
+1617328748989:knitr::opts_chunk$set(echo = TRUE)
+1617328749002:t.stat <- (41.5-53) / (21/sqrt(10))
+1617328749005:t.stat
+1617328749008:#The t-stat is -1.732
+1617328749010:pval <- 1-pt(tstat, 9)*2
+1617328749014:pval
+1617328749016:#The p value is 1.124e-05
+1617329011044:t.stat <- 11.5 / (21/sqrt(10))
+1617329011051:t.stat
+1617329011054:#The t-stat is -1.732
+1617329011055:pval <- 1-pt(tstat, 9)*2
+1617329011058:pval
+1617329011062:#The p value is -0.998
+1617329060023:t.stat <- 11.5 / (21/sqrt(10))
+1617329060029:t.stat
+1617329060031:#The t-stat is 1.732
+1617329060033:pval <- (1-pt(tstat, 9)) * 2
+1617329060036:pval
+1617329060038:#The p value is -0.998
+1617329395956:t.test(typeA, typeB)
+1617329638683:t.test(typeA, typeB)
+1617329640162:t.test(typeA, typeB)
+1617329723204:typeA <- c(233, 291, 312, 250, 246, 197, 268, 224, 239, 239, 254, 276, 234, 181, 248, 252, 202, 218, 212, 325)
+1617329723208:mean(typeA)
+1617329723212:typeB <- c(344, 185, 263, 246, 224, 212, 188, 250, 148, 169, 226, 175, 242, 252, 153, 183, 137, 202, 194, 213)
+1617329723217:mean(typeB)
+1617329723219:t.test(typeA, typeB)
+1617329723230:#The significance probability is 0.0148. We would reject the null hypothesis because it is less than alpha = 0.05.
+1617329723233:m <- 245.05 - 210.3
+1617329723236:s <- sqrt((var(typeA) / 20) + (var(typeB) / 20))
+1617329723243:s
+1617329723245:interval1 <- m - qt(.9, df = 35.413) * (-11.7016/sqrt(20))
+1617329723247:interval1
+1617329723249:interval2 <- m + qt(.9, df = 35.413) * (-11.7016/sqrt(20))
+1617329723252:interval2
+1617329745813:typeA <- c(233, 291, 312, 250, 246, 197, 268, 224, 239, 239, 254, 276, 234, 181, 248, 252, 202, 218, 212, 325)
+1617329745817:mean(typeA)
+1617329745821:typeB <- c(344, 185, 263, 246, 224, 212, 188, 250, 148, 169, 226, 175, 242, 252, 153, 183, 137, 202, 194, 213)
+1617329745824:mean(typeB)
+1617329745826:t.test(typeA, typeB)
+1617329745838:#The significance probability is 0.0148. We would reject the null hypothesis because it is less than alpha = 0.05.
+1617329745839:m <- 245.05 - 210.3
+1617329745843:s <- sqrt((var(typeA) / 20) + (var(typeB) / 20))
+1617329745847:s
+1617329745851:interval1 <- m - qt(.9, df = 35.413) * (-11.7016/sqrt(20))
+1617329745855:interval1
+1617329745858:interval2 <- m + qt(.9, df = 35.413) * (-11.7016/sqrt(20))
+1617329745870:interval2
+1617329875893:normal <- c(4.1, 6.3, 7.8, 8.5, 8.9, 10.4, 11.5, 12.0, 13.8, 17.6, 24.3, 37.2)
+1617329875897:diabetic <- c(11.5, 12.1, 16.1, 17.8, 24, 28.8, 33.9, 40.7, 51.3, 56.2, 61.7, 69.2)
+1617329875902:t.test(normal, diabetic)
+1617329920730:normal <- c(4.1, 6.3, 7.8, 8.5, 8.9, 10.4, 11.5, 12.0, 13.8, 17.6, 24.3, 37.2)
+1617329920735:diabetic <- c(11.5, 12.1, 16.1, 17.8, 24, 28.8, 33.9, 40.7, 51.3, 56.2, 61.7, 69.2)
+1617329920739:hist(normal)
+1617329938205:normal <- c(4.1, 6.3, 7.8, 8.5, 8.9, 10.4, 11.5, 12.0, 13.8, 17.6, 24.3, 37.2)
+1617329938208:diabetic <- c(11.5, 12.1, 16.1, 17.8, 24, 28.8, 33.9, 40.7, 51.3, 56.2, 61.7, 69.2)
+1617329938214:hist(normal)
+1617329938248:hist(diabetic)
+1617330104648:hist(log(normal))
+1617330104681:hist(sqrt(normal))
+1617330104717:hist(log(diabetic))
+1617330104756:hist(sqrt(diabetic))
+1617330344736:t.test(normal, diabetic)
+1617330344751:#The significance probability is 0.0148. We would reject the null hypothesis because it is less than alpha = 0.05.
+1617330465128:t.stat <- 11.5 / (21/sqrt(10))
+1617330465136:t.stat
+1617330465140:#The t-stat is 1.732
+1617330465142:pval <- (1-pt(t.stat, 9)) * 2
+1617330465145:pval
+1617330465150:#The p value is 0.002205
+1617916663008:knitr::opts_chunk$set(echo = TRUE)
+1617916663117:avg <- 33 + (2*28) + (3*14) + (4*4) + (5*2)
+1617916667404:avg <- 33 + (2*28) + (3*14) + (4*4) + (5*2)
+1617916667407:avg
+1617916694617:avg <- 33 + (2*28) + (3*14) + (4*4) + (5*2)
+1617916694621:mean <- avg/5
+1617916694625:mean
+1617916695899:avg <- 33 + (2*28) + (3*14) + (4*4) + (5*2)
+1617916695903:mean <- avg/5
+1617916695905:mean
+1617916710103:avg <- 33 + (2*28) + (3*14) + (4*4) + (5*2)
+1617916710106:mean <- avg/100
+1617916710111:mean
+1617916728795:avg <- 33 + (2*28) + (3*14) + (4*4) + (5*2)
+1617916728797:mean <- avg/100
+1617916728803:mean
+1617916815454:avg <- 9 + 33 + (2*28) + (3*14) + (4*4) + (5*2)
+1617916815457:mean <- avg/100
+1617916815463:mean
+1617916815465:#The sample mean is 1.57
+1617916935677:n <- 9 + 33 + (2*28) + (3*14) + (4*4) + (5*2)
+1617916935680:mean <- n/100
+1617916935685:mean
+1617916935688:#The sample mean is 1.57
+1617917015283:n <- 33 + (2*38) + (3*14) + (4*4) + (5*2)
+1617917015285:mean <- n/100
+1617917015292:mean
+1617917015294:#The sample mean is 1.66
+1617917317261:lower <- 1.77 - qt(.975, df = 100) * (1.06 / sqrt(100))
+1617917317265:upper <- 1.77 + qt(.975, df = 100) * (1.06 / sqrt(100))
+1617917317267:lower
+1617917317269:upper
+1617929745571:tenureLower <- 121491 - qt(9.75, df= 99) * (56404.86 / sqrt(100))
+1617929745578:tenureUpper <- 121491 + qt(9.75, df= 99) * (56404.86 / sqrt(100))
+1617929745582:tenureLower
+1617929745584:tenureUpper
+1617929745586:#The confidence interval is between
+1617929777213:tenureLower <- 121491 - qt(9.75, df= 99) * (56404.86 / 10)
+1617929777222:tenureUpper <- 121491 + qt(9.75, df= 99) * (56404.86 / 10)
+1617929777226:tenureLower
+1617929777229:tenureUpper
+1617929777231:#The confidence interval is between
+1617929800675:tenureLower <- 121491 - qt(.975, df= 99) * (56404.86 / 10)
+1617929800679:tenureUpper <- 121491 + qt(.975, df= 99) * (56404.86 / 10)
+1617929800684:tenureLower
+1617929800687:tenureUpper
+1617929800691:#The confidence interval is between
+1617929823771:tenureLower <- 121491 - qt(.975, df= 99) * (56404.86 / sqrt(100))
+1617929823774:tenureUpper <- 121491 + qt(.975, df= 99) * (56404.86 / sqrt(100))
+1617929823781:tenureLower
+1617929823784:tenureUpper
+1617929823787:#The confidence interval is between 110299.1 and 132682.9
+1617929836283:nonTenureLower <- 64420 - qt(.975, df= 99) * (15460.95 / sqrt(100))
+1617929836285:nonTenureUpper <- 64420 + qt(.975, df= 99) * (15460.95 / sqrt(100))
+1617929836288:nonTenureLower
+1617929836293:nonTenureUpper
+1617929860955:nonTenureLower <- 64420 - qt(.975, df= 99) * (15460.95 / sqrt(100))
+1617929860958:nonTenureUpper <- 64420 + qt(.975, df= 99) * (15460.95 / sqrt(100))
+1617929860965:nonTenureLower
+1617929860967:nonTenureUpper
+1617929860969:#The confidence interval is between 61352.21 and 67487.79
+1617931345487:#The degrees of freedom is 10
+1617931345489:highwayMPG <- c(29, 23, 21, 20, 29, 34, 22, 20, 22, 31, 34)
+1617931345496:cityMPG <- c(19, 15, 14, 14, 19, 25, 14, 14, 15, 25, 23)
+1617931345499:t.test(highwayMPG, cityMPG)
+1617931512650:highwayMPG <- c(29, 23, 21, 20, 29, 34, 22, 20, 22, 31, 34)
+1617931512654:cityMPG <- c(19, 15, 14, 14, 19, 25, 14, 14, 15, 25, 23)
+1617931512660:t.test(highwayMPG, cityMPG)
+1617931512671:#The degrees of freedom is 19.247.
+1617931512673:#The test statistic is 3.694.
+1617933661625:currydist <- read.table("currydist.txt", header=TRUE)
+1617933672091:currydist <- read.table("currydist.txt", header=TRUE)
+1617933672103:summary(currydist)
+1617934036139:currydist <- read.table("currydist.txt", header=TRUE)
+1617934036147:summary(currydist)
+1617934036157:lower <- 17.37 - qt(.975, df= 1,597) * (sd(currydist) / sqrt(1,598))
+1617934067363:currydist <- read.table("currydist.txt", header=TRUE)
+1617934067373:summary(currydist)
+1617934067382:lower <- 17.37 - qt(.975, df= 1,597) * (sd(currydist$made) / sqrt(1,598))
+1617934090356:currydist <- read.table("currydist.txt", header=TRUE)
+1617934090367:summary(currydist)
+1617934090377:lower <- 17.37 - qt(.975, df= 1597) * (sd(currydist$made) / sqrt(1598))
+1617934090380:upper <- 17.37 + qt(.975, df= 1597) * (sd(currydist$made) / sqrt(1598))
+1617934114591:currydist <- read.table("currydist.txt", header=TRUE)
+1617934114602:summary(currydist)
+1617934114609:lower <- 17.37 - qt(.975, df= 1597) * (sd(currydist$made) / sqrt(1598))
+1617934114612:upper <- 17.37 + qt(.975, df= 1597) * (sd(currydist$made) / sqrt(1598))
+1617934114615:lower
+1617934114618:upper
+1617934161510:currydist <- read.table("currydist.txt", header=TRUE)
+1617934161523:summary(currydist)
+1617934161533:lower <- 0.5038  - qt(.975, df= 1597) * (sd(currydist$made) / sqrt(1598))
+1617934161536:upper <- 0.5038  + qt(.975, df= 1597) * (sd(currydist$made) / sqrt(1598))
+1617934161540:lower
+1617934161543:upper
+1617934377067:currydist <- read.table("currydist.txt", header=TRUE)
+1617934377078:summary(currydist)
+1617934377087:lower <- 0.5038  - qt(.975, df= 1597) * (sd(currydist$made) / sqrt(1598))
+1617934377090:upper <- 0.5038  + qt(.975, df= 1597) * (sd(currydist$made) / sqrt(1598))
+1617934377092:lower
+1617934377095:upper
+1617934377097:#The confidence interval is between 0.480 and 0.528
+1617934377099:#The point estimate is 0.5038
+1617935820891:plot(ecdf(currydist$venue$made), main = "Shots at Home",
+1617935820892:xlab = "Wing length (mm)", ylab = "Empirical CDF")
+1617936000896:plot(ecdf(currydist$venue[made]), main = "Shots at Home",
+1617936000897:xlab = "Wing length (mm)", ylab = "Empirical CDF")
+1617936007473:plot(ecdf(currydist$venue), main = "Shots at Home",
+1617936007475:xlab = "Wing length (mm)", ylab = "Empirical CDF")
+1617936023067:plot(ecdf(currydist$made), main = "Shots at Home",
+1617936023069:xlab = "Wing length (mm)", ylab = "Empirical CDF")
+1617936023119:plot(ecdf(currydist), main = "Shots Away",
+1617936023121:xlab = "Wing length (mm)", ylab = "Empirical CDF")
+1617936104334:split(venue, made, drop = FALSE, sep = ".", lex.order = FALSE, …)
+1617936112366:split(venue, made, drop = FALSE)
+1617936126929:split(currydist$venue, currydist$made, drop = FALSE)
+1617936151818:split(currydist$made, currydist$venue, drop = FALSE)
+1617936178613:split(currydist$made, currydist$venue, drop = FALSE)
+1617936179039:sum(currydist$Away)
+1617936239007:newSplit <- split(currydist$made, currydist$venue, drop = FALSE)
+1617936239015:sum(newSplit$Away)
+1617936257614:newSplit <- split(currydist$made, currydist$venue, drop = FALSE)
+1617936257621:sum(newSplit$Away)
+1617936257624:sum(newSplit$Home)
+1617936347291:newSplit <- split(currydist$made, currydist$venue, drop = FALSE)
+1617936347299:plot(ecdf(currydist[,"Home"]))
+1617936354816:newSplit <- split(currydist$made, currydist$venue, drop = FALSE)
+1617936354824:plot(ecdf(currydist[,"currydist$Home"]))
+1617936367721:newSplit <- split(currydist$made, currydist$venue, drop = FALSE)
+1617936367728:plot(ecdf(currydist[,"newSplit$Home"]))
+1617936401341:newSplit <- split(currydist$made, currydist$venue, drop = FALSE)
+1617936401353:plot(ecdf(currydist[,"newSplit$Home"]))
+1617936406134:newSplit <- split(currydist$made, currydist$venue, drop = FALSE)
+1617936406142:#plot(ecdf(currydist[,"newSplit$Home"]))
+1617936406144:newSplit$Away
+1617936474036:newSplit <- split(currydist$made, currydist$venue, drop = FALSE)
+1617936474039:plot(ecdf(newSplit$Home))
+1617936474083:newSplit$Away
+1617936496294:newSplit <- split(currydist$made, currydist$venue, drop = FALSE)
+1617936496304:plot(ecdf(newSplit$Home))
+1617936496338:plot(ecdf(newSplit$Away))
+1617936538481:newSplit <- split(currydist$made, currydist$venue, drop = FALSE)
+1617936538490:plot(ecdf(newSplit$Home))
+1617936538525:plot(ecdf(newSplit$Away))
+1617936538561:plot(ecdf(currydist[,"newSplit$Away"]))
+1617936546291:newSplit <- split(currydist$made, currydist$venue, drop = FALSE)
+1617936546299:plot(ecdf(newSplit$Home))
+1617936546329:plot(ecdf(newSplit$Away))
+1617936546368:plot(ecdf(["newSplit$Away"]))
+1617936562321:newSplit <- split(currydist$made, currydist$venue, drop = FALSE)
+1617936562329:plot(ecdf(newSplit$Home))
+1617936562359:plot(ecdf(newSplit$Away))
+1617936562399:currydist
+1617936605045:newSplit <- split(currydist$made, currydist$venue, drop = FALSE)
+1617936605054:plot(ecdf(newSplit$Home))
+1617936605090:plot(ecdf(newSplit$Away))
+1617936641113:newSplit <- split(currydist$made, currydist$venue, drop = FALSE)
+1617936641122:plot(ecdf(newSplit$Home), main = "Shots at Home",
+1617936641124:xlab = "shots", ylab = "Empirical CDF")
+1617936641151:plot(ecdf(newSplit$Away), main = "Shots Away",
+1617936641152:xlab = "shots", ylab = "Empirical CDF")
+1617936699476:newSplit <- split(currydist$made, currydist$venue, drop = FALSE)
+1617936699480:plot(ecdf(newSplit$Home), main = "Shots at Home",
+1617936699482:xlab = "Success percentage of shots", ylab = "Empirical CDF")
+1617936699522:plot(ecdf(newSplit$Away), main = "Shots Away",
+1617936699524:xlab = "Success percentage of shots", ylab = "Empirical CDF")
+1617936849147:newDistanceSplit <- split(newSplit, currydist$distance, drop = FALSE)
+1617936849179:sum(newSplit$Away)
+1617936849181:sum(newSplit$Home)
+1617936912946:unsplit(newSplit, currydist$venue, drop = FALSE)
+1617936934027:unsplit(newSplit, currydist$venue, drop = FALSE)
+1617936934270:summary(currydist)
+1617937010815:unsplit(newSplit, currydist$venue, drop = FALSE)
+1617937011062:newDistanceSplit <- split(currydist$dist, currydist$venue, drop = FALSE)
+1617937011067:summary(currydist)
+1617937016980:unsplit(newSplit, currydist$venue, drop = FALSE)
+1617937017217:newDistanceSplit <- split(currydist$dist, currydist$venue, drop = FALSE)
+1617937017225:summary(newDistanceSplit)
+1617937191715:knitr::opts_chunk$set(echo = TRUE)
+1617937191728:quote <- read.table("quoteattribution.txt", header = TRUE)
+1617937252655:quote <- read.table("quoteattribution.txt", header = TRUE)
+1617937253581:quote <- read.table("quoteattribution.txt", header = TRUE)
+1617937254588:quote <- read.table("quoteattribution.txt", header = TRUE)
+1617937255429:quote <- read.table("quoteattribution.txt", header = TRUE)
+1617937258149:quote <- read.table("quoteattribution.txt", header = TRUE)
+1617937306793:quote <- read.table("quoteattribution.txt", header = TRUE)
+1617937306805:summary(quote)
+1617937306814:nrow(quote)
+1617937322219:Washington <- subset(quote2, quoteGroup == 1)
+1617937328316:quote2 <- na.omit(quote)
+1617937328328:summary(quote2)
+1617937328336:nrow(quote2)
+1617937330020:Washington <- subset(quote2, quoteGroup == 1)
+1617937330029:summary(Washington)
+1617937345701:binLaden <- subset(quote2, quoteGroup == 0)
+1617937345706:summary(binLaden)
+1617937491393:quote <- read.table("quoteattribution.txt", header = TRUE)
+1617937491405:summary(quote)
+1617937491420:nrow(quote)
+1617937491422:quote
+1617937557720:home <- subset(currydist$made, venue == home)
+1617937574283:home <- subset(currydist$made, currydist$venue == home)
+1617937586853:home <- subset(currydist$made, currydist$venue == "home")
+1617937586857:away <- subset(currydist$made, currydist$venue == "away")
+1617937586861:plot(ecdf(home), main = "Shots at Home",
+1617937586863:xlab = "Success percentage of shots", ylab = "Empirical CDF")
+1617937603652:home <- subset(currydist$made, currydist$venue == "Home")
+1617937603657:away <- subset(currydist$made, currydist$venue == "Away")
+1617937616469:home <- subset(currydist$made, currydist$venue == "Home")
+1617937616472:away <- subset(currydist$made, currydist$venue == "Away")
+1617937616479:summary(home)
+1617937653255:currydist <- read.table("currydist.txt", header=TRUE)
+1617937653262:summary(currydist)
+1617937653272:lower <- 0.5038  - qt(.975, df= 1597) * (sd(currydist$made) / sqrt(1598))
+1617937653276:upper <- 0.5038  + qt(.975, df= 1597) * (sd(currydist$made) / sqrt(1598))
+1617937653282:lower
+1617937653284:upper
+1617937653286:#The point estimate is 0.504
+1617937653287:#The confidence interval is between 0.480 and 0.528
+1617937660815:currydist <- read.table("currydist.txt", header=TRUE)
+1617937660826:summary(currydist)
+1617937660836:currydist
+1617937660867:lower <- 0.5038  - qt(.975, df= 1597) * (sd(currydist$made) / sqrt(1598))
+1617937660870:upper <- 0.5038  + qt(.975, df= 1597) * (sd(currydist$made) / sqrt(1598))
+1617937660873:lower
+1617937660875:upper
+1617937660879:#The point estimate is 0.504
+1617937660881:#The confidence interval is between 0.480 and 0.528
+1617937670841:currydist <- read.table("currydist.txt", header=TRUE)
+1617937670853:summary(currydist)
+1617937670861:lower <- 0.5038  - qt(.975, df= 1597) * (sd(currydist$made) / sqrt(1598))
+1617937670864:upper <- 0.5038  + qt(.975, df= 1597) * (sd(currydist$made) / sqrt(1598))
+1617937670870:lower
+1617937670872:upper
+1617937670877:#The point estimate is 0.504
+1617937670880:#The confidence interval is between 0.480 and 0.528
+1617937686401:home <- subset(currydist$made, currydist$venue == "Home")
+1617937686405:away <- subset(currydist$made, currydist$venue == "Away")
+1617937686411:summary(home)
+1617937686416:plot(ecdf(home), main = "Shots at Home",
+1617937686417:xlab = "Success percentage of shots", ylab = "Empirical CDF")
+1617937686441:plot(ecdf(away), main = "Shots Away",
+1617937686442:xlab = "Success percentage of shots", ylab = "Empirical CDF")
+1617937701133:home <- subset(currydist$made, currydist$venue == "Home")
+1617937701137:away <- subset(currydist$made, currydist$venue == "Away")
+1617937701143:plot(ecdf(home), main = "Shots at Home",
+1617937701144:xlab = "Success percentage of shots", ylab = "Empirical CDF")
+1617937701168:plot(ecdf(away), main = "Shots Away",
+1617937701169:xlab = "Success percentage of shots", ylab = "Empirical CDF")
+1617937754600:home <- subset(currydist$distance, currydist$venue == "Home")
+1617937754604:away <- subset(currydist$distance, currydist$venue == "Away")
+1617937765796:home <- subset(currydist$distance, currydist$venue == "Home")
+1617937765800:away <- subset(currydist$distance, currydist$venue == "Away")
+1617937765805:summary(home)
+1617937765812:summary(away)
+1617937842091:home <- subset(currydist$distance, currydist$venue == "Home")
+1617937842095:away <- subset(currydist$distance, currydist$venue == "Away")
+1617937842102:summary(home)
+1617937842106:summary(away)
+1617937842113:#The distance at home (17.83) is larger than the distance (16.94) at away games.
+1617937949662:wii <- read.table("wii.txt", header=TRUE)
+1617937955564:wii <- read.table("wii.txt", header=TRUE)
+1617937955572:summary(wii)
+1617938472585:wii <- read.table("wii.txt", header=TRUE)
+1617938472594:summary(wii)
+1617938472603:wii
+1617938555891:wii <- read.table("wii.txt", header=TRUE)
+1617938555900:summary(wii)
+1617938555907:#Treatment and Control
+1617938555909:pval <- 1-pnorm(wii)
+1617938658710:wii <- read.table("wii.txt", header=TRUE)
+1617938658719:summary(wii)
+1617938658726:#Treatment and Control
+1617938658727:treatment <- subset(wii$Change, wii$Group == "Treatment")
+1617938658731:control <- subset(wii$Change, wii$Group == "Control")
+1617938658735:summary(home)
+1617938658741:summary(away)
+1617938658745:pval <- 1-pnorm(wii)
+1617938670114:wii <- read.table("wii.txt", header=TRUE)
+1617938670123:summary(wii)
+1617938670130:#Treatment and Control
+1617938670132:treatment <- subset(wii$Change, wii$Group == "Treatment")
+1617938670139:control <- subset(wii$Change, wii$Group == "Control")
+1617938670143:summary(treatment)
+1617938670148:summary(control)
+1617938670157:pval <- 1-pnorm(wii)
+1617938679343:wii <- read.table("wii.txt", header=TRUE)
+1617938679355:summary(wii)
+1617938679363:#Treatment and Control
+1617938679366:treatment <- subset(wii$Change, wii$Group == "Treatment")
+1617938679372:control <- subset(wii$Change, wii$Group == "Control")
+1617938679377:summary(treatment)
+1617938679382:summary(control)
+1617938679391:pval <- 1-pnorm(treatment)
+1617938684271:wii <- read.table("wii.txt", header=TRUE)
+1617938684280:summary(wii)
+1617938684286:#Treatment and Control
+1617938684288:treatment <- subset(wii$Change, wii$Group == "Treatment")
+1617938684290:control <- subset(wii$Change, wii$Group == "Control")
+1617938684294:summary(treatment)
+1617938684301:summary(control)
+1617938684314:pval <- 1-pnorm(treatment)
+1617938684317:pval
+1617938729828:wii <- read.table("wii.txt", header=TRUE)
+1617938729838:summary(wii)
+1617938729846:#Treatment and Control
+1617938729848:treatment <- subset(wii$Change, wii$Group == "Treatment")
+1617938729855:control <- subset(wii$Change, wii$Group == "Control")
+1617938729859:summary(treatment)
+1617938729864:summary(control)
+1617938729872:summary(wii)
+1617938729885:pval <- 1-pnorm(treatment)
+1617938729888:pval
+1617938766143:wii <- read.table("wii.txt", header=TRUE)
+1617938766152:summary(wii)
+1617938766158:#Treatment and Control
+1617938766160:treatment <- subset(wii$Change, wii$Group == "Treatment")
+1617938766165:control <- subset(wii$Change, wii$Group == "Control")
+1617938766169:summary(treatment)
+1617938766177:summary(control)
+1617938766189:summary(wii)
+1617938766195:pval <- 1-pnorm(wii$Group == "Treatment")
+1617938766199:pval
+1617938773322:wii <- read.table("wii.txt", header=TRUE)
+1617938773330:summary(wii)
+1617938773338:#Treatment and Control
+1617938773339:treatment <- subset(wii$Change, wii$Group == "Treatment")
+1617938773342:control <- subset(wii$Change, wii$Group == "Control")
+1617938773346:pval <- 1-pnorm(wii$Group == "Treatment")
+1617938773351:pval
+1617938979091:n <- 33 + (2*38) + (3*14) + (4*4) + (5*2)
+1617938979093:mean <- n/100
+1617938979096:mean
+1617938979098:#The sample mean is 1.77
+1617938980913:lower <- 1.77 - qt(.975, df = 100) * (1.06 / sqrt(100))
+1617938980915:upper <- 1.77 + qt(.975, df = 100) * (1.06 / sqrt(100))
+1617938980918:lower
+1617938980920:upper
+1617938980922:#The confidence interval is between 1.560 and 1.980
+1617938985372:tenureLower <- 121491 - qt(.975, df= 99) * (56404.86 / sqrt(100))
+1617938985376:tenureUpper <- 121491 + qt(.975, df= 99) * (56404.86 / sqrt(100))
+1617938985379:tenureLower
+1617938985383:tenureUpper
+1617938985387:#The confidence interval is between 110299.1 and 132682.9
+1617938987108:nonTenureLower <- 64420 - qt(.975, df= 99) * (15460.95 / sqrt(100))
+1617938987111:nonTenureUpper <- 64420 + qt(.975, df= 99) * (15460.95 / sqrt(100))
+1617938987113:nonTenureLower
+1617938987115:nonTenureUpper
+1617938987117:#The confidence interval is between 61352.21 and 67487.79
+1617938990504:highwayMPG <- c(29, 23, 21, 20, 29, 34, 22, 20, 22, 31, 34)
+1617938990507:cityMPG <- c(19, 15, 14, 14, 19, 25, 14, 14, 15, 25, 23)
+1617938990512:t.test(highwayMPG, cityMPG)
+1617938990527:#The degrees of freedom is 19.247.
+1617938990528:#The test statistic is 3.694.
+1617938992151:currydist <- read.table("currydist.txt", header=TRUE)
+1617938992159:summary(currydist)
+1617938992174:lower <- 0.5038  - qt(.975, df= 1597) * (sd(currydist$made) / sqrt(1598))
+1617938992176:upper <- 0.5038  + qt(.975, df= 1597) * (sd(currydist$made) / sqrt(1598))
+1617938992178:lower
+1617938992183:upper
+1617938992187:#The point estimate is 0.504
+1617938992190:#The confidence interval is between 0.480 and 0.528
+1617938993736:home <- subset(currydist$made, currydist$venue == "Home")
+1617938993740:away <- subset(currydist$made, currydist$venue == "Away")
+1617938993745:plot(ecdf(home), main = "Shots at Home",
+1617938993749:xlab = "Success percentage of shots", ylab = "Empirical CDF")
+1617938993784:plot(ecdf(away), main = "Shots Away",
+1617938993786:xlab = "Success percentage of shots", ylab = "Empirical CDF")
+1617938995580:home <- subset(currydist$made, currydist$venue == "Home")
+1617938995584:away <- subset(currydist$made, currydist$venue == "Away")
+1617938995588:plot(ecdf(home), main = "Shots at Home",
+1617938995589:xlab = "Success percentage of shots", ylab = "Empirical CDF")
+1617938995621:plot(ecdf(away), main = "Shots Away",
+1617938995622:xlab = "Success percentage of shots", ylab = "Empirical CDF")
+1617938997683:home <- subset(currydist$distance, currydist$venue == "Home")
+1617938997686:away <- subset(currydist$distance, currydist$venue == "Away")
+1617938997689:summary(home)
+1617938997696:summary(away)
+1617938997705:#The distance at home (17.83) is larger than the distance (16.94) at away games.
+1617939000068:wii <- read.table("wii.txt", header=TRUE)
+1617939000091:summary(wii)
+1617939000100:#Treatment and Control
+1617939000102:treatment <- subset(wii$Change, wii$Group == "Treatment")
+1617939000109:control <- subset(wii$Change, wii$Group == "Control")
+1617939000113:pval <- 1-pnorm(wii$Group == "Treatment")
+1617939000117:pval
+1618530946457:knitr::opts_chunk$set(echo = TRUE)
+1618530946570:slope <- (10/12) * .5
+1618530946573:slope
+1618531047671:slope <- (12/10) * .5
+1618531047674:slope
+1618531161445:slope <- (12/10) * .5
+1618531161447:slope
+1618531161452:yint <- 64 - (slope * 75)
+1618531161455:y-int
+1618531165638:slope <- (12/10) * .5
+1618531165641:slope
+1618531165645:yint <- 64 - (slope * 75)
+1618531165648:yint
+1618532722825:beta1 <- .5(12 / 10)
+1618532728809:beta1 <- .5 * (12 / 10)
+1618532728812:beta1
+1618532728817:yint <- 64 - (slope * 75)
+1618532728819:yint
+1618532829436:beta1 <- .5 * (12 / 10)
+1618532829440:beta1
+1618532829444:beta0 <- 64 - (beta1 * 75)
+1618532829446:beta0
+1618532874105:beta1 <- .5 * (12 / 10)
+1618532874109:beta1
+1618532874113:beta0 <- 64 - (beta1 * 75)
+1618532874117:beta0
+1618532874119:answer <- (beta1 * 80) + beta0
+1618532874122:answer
+1618533022085:beta1 <- .5 * (11 / 13)
+1618533022088:beta1
+1618533022093:beta0 <- 64 - (beta1 * 75)
+1618533022095:beta0
+1618533022097:answer <- (beta1 * 76) + beta0
+1618533022100:answer
+1618533022102:#Her test 2 score will be 67. I mean if she wants an 80 instead of a 67 I guess that's fine. I'd advise the professor to grade her an 80 on the second test.
+1618533069900:beta1 <- .5 * (11 / 13)
+1618533069904:beta1
+1618533069908:beta0 <- 75 - (beta1 * 64)
+1618533069911:beta0
+1618533069913:answer <- (beta1 * 76) + beta0
+1618533069915:answer
+1618533069919:#Her test 2 score will be 67. I mean if she wants an 80 instead of a 67 I guess that's fine. I'd advise the professor to grade her an 80 on the second test.
+1618533154062:beta1 <- .5 * (11 / 13)
+1618533154065:beta1
+1618533154067:beta0 <- 75 - (beta1 * 64)
+1618533154069:beta0
+1618533154072:answer <- (beta1 * 76) + beta0
+1618533154076:answer
+1618595638904:knitr::opts_chunk$set(echo = TRUE)
+1618595639008:beta1 <- .54
+1618595639011:beta0 <- 81 - (beta1 * 81)
+1618595639013:beta0
+1618595639015:answer <- (beta1 * 80) + beta0
+1618595639018:answer
+1618595672434:beta1 <- .54
+1618595672438:beta0 <- 81 - (beta1 * 81)
+1618595672441:beta0
+1618595672443:answer <- beta0 + (beta1 * 98)
+1618595672446:answer
+1618595699702:beta1 <- .54
+1618595699706:beta0 <- 81 - (beta1 * 81)
+1618595699710:beta0
+1618595699712:answer <- beta0 + (beta1 * 98)
+1618595699714:answer
+1619188653046:knitr::opts_chunk$set(echo = TRUE)
+1619188653176:n <- 50000
+1619188653180:p <- .02
+1619188653184:expectedValue = n*p
+1619188653186:expectedValue
+1619188653188:standardDev = sqrt(n*p*(1-p))
+1619188653191:standardDev
+1619188653193:#The the expected value and standard deviation of X is
+1619188748522:n <- 50000
+1619188748526:p <- .4
+1619188748529:expectedValue = n*p
+1619188748531:expectedValue
+1619188748533:standardDev = sqrt(n*p*(1-p))
+1619188748536:standardDev
+1619188748541:#The expected value andstandard deviation of Y is
+1619188765465:n <- 50000
+1619188765468:p <- .4 * .02
+1619188765477:expectedValue = n*p
+1619188765483:expectedValue
+1619188765486:standardDev = sqrt(n*p*(1-p))
+1619188765495:standardDev
+1619188765504:#The expected value andstandard deviation of Y is
+1619188811860:n <- 20000*.4
+1619188811864:prob <- 1 - pbinom(419, n, 0.4)
+1619188811874:prob
+1619188910537:prob <- 1 - pbinom(419, 50000, 0.08)
+1619188910546:prob
+1619188910552:#The probability that at least 420 people respond to the telephone poll andapprove of the President is
+1619188924840:prob <- 1 - pbinom(419, 50000, 0.008)
+1619188924845:prob
+1619188924853:#The probability that at least 420 people respond to the telephone poll andapprove of the President is
+1619192061338:n <- 25
+1619192061341:p <- .2
+1619192061345:expectedValue <- n*p
+1619192061351:expectedValue
+1619192088564:n <- 20
+1619192088567:p <- .2
+1619192088570:prob <- 1 - pbinom(6, n, p)
+1619192088577:prob
+1619192089528:p <- 1 - pbinom(6, 20, .2)
+1619192089531:prob <- 1 - dbinom(0, 20, p)
+1619192089534:prob
+1619192120833:prob <- 1 - pbinom(7, n, p)
+1619192120836:prob
+1619192144422:prob <- 1 - pbinom(7, 25, .2)
+1619192144425:prob
+1619192242331:newprob <- 1 - (1 - prob))^20
+1619192254257:newprob <- 1 - (1 - prob)^20
+1619192254260:newprob
+1619192526395:upper <- 1.75^2/2
+1619192526400:lower <- 1.5^2/2
+1619192526404:CDF <- upper - lower
+1619192526407:CDF
+1619192613116:upper <- 1.5 * .5 * .75
+1619192613118:lower <- 1 * .5 *.5
+1619192613122:CDF <- upper - lower
+1619192613126:CDF
+1619192740388:p <- 1 - pnorm(160, 120, 20)
+1619192740391:p
+1619192740394:prob <- 1 - pbinom(0, 10, p)
+1619192740399:prob
+1619192741919:prob <- pnorm(135, 120, 20) - pnorm(115, 120, 20)
+1619192741922:prob
+1619192746339:prob <- 1-pnorm(320, 240, sqrt(20^2 + 20^2))
+1619192746342:prob
+1619192790201:p <- 1 - pnorm(160, 120, 20)
+1619192790204:p
+1619192790207:prob <- 1 - p^10
+1619192790212:prob
+1619192809855:p <- 1 - pnorm(160, 120, 20)
+1619192809858:p
+1619192809861:1 - p^10
+1619192810655:p <- 1 - pnorm(160, 120, 20)
+1619192810658:p
+1619192810661:1 - p^10
+1619192818267:p <- 1 - pnorm(160, 120, 20)
+1619192818271:p
+1619192818273:1 -  0.02275013^10
+1619192837335:p <- pnorm(160, 120, 20)
+1619192837337:p
+1619192837341:1 -  0.02275013^10
+1619192853167:p <- pnorm(160, 120, 20)
+1619192853170:p
+1619192853173:1 -  p^10
+1619193634928:prob <- pnorm(72, 69.2, 2.9)
+1619193634932:prob
+1619193650443:prob <- 1 - pnorm(72, 69.2, 2.9)
+1619193650448:prob
+1619193688284:#It is normal.
+1619193688287:expectedValue <- 69.2 + 63.8
+1619193688292:expectedValue
+1619193688296:variance <- 2 * (2.9^2)
+1619193688299:variance
+1619193737168:prob <- 1 -pnorm(144, 133, sqrt(16.82))
+1619193737174:prob
+1619193813727:#It is normal.
+1619193813728:expectedValue <- 69.2 - 63.8
+1619193813731:expectedValue
+1619193813735:#The expected value is 5.4
+1619193813740:variance <- 2 * (2.9^2)
+1619193813744:variance
+1619193846389:prob <- pnorm(0, 5.4, sqrt(16.82))
+1619193846396:prob
+1619540689603:knitr::opts_chunk$set(echo = TRUE)
+1619540689870:p <- .9^2
+1619540689872:p
+1619541278529:sis <- c(69, 64, 65, 63, 65, 62, 65, 64, 66, 59, 62)
+1619541278532:bro <- c(71, 68, 66, 67, 70, 71, 70, 73, 72, 65, 66)
+1619541278537:cor(sis, bro)^2
+1619541278539:#The sample coefficient of determination is .81
+1619541293912:sis <- c(69, 64, 65, 63, 65, 62, 65, 64, 66, 59, 62)
+1619541293919:bro <- c(71, 68, 66, 67, 70, 71, 70, 73, 72, 65, 66)
+1619541293923:cor(bro, sis)^2
+1619541293926:#The sample coefficient of determination is 0.311
+1619541301507:sis <- c(69, 64, 65, 63, 65, 62, 65, 64, 66, 59, 62)
+1619541301511:bro <- c(71, 68, 66, 67, 70, 71, 70, 73, 72, 65, 66)
+1619541301517:cor(sis, bro)^2
+1619541301519:#The sample coefficient of determination is 0.311
+1619543456099:knitr::opts_chunk$set(echo = TRUE)
+1619543456111:plot(adults$Height, adults$Weight, pch = ".")
+1619543458634:library(ggplot2)
+1619543459065:ggplot(adults, aes(x = Height, y = Weight)) + geom_point() +
+1619543459067:geom_smooth()
+1619543990187:size <- c(69, 64, 65, 63, 65, 62, 65, 64, 66, 59, 62), c(71, 68, 66, 67, 70, 71, 70, 73, 72, 65, 66)
+1619544059572:size <- c(sis, bro)
+1619544059579:sumarry(size)
+1619544065816:size <- c(sis, bro)
+1619544065821:summary(size)
+1619544065828:q <- 3.08348 - qt(.95, df = 24998) * 0.03352
+1619544185626:size <- c(sis, bro)
+1619544185630:slope = cor(sis, bro) * sd(bro) / sd(sis)
+1619544185633:intercept = mean(bro) - slope * mean(sis)
+1619544185636:q <- 3.08348 - qt(.95, df = 24998) * 0.03352
+1619544188680:size <- c(sis, bro)
+1619544188684:slope = cor(sis, bro) * sd(bro) / sd(sis)
+1619544188689:intercept = mean(bro) - slope * mean(sis)
+1619544188692:q <- 3.08348 - qt(.95, df = 24998) * 0.03352
+1619544197598:size <- c(sis, bro)
+1619544197603:slope = cor(sis, bro) * sd(bro) / sd(sis)
+1619544197608:intercept = mean(bro) - slope * mean(sis)
+1619544197612:#q <- 3.08348 - qt(.95, df = 24998) * 0.03352
+1619544206072:size <- c(sis, bro)
+1619544206077:slope <- cor(sis, bro) * sd(bro) / sd(sis)
+1619544206082:intercept <- mean(bro) - slope * mean(sis)
+1619544206085:#q <- 3.08348 - qt(.95, df = 24998) * 0.03352
+1619544211781:size <- c(sis, bro)
+1619544211784:slope <- cor(sis, bro) * sd(bro) / sd(sis)
+1619544211790:intercept <- mean(bro) - slope * mean(sis)
+1619544211794:#q <- 3.08348 - qt(.95, df = 24998) * 0.03352
+1619544231510:size <- c(sis, bro)
+1619544231518:slope <- cor(sis, bro) * (sd(bro) / sd(sis))
+1619544231521:intercept <- mean(bro) - (slope * mean(sis))
+1619544231525:#q <- 3.08348 - qt(.95, df = 24998) * 0.03352
+1619544239176:size <- c(sis, bro)
+1619544239181:slope <- cor(sis, bro) * (sd(bro) / sd(sis))
+1619544239184:intercept <- mean(bro) - (slope * mean(sis))
+1619544239187:slope
+1619544239190:intercept
+1619544239193:#q <- 3.08348 - qt(.95, df = 24998) * 0.03352
+1619544298735:size <- c(sis, bro)
+1619544298739:slope <- cor(sis, bro) * (sd(bro) / sd(sis))
+1619544298743:intercept <- mean(bro) - (slope * mean(sis))
+1619544298748:slope
+1619544298750:intercept
+1619544298754:model <- lm(sis ~ bro)
+1619544298821:summary(model)
+1619544298880:#q <- 3.08348 - qt(.95, df = 24998) * 0.03352
+1619544422387:size <- c(sis, bro)
+1619544422390:slope <- cor(sis, bro) * (sd(bro) / sd(sis))
+1619544422397:intercept <- mean(bro) - (slope * mean(sis))
+1619544422400:slope
+1619544422402:intercept
+1619544422407:model <- lm(sis ~ bro)
+1619544422461:summary(model)
+1619544422484:0.5270 - qt(.95, df = 9) * 0.2612
+1619544422486:0.5270 + qt(.95, df = 9) * 0.2612
+1619544626644:anxiety <- read.table("examanxiety.txt", header = TRUE)
+1619544642110:anxiety <- read.table("examanxiety.txt", header = TRUE)
+1619544642122:summary(anxiety)
+1619544721904:anxiety <- read.table("examanxiety.txt", header = TRUE)
+1619544721922:summary(anxiety)
+1619544721941:mean(anxiety$Gender)
+1619544736765:anxiety <- read.table("examanxiety.txt", header = TRUE)
+1619544736778:summary(anxiety)
+1619544736795:anxiety$Gender
+1619545126466:anxiety <- read.table("examanxiety.txt", header = TRUE)
+1619545126479:summary(anxiety)
+1619545126498:male <- subset(anxiety$exam, currydist$gender == "male")
+1619545126500:female <- subset(anxiety$exam, currydist$gender == "female")
+1619545131858:anxiety <- read.table("examanxiety.txt", header = TRUE)
+1619545131871:summary(anxiety)
+1619545131888:male <- subset(anxiety$exam, currydist$gender == "male")
+1619545131891:female <- subset(anxiety$exam, currydist$gender == "female")
+1619545131895:male
+1619545185386:anxiety <- read.table("examanxiety.txt", header = TRUE)
+1619545185398:summary(anxiety)
+1619545185412:male <- subset(anxiety$Exam, currydist$Gender == "male")
+1619545185417:female <- subset(anxiety$Exam, currydist$Gender == "female")
+1619545185421:male
+1619545215311:anxiety <- read.table("examanxiety.txt", header = TRUE)
+1619545215324:summary(anxiety)
+1619545215347:male <- subset(anxiety$Exam, currydist$Gender == "male")
+1619545215350:female <- subset(anxiety$Exam, currydist$Gender == "female")
+1619545215354:summary(male)
+1619545215361:summary(female)
+1619545245744:anxiety <- read.table("examanxiety.txt", header = TRUE)
+1619545245757:summary(anxiety)
+1619545245774:male <- subset(anxiety$anxiety, anxiety$Gender == "male")
+1619545245779:female <- subset(anxiety$anxiety, anxiety$Gender == "female")
+1619545245784:summary(male)
+1619545245788:summary(female)
+1619545282086:examanxiety <- read.table("examanxiety.txt", header = TRUE)
+1619545282099:summary(examanxiety)
+1619545282115:male <- subset(examanxiety$anxiety, examanxiety$gender == "male")
+1619545282117:female <- subset(examanxiety$anxiety, examanxiety$gender == "female")
+1619545282120:summary(male)
+1619545282126:summary(female)
+1619545368686:examanxiety <- read.table("examanxiety.txt", header = TRUE)
+1619545368697:summary(examanxiety)
+1619545368718:male <- subset(examanxiety$Anxiety, examanxiety$Gender == "male")
+1619545368724:female <- subset(examanxiety$Anxiety, examanxiety$Gender == "female")
+1619545368729:summary(male)
+1619545368738:summary(female)
+1619717564181:knitr::opts_chunk$set(echo = TRUE)
+1619717564306:examanxiety <- read.table("examanxiety.txt", header = TRUE)
+1619717564314:summary(examanxiety)
+1619717564331:male <- subset(examanxiety$Anxiety, examanxiety$Gender == "male")
+1619717564334:female <- subset(examanxiety$Anxiety, examanxiety$Gender == "female")
+1619717564337:summary(male)
+1619717564342:summary(female)
+1619717593117:examanxiety <- read.table("examanxiety.txt", header = TRUE)
+1619717593125:summary(examanxiety)
+1619717593142:male <- subset(examanxiety$anxiety, examanxiety$gender == "male")
+1619717593144:female <- subset(examanxiety$anxiety, examanxiety$gender == "female")
+1619717593147:summary(male)
+1619717593152:summary(female)
+1619717599462:examanxiety <- read.table("examanxiety.txt", header = TRUE)
+1619717599472:summary(examanxiety)
+1619717599489:male <- subset(examanxiety$Anxiety, examanxiety$Gender == "male")
+1619717599491:female <- subset(examanxiety$Anxiety, examanxiety$Gender == "female")
+1619717599494:summary(male)
+1619717599501:summary(female)
+1619717645049:examanxiety <- read.table("examanxiety.txt", header = TRUE)
+1619717645061:summary(examanxiety)
+1619717645073:male <- subset(examanxiety$exam, examanxiety$Gender == "male")
+1619717645076:female <- subset(examanxiety$exam, examanxiety$Gender == "female")
+1619717645078:summary(male)
+1619717645083:summary(female)
+1619717655293:examanxiety <- read.table("examanxiety.txt", header = TRUE)
+1619717655305:summary(examanxiety)
+1619717655320:male <- subset(examanxiety$Exam, examanxiety$Gender == "male")
+1619717655324:female <- subset(examanxiety$Exam, examanxiety$Gender == "female")
+1619717655330:summary(male)
+1619717655337:summary(female)
+1619717688042:examanxiety <- read.table("examanxiety.txt", header = TRUE)
+1619717688054:summary(examanxiety)
+1619717688068:male <- subset(examanxiety$Gender == "male", examanxiety$Anxiety )
+1619717761404:examanxiety <- read.table("examanxiety.txt", header = TRUE)
+1619717761413:summary(examanxiety)
+1619717761426:male <- subset(examanxiety$Anxiety, examanxiety$Gender == "male")
+1619717761429:female <- subset(examanxiety$Anxiety, examanxiety$Gender == "female")
+1619717761434:summary(male)
+1619717761441:summary(female)
+1619717809186:knitr::opts_chunk$set(echo = TRUE)
+1619717809199:home <- subset(currydist$distance, currydist$venue == "Home")
+1619717809208:away <- subset(currydist$distance, currydist$venue == "Away")
+1619717809211:summary(home)
+1619717809216:summary(away)
+1619717809223:#The distance at home (17.83) is larger than the distance (16.94) at away games.
+1619717829666:wii <- read.table("wii.txt", header=TRUE)
+1619717829678:summary(wii)
+1619717829685:#Treatment and Control
+1619717829686:treatment <- subset(wii$Change, wii$Group == "Treatment")
+1619717829689:control <- subset(wii$Change, wii$Group == "Control")
+1619717829693:summary(treatment)
+1619717829701:summary(control)
+1619717829709:pval <- 1-pnorm(wii$Group == "Treatment")
+1619717829716:pval
+1619717948885:examanxiety <- read.table("examanxiety.txt", header = TRUE)
+1619717948897:summary(examanxiety)
+1619717948911:male <- subset(examanxiety$Anxiety, examanxiety$Gender == "male")
+1619717948914:female <- subset(examanxiety$Anxiety, examanxiety$Gender == "female")
+1619717948930:male
+1619717957682:examanxiety <- read.table("examanxiety.txt", header = TRUE)
+1619717957695:summary(examanxiety)
+1619717957709:male <- subset(examanxiety$Anxiety, examanxiety$Gender == "male")
+1619717957714:female <- subset(examanxiety$Anxiety, examanxiety$Gender == "female")
+1619717957718:female
+1619718020229:examanxiety <- read.table("examanxiety.txt", header = TRUE)
+1619718020242:summary(examanxiety)
+1619718020254:male <- subset(examanxiety$Anxiety, examanxiety$Gender == "male")
+1619718020257:female <- subset(examanxiety$Anxiety, examanxiety$Gender == "female")
+1619718020260:male
+1619718028503:examanxiety <- read.table("examanxiety.txt", header = TRUE)
+1619718028515:summary(examanxiety)
+1619718028530:male <- subset(examanxiety$Anxiety, examanxiety$Gender == "male")
+1619718028534:female <- subset(examanxiety$Anxiety, examanxiety$Gender == "female")
+1619718028540:summary(male)
+1619719538535:means <- c(83.5, 92.3, 88.6, 99.4)
+1619719538542:grand.mean <- mean(means)
+1619719538545:means
+1619719564949:grand.mean <- (83.5, 92.3, 88.6, 99.4) /4
+1619719587879:grand.mean <- (83.5 + 92.3 + 88.6 + 99.4) /4
+1619719587884:grand.mean
+1619719635366:knitr::opts_chunk$set(echo = TRUE)
+1619719635374:fam.n
+1619719646486:fam.data <- subset(anorexia, Treatment == "Family")
+1619719723302:grand.mean <- (83.5 + 92.3 + 88.6 + 99.4) /4
+1619719723305:grand.mean
+1619719723310:SSB <- 35 * (83.5 - grand.mean)^2 +
+1619719723312:35 * (92.3 - grand.mean)^2 +
+1619719723313:35 * (88.6 - grand.mean)^2 +
+1619719723315:35 * (99.4 - grand.mean)^2
+1619719723317:SSB
+1619719917678:grand.mean <- (83.5 + 92.3 + 88.6 + 99.4) /4
+1619719917680:grand.mean
+1619719917683:SSB <- 35 * (83.5 - grand.mean)^2 +
+1619719917685:35 * (92.3 - grand.mean)^2 +
+1619719917687:35 * (88.6 - grand.mean)^2 +
+1619719917689:35 * (99.4 - grand.mean)^2
+1619719917692:SSB
+1619719917698:SSW <- (35 - 1) * 16.9^2 + (35 - 1) * 14.6^ + (35 - 1) * 14.2^1 + (35 - 1) * 14.1^2
+1619719917702:SSW
+1619719949873:grand.mean <- (83.5 + 92.3 + 88.6 + 99.4) /4
+1619719949877:grand.mean
+1619719949882:SSB <- 35 * (83.5 - grand.mean)^2 +
+1619719949885:35 * (92.3 - grand.mean)^2 +
+1619719949886:35 * (88.6 - grand.mean)^2 +
+1619719949888:35 * (99.4 - grand.mean)^2
+1619719949893:SSB
+1619719949897:SSW <- (35 - 1) * 16.9^2 + (35 - 1) * 14.6^ + (35 - 1) * 14.2^1 + (35 - 1) * 14.1^2
+1619719949904:SSW
+1619719949906:SST <- SSB+SSW
+1619719949908:SST
+1619719974897:SSW <- (cog.n - 1) * cog.var + (fam.n - 1) * fam.var + (std.n - 1) * std.var
+1619720278349:knitr::opts_chunk$set(echo = TRUE)
+1619720278355:nrow(anorexia) - 3
+1619720281684:SSW <- (cog.n - 1) * cog.var + (fam.n - 1) * fam.var + (std.n - 1) * std.var
+1619720301490:anorexia <- read.table("anorexia.txt", header = TRUE)
+1619720301501:anorexia$Changes <- anorexia$After - anorexia$Before
+1619720301508:summary(anorexia)
+1619720303751:cog.data <- subset(anorexia, Treatment == "Cognitive")
+1619720303758:cog.mean <- mean(cog.data$Changes)
+1619720303761:cog.var <- var(cog.data$Changes)
+1619720303765:cog.n <- nrow(cog.data)
+1619720305942:SSW <- (cog.n - 1) * cog.var + (fam.n - 1) * fam.var + (std.n - 1) * std.var
+1619720306936:SSW <- (cog.n - 1) * cog.var + (fam.n - 1) * fam.var + (std.n - 1) * std.var
+1619720309607:grand.mean <- mean(anorexia$Changes)
+1619720309610:SSB <- cog.n * (cog.mean - grand.mean)^2 +
+1619720309613:fam.n * (fam.mean - grand.mean)^2 +
+1619720309616:std.n * (std.mean - grand.mean)^2
+1619720311042:std.data <- subset(anorexia, Treatment == "Standard")
+1619720311053:std.mean <- mean(std.data$Changes)
+1619720311057:std.var <- var(std.data$Changes)
+1619720311060:std.n <- nrow(std.data)
+1619720316114:anorexia <- read.table("anorexia.txt", header = TRUE)
+1619720316120:anorexia$Changes <- anorexia$After - anorexia$Before
+1619720316128:summary(anorexia)
+1619720317500:mean(anorexia$Changes)
+1619720318953:aggregate(Changes ~ Treatment, FUN = mean, data = anorexia)
+1619720321823:cog.data <- subset(anorexia, Treatment == "Cognitive")
+1619720321834:cog.mean <- mean(cog.data$Changes)
+1619720321837:cog.var <- var(cog.data$Changes)
+1619720321841:cog.n <- nrow(cog.data)
+1619720324218:fam.data <- subset(anorexia, Treatment == "Family")
+1619720324229:fam.mean <- mean(fam.data$Changes)
+1619720324232:fam.var <- var(fam.data$Changes)
+1619720324234:fam.n <- nrow(fam.data)
+1619720325189:std.data <- subset(anorexia, Treatment == "Standard")
+1619720325197:std.mean <- mean(std.data$Changes)
+1619720325201:std.var <- var(std.data$Changes)
+1619720325206:std.n <- nrow(std.data)
+1619720326875:grand.mean <- mean(anorexia$Changes)
+1619720326878:SSB <- cog.n * (cog.mean - grand.mean)^2 +
+1619720326879:fam.n * (fam.mean - grand.mean)^2 +
+1619720326882:std.n * (std.mean - grand.mean)^2
+1619720326886:SSB
+1619720328181:SSW <- (cog.n - 1) * cog.var + (fam.n - 1) * fam.var + (std.n - 1) * std.var
+1619720328184:SSW
+1619720329517:nrow(anorexia) - 3
+1619720330433:BMS <- SSB / 2
+1619720330436:WMS <- SSW / 69
+1619720330438:BMS
+1619720330440:WMS
+1619720331874:anova(lm(Changes ~ Treatment, data = anorexia))
+1619720332710:1 - pf(F, df1 = 2, df2 = 69)
+1619720334229:F <- BMS / WMS
+1619720334231:F
+1619720399312:nrow(anorexia) - 3
+1619720464187:grand.mean <- (83.5 + 92.3 + 88.6 + 99.4) /4
+1619720464189:grand.mean
+1619720464192:SSB <- 35 * (83.5 - grand.mean)^2 +
+1619720464196:35 * (92.3 - grand.mean)^2 +
+1619720464198:35 * (88.6 - grand.mean)^2 +
+1619720464200:35 * (99.4 - grand.mean)^2
+1619720464203:SSB
+1619720464206:SSW <- (35 - 1) * 16.9^2 + (35 - 1) * 14.6^ + (35 - 1) * 14.2^1 + (35 - 1) * 14.1^2
+1619720464209:SSW
+1619720464211:SST <- SSB+SSW
+1619720464214:SST
+1619720464216:BMS <- SSB / 34
+1619720464219:WMS <- SSW / 1
+1619720464221:BMS
+1619720464223:WMS
+1619721406091:examanxiety <- read.table("examanxiety.txt", header = TRUE)
+1619721406103:summary(examanxiety)
+1619721406118:male <- subset(examanxiety$Anxiety, examanxiety$Gender == "Male")
+1619721406121:female <- subset(examanxiety$Anxiety, examanxiety$Gender == "Female")
+1619721406126:summary(male)
+1619721781147:examanxiety <- read.table("examanxiety.txt", header = TRUE)
+1619721781172:summary(examanxiety)
+1619721781188:male <- subset(examanxiety$Anxiety, examanxiety$Gender == "Male")
+1619721781191:female <- subset(examanxiety$Anxiety, examanxiety$Gender == "Female")
+1619721781195:summary(male)
+1619721781201:summary(female)
+1619721927318:grand.mean <- (83.5 + 92.3 + 88.6 + 99.4) /4
+1619721927324:grand.mean
+1619721927328:SSB <- 35 * (83.5 - grand.mean)^2 +
+1619721927330:35 * (92.3 - grand.mean)^2 +
+1619721927331:35 * (88.6 - grand.mean)^2 +
+1619721927333:35 * (99.4 - grand.mean)^2
+1619721927338:SSB
+1619721927341:SSW <- (35 - 1) * 16.9^2 + (35 - 1) * 14.6^ + (35 - 1) * 14.2^1 + (35 - 1) * 14.1^2
+1619721927343:SSW
+1619721927345:SST <- SSB+SSW
+1619721927347:SST
+1619721927349:BMS <- SSB / 34
+1619721927352:WMS <- SSW / 1
+1619721927354:BMS
+1619721927356:WMS
+1619721927358:F <- BMS/WMS
+1619721932666:grand.mean <- (83.5 + 92.3 + 88.6 + 99.4) /4
+1619721932669:grand.mean
+1619721932673:SSB <- 35 * (83.5 - grand.mean)^2 +
+1619721932675:35 * (92.3 - grand.mean)^2 +
+1619721932678:35 * (88.6 - grand.mean)^2 +
+1619721932679:35 * (99.4 - grand.mean)^2
+1619721932682:SSB
+1619721932685:SSW <- (35 - 1) * 16.9^2 + (35 - 1) * 14.6^ + (35 - 1) * 14.2^1 + (35 - 1) * 14.1^2
+1619721932688:SSW
+1619721932691:SST <- SSB+SSW
+1619721932693:SST
+1619721932695:BMS <- SSB / 34
+1619721932698:WMS <- SSW / 1
+1619721932700:BMS
+1619721932702:WMS
+1619721932704:F <- BMS/WMS
+1619721932707:F
+1619721972451:grand.mean <- (83.5 + 92.3 + 88.6 + 99.4) /4
+1619721972455:grand.mean
+1619721972458:SSB <- 35 * (83.5 - grand.mean)^2 +
+1619721972460:35 * (92.3 - grand.mean)^2 +
+1619721972465:35 * (88.6 - grand.mean)^2 +
+1619721972468:35 * (99.4 - grand.mean)^2
+1619721972471:SSB
+1619721972473:SSW <- (35 - 1) * 16.9^2 + (35 - 1) * 14.6^ + (35 - 1) * 14.2^1 + (35 - 1) * 14.1^2
+1619721972476:SSW
+1619721972478:SST <- SSB+SSW
+1619721972482:SST
+1619721972483:BMS <- SSB / 34
+1619721972486:WMS <- SSW / 1
+1619721972488:BMS
+1619721972490:WMS
+1619721972492:F <- BMS/WMS
+1619721972494:F
+1619721972496:pval <- 1 - pf(F, df1 = 34, df2 = 1)
+1619721972499:pval
+1619721980714:pval <- 1 - pf(F, df1 = 34, df2 = 1)
+1619721980717:pval
+1619722037569:pval <- 1 - pf(F, df1 = 34, df2 = 1)
+1619722037576:pval
+1619722037578:# I would reject it.
+1619722163137:examanxiety <- read.table("examanxiety.txt", header = TRUE)
+1619722163153:summary(examanxiety)
+1619722163170:male <- subset(examanxiety$Anxiety, examanxiety$Gender == "Male")
+1619722163174:female <- subset(examanxiety$Anxiety, examanxiety$Gender == "Female")
+1619722163178:summary(male)
+1619722163186:summary(female)
+1619723409655:x <- examanxiety$Anxiety
+1619723409662:y <- examanxiety$Exam
+1619723409668:mean.y <- mean(examanxiety$Exam)
+1619723409672:beta1 <- .54
+1619723409674:beta0 <- 81 - (beta1 * 81)
+1619723409677:beta0
+1619723409679:answer <- beta0 + (beta1 * 98)
+1619723409682:answer
+1619723533952:x <- examanxiety$Anxiety
+1619723533954:y <- examanxiety$Exam
+1619723533957:mean.x <- mean(examanxiety$Anxiety)
+1619723533962:mean.y <- mean(examanxiety$Exam)
+1619723533965:r <- cor(x, y)
+1619723533970:beta1 <- r
+1619723533973:beta0 <- mean.y - (beta1 * mean.x)
+1619723533976:beta0
+1619723533978:answer <- beta0 + (beta1 * mean.x)
+1619723533981:answer
+1619723539785:x <- examanxiety$Anxiety
+1619723539786:y <- examanxiety$Exam
+1619723539789:mean.x <- mean(examanxiety$Anxiety)
+1619723539796:mean.y <- mean(examanxiety$Exam)
+1619723539799:r <- cor(x, y)
+1619723539803:r
+1619723539805:beta1 <- r
+1619723539808:beta0 <- mean.y - (beta1 * mean.x)
+1619723539810:beta0
+1619723539813:answer <- beta0 + (beta1 * mean.x)
+1619723539823:answer
+1619723859711:x <- examanxiety$Anxiety
+1619723859713:y <- examanxiety$Exam
+1619723859715:mean.x <- mean(examanxiety$Anxiety)
+1619723859717:mean.y <- mean(examanxiety$Exam)
+1619723859723:r <- cor(x, y)
+1619723859726:beta1 <- r
+1619723859731:beta0 <- mean.y - (beta1 * mean.x)
+1619723859736:beta0
+1619723859740:answer <- beta0 + (beta1 * mean.x)
+1619723859746:answer
+1619723860787:x <- examanxiety$Anxiety
+1619723860789:y <- examanxiety$Exam
+1619723860791:mean.x <- mean(examanxiety$Anxiety)
+1619723860795:mean.y <- mean(examanxiety$Exam)
+1619723860798:r <- cor(x, y)
+1619723860801:beta1 <- r
+1619723860805:beta0 <- mean.y - (beta1 * mean.x)
+1619723860808:beta0
+1619723860813:answer <- beta0 + (beta1 * mean.x)
+1619723860818:answer
+1619723964284:x <- examanxiety$Anxiety
+1619723964286:y <- examanxiety$Exam
+1619723964288:mean.x <- mean(examanxiety$Anxiety)
+1619723964292:mean.y <- mean(examanxiety$Exam)
+1619723964294:r <- cor(x, y)
+1619723964298:beta1 <- r * (sd(y) / sd(x))
+1619723964302:beta1
+1619723964304:beta0 <- mean.y - (beta1 * mean.x)
+1619723964307:beta0
+1619723964309:answer <- beta0 + (beta1 * mean.x)
+1619723964313:answer
+1619723964315:#My regression line means that the
+1619724393641:examanxiety.lm <- lm(x ~ y, data = examanxiety)
+1619724409145:examanxiety.lm <- lm(x ~ y, data = examanxiety)
+1619724409191:summary(examanxiety.lm)
+1619724455323:examanxiety.lm <- lm(x ~ y, data = examanxiety)
+1619724455379:summary(examanxiety.lm)
+1619724455401:residuals(examanxiety.lm)
+1619724715980:examanxiety.lm <- lm(x ~ y, data = examanxiety)
+1619724716033:summary(examanxiety.lm)
+1619724716053:library(ggplot2)
+1619724716623:ggplot(examanxiety.lm, aes(x, y)) + geom_point() + geom_smooth()
+1619724718580:#Linearity:
+1619724718582:#Independence: They are not indepedent
+1619724718585:#Homoskedasticity:
+1619724718587:#Normality of Errors: It does follow a normal distribution
+1619724830751:examanxiety.lm <- lm(x ~ y, data = examanxiety)
+1619724830831:summary(examanxiety.lm)
+1619724830857:library(ggplot2)
+1619724830860:ggplot(examanxiety.lm, aes(log(x), y)) + geom_point() + geom_smooth()
+1619724831178:#Linearity:
+1619724831185:#Independence: They are not indepedent
+1619724831188:#Homoskedasticity:
+1619724831191:#Normality of Errors: It does not follow a normal distribution
+1619724837573:examanxiety.lm <- lm(x ~ y, data = examanxiety)
+1619724837619:summary(examanxiety.lm)
+1619724837642:library(ggplot2)
+1619724837645:ggplot(examanxiety.lm, aes(log(x), log(y)) + geom_point() + geom_smooth()
+1619724837646:#Linearity:
+1619724837648:#Independence: They are not indepedent
+1619724837649:#Homoskedasticity:
+1619724837650:#Normality of Errors: It does not follow a normal distribution
+1619724851296:examanxiety.lm <- lm(x ~ y, data = examanxiety)
+1619724851344:summary(examanxiety.lm)
+1619724851360:library(ggplot2)
+1619724851361:ggplot(examanxiety.lm, aes(log(x), y)) + geom_point() + geom_smooth()
+1619724851552:#Linearity:
+1619724851555:#Independence: They are not indepedent
+1619724851557:#Homoskedasticity:
+1619724851560:#Normality of Errors: It does not follow a normal distribution
+1619724860158:examanxiety.lm <- lm(x ~ y, data = examanxiety)
+1619724860205:summary(examanxiety.lm)
+1619724860222:library(ggplot2)
+1619724860224:ggplot(examanxiety.lm, aes(log(x), log(y)) + geom_point() + geom_smooth()
+1619724860226:#Linearity:
+1619724860227:#Independence: They are not indepedent
+1619724860229:#Homoskedasticity:
+1619724860230:#Normality of Errors: It does not follow a normal distribution
+1619724869750:examanxiety.lm <- lm(x ~ y, data = examanxiety)
+1619724869806:summary(examanxiety.lm)
+1619724869831:library(ggplot2)
+1619724869833:ggplot(examanxiety.lm, aes(log(x), log(y)) + geom_point() + geom_smooth())
+1619724894972:examanxiety.lm <- lm(x ~ y, data = examanxiety)
+1619724895017:summary(examanxiety.lm)
+1619724895034:library(ggplot2)
+1619724895035:ggplot(examanxiety.lm, aes(log(x), y)) + geom_point() + geom_smooth()
+1619724895234:#Linearity:
+1619724895237:#Independence: They are not indepedent
+1619724895242:#Homoskedasticity:
+1619724895244:#Normality of Errors: It does not follow a normal distribution
+1619724903696:examanxiety.lm <- lm(x ~ y, data = examanxiety)
+1619724903774:summary(examanxiety.lm)
+1619724903796:library(ggplot2)
+1619724903798:ggplot(examanxiety.lm, aes(log(x), log(y)) + geom_point() + geom_smooth()
+1619724903800:#Linearity:
+1619724903801:#Independence: They are not indepedent
+1619724903804:#Homoskedasticity:
+1619724903806:#Normality of Errors: It does not follow a normal distribution
+1619724910905:examanxiety.lm <- lm(x ~ y, data = examanxiety)
+1619724910964:summary(examanxiety.lm)
+1619724910983:library(ggplot2)
+1619724910985:ggplot(examanxiety.lm, aes(x, log(y)) + geom_point() + geom_smooth()
+1619724910986:#Linearity:
+1619724910988:#Independence: They are not indepedent
+1619724910989:#Homoskedasticity:
+1619724910991:#Normality of Errors: It does not follow a normal distribution
+1619724934399:examanxiety.lm <- lm(x ~ y, data = examanxiety)
+1619724934451:summary(examanxiety.lm)
+1619724934470:library(ggplot2)
+1619724934471:ggplot(examanxiety.lm, aes(log(x), y) + geom_point() + geom_smooth()
+1619724934473:#Linearity:
+1619724934475:#Independence: They are not indepedent
+1619724934477:#Homoskedasticity:
+1619724934478:#Normality of Errors: It does not follow a normal distribution
+1619724945876:examanxiety.lm <- lm(x ~ y, data = examanxiety)
+1619724945924:summary(examanxiety.lm)
+1619724945943:library(ggplot2)
+1619724945945:ggplot(examanxiety.lm, aes(log(x), y) + geom_point() + geom_smooth())
+1619724960124:examanxiety.lm <- lm(x ~ y, data = examanxiety)
+1619724960178:summary(examanxiety.lm)
+1619724960201:library(ggplot2)
+1619724960203:ggplot(examanxiety.lm, aes(log(x), y)) + geom_point() + geom_smooth()
+1619724960378:#Linearity:
+1619724960381:#Independence: They are not indepedent
+1619724960385:#Homoskedasticity:
+1619724960388:#Normality of Errors: It does not follow a normal distribution
+1619724967851:examanxiety.lm <- lm(x ~ y, data = examanxiety)
+1619724967906:summary(examanxiety.lm)
+1619724967922:library(ggplot2)
+1619724967924:ggplot(examanxiety.lm, aes(log(x), log(y)) + geom_point() + geom_smooth()
+1619724967925:#Linearity:
+1619724967927:#Independence: They are not indepedent
+1619724967928:#Homoskedasticity:
+1619724967930:#Normality of Errors: It does not follow a normal distribution
+1619724973558:examanxiety.lm <- lm(x ~ y, data = examanxiety)
+1619724973602:summary(examanxiety.lm)
+1619724973622:library(ggplot2)
+1619724973624:ggplot(examanxiety.lm, aes(log(x), log(y))) + geom_point() + geom_smooth()
+1619724973826:#Linearity:
+1619724973828:#Independence: They are not indepedent
+1619724973833:#Homoskedasticity:
+1619724973838:#Normality of Errors: It does not follow a normal distribution
+1619725020188:examanxiety.lm <- lm(x ~ y, data = examanxiety)
+1619725020235:summary(examanxiety.lm)
+1619725020261:library(ggplot2)
+1619725020265:ggplot(examanxiety.lm, aes(log(x), log(y))) + geom_point() + geom_smooth()
+1619725020490:residuals(examanxiety.lm)
+1619725020555:#Linearity:
+1619725020570:#Independence: They are not indepedent
+1619725020572:#Homoskedasticity:
+1619725020578:#Normality of Errors: It does not follow a normal distribution
+1619725050498:examanxiety.lm <- lm(x ~ y, data = examanxiety)
+1619725050554:summary(examanxiety.lm)
+1619725050571:library(ggplot2)
+1619725050573:ggplot(examanxiety.lm, aes(log(x), log(y))) + geom_point() + geom_smooth()
+1619725050760:res <- residuals(examanxiety.lm)
+1619725050766:plot(res)
+1619725050891:#Linearity:
+1619725050895:#Independence: They are not indepedent
+1619725050899:#Homoskedasticity:
+1619725050903:#Normality of Errors: It does not follow a normal distribution
+1619725081289:examanxiety.lm <- lm(x ~ y, data = examanxiety)
+1619725081336:summary(examanxiety.lm)
+1619725081361:library(ggplot2)
+1619725081362:ggplot(examanxiety.lm, aes(log(x), log(y))) + geom_point() + geom_smooth()
+1619725081573:res <- residuals(examanxiety.lm)
+1619725081578:plot(res)
+1619725081749:plot(x, residuals(my.lm))
+1619725092268:examanxiety.lm <- lm(x ~ y, data = examanxiety)
+1619725092321:summary(examanxiety.lm)
+1619725092338:library(ggplot2)
+1619725092340:ggplot(examanxiety.lm, aes(log(x), log(y))) + geom_point() + geom_smooth()
+1619725092528:res <- residuals(examanxiety.lm)
+1619725092534:plot(x, residuals(my.lm))
+1619725099872:examanxiety.lm <- lm(x ~ y, data = examanxiety)
+1619725099927:summary(examanxiety.lm)
+1619725099956:library(ggplot2)
+1619725099958:ggplot(examanxiety.lm, aes(log(x), log(y))) + geom_point() + geom_smooth()
+1619725100234:res <- residuals(examanxiety.lm)
+1619725100252:plot(x, residuals(examanxiety.lm))
+1619725100372:#Linearity:
+1619725100374:#Independence: They are not indepedent
+1619725100377:#Homoskedasticity:
+1619725100379:#Normality of Errors: It does not follow a normal distribution
+1619725235162:examanxiety.df <- augment(my.lm)ggplot(my.lm.df, aes(x, abs(.resid))) + geom_point() + geom_smooth()
+1619725242326:examanxiety.df <- augment(my.lm)
+1619725249819:examanxiety.df <- augment(my.lm)
+1619725250990:examanxiety.df <- augment(my.lm)
+1619725262461:examanxiety.df <- augment(examanxiety.lm)
+1619725263397:examanxiety.df <- augment(examanxiety.lm)
+1619725450250:examanxiety.lm <- lm(x ~ y, data = examanxiety)
+1619725450294:summary(examanxiety.lm)
+1619725450313:library(ggplot2)
+1619725450314:ggplot(examanxiety.lm, aes(log(x), log(y))) + geom_point() + geom_smooth()
+1619725450504:fitted.values(examanxiety.lm)
+1619725450567:res <- residuals(examanxiety.lm)
+1619725450576:plot(x, residuals(examanxiety.lm))
+1619725450685:#Linearity: Yes
+1619725450687:#Independence: They are not indepedent
+1619725450693:#Homoskedasticity: Yes
+1619725450697:#Normality of Errors: It does not follow a normal distribution
+1619725493952:examanxiety.lm <- lm(x ~ y, data = examanxiety)
+1619725494005:summary(examanxiety.lm)
+1619725494025:library(ggplot2)
+1619725494028:ggplot(examanxiety.lm, aes(log(x), log(y))) + geom_point() + geom_smooth()
+1619725494253:fitted.values(examanxiety.lm)
+1619725494306:res <- residuals(examanxiety.lm)
+1619725494315:plot(x, res)
+1619725494438:#Linearity: Yes
+1619725494442:#Independence: They are not indepedent
+1619725494444:#Homoskedasticity: Yes
+1619725494445:#Normality of Errors: It does not follow a normal distribution
+1619725634576:# install.packages(broom)
+1619725634579:library(broom)
+1619725652287:install.packages(broom)
+1619725662672:install.packages("broom")
+1619725669218:# install.packages(broom)
+1619725669222:library(broom)
+1619725669519:examanxiety.lm.df <- augment(examanxiety.lm)
+1619725669535:ggplot(examanxiety.lm.df, aes(x, .resid)) + geom_point() + geom_smooth()
+1619726080728:ggplot(examanxiety.lm.df, aes(x, abs(.resid))) + geom_point() + geom_smooth()
+1619726261725:ggplot(examanxiety.lm.df, aes(sample = .resid)) + stat_qq()
+1619726538782:game.empathy <- read.table("GameEmpathy.txt", header = TRUE)
+1619726538799:summary(game.empathy)
+1619726893090:game.empathy <- read.table("GameEmpathy.txt", header = TRUE)
+1619726893100:summary(game.empathy)
+1619726893110:neutral.players <- subset(game.empathy$empathy, game.empathy$game.type == "neutral")
+1619726893114:halflife.players <- subset(game.empathy$empathy, game.empathy$game.type == "half-life")
+1619726893119:gta.players <- subset(game.empathy$empathy, game.empathy$game.type == "neutral")
+1619726893125:game.empathy$game.type
+1619726910839:game.empathy <- read.table("GameEmpathy.txt", header = TRUE)
+1619726910851:summary(game.empathy)
+1619726910861:neutral.players <- subset(game.empathy$empathy, game.empathy$game.type == "neutral")
+1619726910866:halflife.players <- subset(game.empathy$empathy, game.empathy$game.type == "HalfLife")
+1619726910870:gta.players <- subset(game.empathy$empathy, game.empathy$game.type == "GTA")
+1619726910876:game.empathy$game.type
+1619726934028:game.empathy <- read.table("GameEmpathy.txt", header = TRUE)
+1619726934038:summary(game.empathy)
+1619726934051:neutral.players <- subset(game.empathy$empathy, game.empathy$game.type == "neutral")
+1619726934057:halflife.players <- subset(game.empathy$empathy, game.empathy$game.type == "HalfLife")
+1619726934061:gta.players <- subset(game.empathy$empathy, game.empathy$game.type == "GTA")
+1619726934066:summary(neutral.players)
+1619726934077:summary(halflife.players)
+1619726934087:summary(gta.players)
+1619727032932:game.empathy <- read.table("GameEmpathy.txt", header = TRUE)
+1619727032944:summary(game.empathy)
+1619727032955:neutral.players <- subset(game.empathy$empathy, game.empathy$game.type == "neutral")
+1619727032959:halflife.players <- subset(game.empathy$empathy, game.empathy$game.type == "HalfLife")
+1619727032964:gta.players <- subset(game.empathy$empathy, game.empathy$game.type == "GTA")
+1619727032970:plot(neutral.players)
+1619727032995:summary(halflife.players)
+1619727033000:summary(gta.players)
+1619727043864:game.empathy <- read.table("GameEmpathy.txt", header = TRUE)
+1619727043873:summary(game.empathy)
+1619727043889:neutral.players <- subset(game.empathy$empathy, game.empathy$game.type == "neutral")
+1619727043893:halflife.players <- subset(game.empathy$empathy, game.empathy$game.type == "HalfLife")
+1619727043895:gta.players <- subset(game.empathy$empathy, game.empathy$game.type == "GTA")
+1619727043900:plot(neutral.players)
+1619727043921:plot(halflife.players)
+1619727043944:plot(gta.players)
+1619727240527:game.empathy <- read.table("GameEmpathy.txt", header = TRUE)
+1619727240538:summary(game.empathy)
+1619727240553:game.empathy.lm <- lm(x ~ y, data = game.empathy)
+1619727240601:neutral.players <- subset(game.empathy$empathy, game.empathy$game.type == "neutral")
+1619727240604:halflife.players <- subset(game.empathy$empathy, game.empathy$game.type == "HalfLife")
+1619727240607:gta.players <- subset(game.empathy$empathy, game.empathy$game.type == "GTA")
+1619727240611:library(ggplot2)
+1619727240613:ggplot(examanxiety.lm, aes(x, y)) + geom_point() + geom_smooth()
+1619727240818:plot(halflife.players)
+1619727240924:plot(gta.players)
+1619727254112:game.empathy <- read.table("GameEmpathy.txt", header = TRUE)
+1619727254132:summary(game.empathy)
+1619727254146:game.empathy.lm <- lm(x ~ y, data = game.empathy)
+1619727254191:neutral.players <- subset(game.empathy$empathy, game.empathy$game.type == "neutral")
+1619727254194:halflife.players <- subset(game.empathy$empathy, game.empathy$game.type == "HalfLife")
+1619727254197:gta.players <- subset(game.empathy$empathy, game.empathy$game.type == "GTA")
+1619727254200:library(ggplot2)
+1619727254202:ggplot(examanxiety.lm, aes(x, y)) + geom_point() + geom_smooth()
+1619727254515:ggplot(examanxiety.lm, aes(x, y)) + geom_point() + geom_smooth()
+1619727254762:ggplot(examanxiety.lm, aes(x, y)) + geom_point() + geom_smooth()
+1619727290725:game.empathy <- read.table("GameEmpathy.txt", header = TRUE)
+1619727290735:summary(game.empathy)
+1619727290753:neutral.players <- subset(game.empathy$empathy, game.empathy$game.type == "neutral")
+1619727290756:halflife.players <- subset(game.empathy$empathy, game.empathy$game.type == "HalfLife")
+1619727290760:gta.players <- subset(game.empathy$empathy, game.empathy$game.type == "GTA")
+1619727290765:neutral.players.lm <- lm(x ~ y, data = game.empathy)
+1619727290807:library(ggplot2)
+1619727290809:ggplot(neutral.players.lm, aes(x, y)) + geom_point() + geom_smooth()
+1619727290998:ggplot(examanxiety.lm, aes(x, y)) + geom_point() + geom_smooth()
+1619727291253:ggplot(examanxiety.lm, aes(x, y)) + geom_point() + geom_smooth()
+1619727357169:game.empathy <- read.table("GameEmpathy.txt", header = TRUE)
+1619727357178:summary(game.empathy)
+1619727357188:neutral.players <- subset(game.empathy$empathy, game.empathy$game.type == "neutral")
+1619727357192:halflife.players <- subset(game.empathy$empathy, game.empathy$game.type == "HalfLife")
+1619727357197:gta.players <- subset(game.empathy$empathy, game.empathy$game.type == "GTA")
+1619727357203:plot(neutral.players)
+1619727357228:plot(halflife.players)
+1619727357253:plot(gta.players)
+1619727971111:game.empathy <- read.table("GameEmpathy.txt", header = TRUE)
+1619727971121:summary(game.empathy)
+1619727971132:neutral.players <- subset(game.empathy$empathy, game.empathy$game.type == "neutral")
+1619727971137:halflife.players <- subset(game.empathy$empathy, game.empathy$game.type == "HalfLife")
+1619727971141:gta.players <- subset(game.empathy$empathy, game.empathy$game.type == "GTA")
+1619727971148:summary(neutral.players)
+1619727971156:summary(halflife.players)
+1619727971161:summary(gta.players)
+1619728165992:neutral.id <- subset(game.empathy$identify, game.empathy$game.type == "neutral")
+1619728165996:halflife.id <- subset(game.empathy$identify, game.empathy$game.type == "HalfLife")
+1619728166001:gta.id <- subset(game.empathy$identify, game.empathy$game.type == "GTA")
+1619728166004:plot(neutral.id, neutral.players)
+1619728166030:plot(halflife.id, halflife.players)
+1619728166060:plot(gta.id, gta.players)
+1619728336301:game.empathy <- read.table("GameEmpathy.txt", header = TRUE)
+1619728336311:summary(game.empathy)
+1619728336327:neutral.players <- subset(game.empathy$empathy, game.empathy$game.type == "neutral")
+1619728336331:halflife.players <- subset(game.empathy$empathy, game.empathy$game.type == "HalfLife")
+1619728336334:gta.players <- subset(game.empathy$empathy, game.empathy$game.type == "GTA")
+1619728336338:mean(neutral.players)
+1619728336340:mean(halflife.players)
+1619728336342:mean(gta.players)
+1619728336345:grand.mean <- (83.5 + 92.3 + 88.6 + 99.4) /4
+1619728336348:grand.mean
+1619728336351:SSB <- 35 * (83.5 - grand.mean)^2 +
+1619728336354:35 * (92.3 - grand.mean)^2 +
+1619728336357:35 * (88.6 - grand.mean)^2 +
+1619728336359:35 * (99.4 - grand.mean)^2
+1619728336364:SSB
+1619728336368:SSW <- (35 - 1) * 16.9^2 + (35 - 1) * 14.6^ + (35 - 1) * 14.2^1 + (35 - 1) * 14.1^2
+1619728336372:SSW
+1619728336375:SST <- SSB+SSW
+1619728336377:SST
+1619728336380:BMS <- SSB / 34
+1619728336384:WMS <- SSW / 1
+1619728336386:BMS
+1619728336388:WMS
+1619728336390:F <- BMS/WMS
+1619728336393:F
+1619728336396:#The averages are about the same (5.054, 5.294, 5.030)
+1619728501513:game.empathy <- read.table("GameEmpathy.txt", header = TRUE)
+1619728501524:summary(game.empathy)
+1619728501538:neutral.players <- subset(game.empathy$empathy, game.empathy$game.type == "neutral")
+1619728501544:halflife.players <- subset(game.empathy$empathy, game.empathy$game.type == "HalfLife")
+1619728501548:gta.players <- subset(game.empathy$empathy, game.empathy$game.type == "GTA")
+1619728501553:summary(neutral.players)
+1619728501560:summary(halflife.players)
+1619728501568:summary(gta.players)
+1619728501574:grand.mean <- (5.05381 + 5.293939 + 5.029762) / 3
+1619728501578:grand.mean
+1619728501580:SSB <- 152 * (5.05381 - grand.mean)^2 +
+1619728501582:152 * (5.293939 - grand.mean)^2 +
+1619728501584:152 * (5.029762 - grand.mean)^2
+1619728501587:SSB
+1619728501589:SSW <- (152 - 1) * 16.9^2 + (152 - 1) * 14.6^ + (152 - 1)
+1619728501592:SSW
+1619728501594:SST <- SSB+SSW
+1619728501597:SST
+1619728501599:BMS <- SSB / 34
+1619728501602:WMS <- SSW / 1
+1619728501604:BMS
+1619728501606:WMS
+1619728501609:F <- BMS/WMS
+1619728501612:F
+1619728501614:#The averages are about the same (5.054, 5.294, 5.030)
+1619728546135:game.empathy <- read.table("GameEmpathy.txt", header = TRUE)
+1619728546147:summary(game.empathy)
+1619728546156:neutral.players <- subset(game.empathy$empathy, game.empathy$game.type == "neutral")
+1619728546160:halflife.players <- subset(game.empathy$empathy, game.empathy$game.type == "HalfLife")
+1619728546165:gta.players <- subset(game.empathy$empathy, game.empathy$game.type == "GTA")
+1619728546174:summary(neutral.players)
+1619728546181:summary(halflife.players)
+1619728546190:summary(gta.players)
+1619728546196:sd(neutral.players)
+1619728546198:sd(halflife.players)
+1619728546201:sd(gta.players)
+1619728546204:grand.mean <- (5.05381 + 5.293939 + 5.029762) / 3
+1619728546206:grand.mean
+1619728546209:SSB <- 152 * (5.05381 - grand.mean)^2 +
+1619728546211:152 * (5.293939 - grand.mean)^2 +
+1619728546212:152 * (5.029762 - grand.mean)^2
+1619728546215:SSB
+1619728546218:SSW <- (152 - 1) * 16.9^2 + (152 - 1) * 14.6^ + (152 - 1)
+1619728546220:SSW
+1619728546222:SST <- SSB+SSW
+1619728546225:SST
+1619728546227:BMS <- SSB / 34
+1619728546231:WMS <- SSW / 1
+1619728546235:BMS
+1619728546240:WMS
+1619728546245:F <- BMS/WMS
+1619728546252:F
+1619728546259:#The averages are about the same (5.054, 5.294, 5.030)
+1619728590434:game.empathy <- read.table("GameEmpathy.txt", header = TRUE)
+1619728590447:summary(game.empathy)
+1619728590463:neutral.players <- subset(game.empathy$empathy, game.empathy$game.type == "neutral")
+1619728590467:halflife.players <- subset(game.empathy$empathy, game.empathy$game.type == "HalfLife")
+1619728590471:gta.players <- subset(game.empathy$empathy, game.empathy$game.type == "GTA")
+1619728590478:summary(neutral.players)
+1619728590485:summary(halflife.players)
+1619728590494:summary(gta.players)
+1619728590501:sd(neutral.players)
+1619728590503:sd(halflife.players)
+1619728590506:sd(gta.players)
+1619728590509:grand.mean <- (5.05381 + 5.293939 + 5.029762) / 3
+1619728590512:grand.mean
+1619728590515:SSB <- 152 * (5.05381 - grand.mean)^2 +
+1619728590516:152 * (5.293939 - grand.mean)^2 +
+1619728590518:152 * (5.029762 - grand.mean)^2
+1619728590521:SSB
+1619728590523:SSW <- (152 - 1) * 0.9542354^2 + (152 - 1) * 0.9227218^2 + (152 - 1) * 1.165788^2
+1619728590526:SSW
+1619728590528:SST <- SSB+SSW
+1619728590531:SST
+1619728590533:BMS <- SSB / 34
+1619728590536:WMS <- SSW / 1
+1619728590538:BMS
+1619728590540:WMS
+1619728590542:F <- BMS/WMS
+1619728590545:F
+1619728590547:#The averages are about the same (5.054, 5.294, 5.030)
+1619729660054:a <- .05
+1619729660061:t.test(sis, bro)
+1619729660075:#We accept the null hypothesis because the p-value is more than alpha.
+1619747033601:knitr::opts_chunk$set(echo = TRUE)
+1619747033728:#Graph 1
+1619747033730:examanxiety.lm <- lm(x ~ y, data = examanxiety)
+1619747033777:summary(examanxiety.lm)
+1619747033812:library(ggplot2)
+1619747034469:ggplot(examanxiety.lm, aes(log(x), log(y))) + geom_point() + geom_smooth()
+1619747036655:fitted.values(examanxiety.lm)
+1619747036699:res <- residuals(examanxiety.lm)
+1619747036704:plot(x, res)
+1619747036808:#Linearity: Yes (Look at graph 2)
+1619747036810:#Independence: They are indepedent because the experiment was on the same day and the whole class took it.
+1619747036812:#Homoskedasticity: No, there is no constant spread (Look at graph 3)
+1619747036815:#Normality of Errors: It does not follow a normal distribution (look at graph 4)
+1619747036908:#Graph 2
+1619747036910:library(broom)
+1619747037024:examanxiety.lm.df <- augment(examanxiety.lm)
+1619747037039:ggplot(examanxiety.lm.df, aes(x, .resid)) + geom_point() + geom_smooth()
+1619747128918:pval <- 1 - pf(F, df1 = 34, df2 = 1)
+1619747128921:pval
+1619747128923:# I would reject it.
+1619747349282:pval <- 1 - pf(F, df1 = 34, df2 = 105)
+1619747349285:pval
+1619747349291:# I would reject it.
+1619747352981:pval <- 1 - pf(F, df1 = 34, df2 = 105)
+1619747352989:pval
+1619747352993:# I would reject it.
+1619747435888:pval <- 1 - pf(F, df1 = 3, df2 = 136)
+1619747435892:pval
+1619747435898:# I would reject it.
+1619747506610:grand.mean <- (83.5 + 92.3 + 88.6 + 99.4) /4
+1619747506614:grand.mean
+1619747506619:SSB <- 35 * (83.5 - grand.mean)^2 +
+1619747506621:35 * (92.3 - grand.mean)^2 +
+1619747506623:35 * (88.6 - grand.mean)^2 +
+1619747506624:35 * (99.4 - grand.mean)^2
+1619747506629:SSB
+1619747506631:SSW <- (35 - 1) * 16.9^2 + (35 - 1) * 14.6^ + (35 - 1) * 14.2^1 + (35 - 1) * 14.1^2
+1619747506634:SSW
+1619747506637:SST <- SSB+SSW
+1619747506643:SST
+1619747506647:BMS <- SSB / 3
+1619747506655:WMS <- SSW / 136
+1619747506657:BMS
+1619747506660:WMS
+1619747506662:F <- BMS/WMS
+1619747506666:F
+1619747535944:pval <- 1 - pf(F, df1 = 3, df2 = 136)
+1619747535950:pval
+1619747535954:# I would reject it.
+1619747537035:pval <- 1 - pf(F, df1 = 3, df2 = 136)
+1619747537040:pval
+1619747537045:# I would reject it.
+1619747713645:grand.mean <- (83.5 + 92.3 + 88.6 + 99.4) /4
+1619747713650:grand.mean
+1619747713655:SSB <- 35 * (83.5 - grand.mean)^2 +
+1619747713657:35 * (92.3 - grand.mean)^2 +
+1619747713659:35 * (88.6 - grand.mean)^2 +
+1619747713661:35 * (99.4 - grand.mean)^2
+1619747713664:SSB
+1619747713669:SSW <- (35 - 1) * 16.9^2 + (35 - 1) * 14.6^ + (35 - 1) * 14.2^1 + (35 - 1) * 14.1^2
+1619747713672:SSW
+1619747713674:SST <- SSB+SSW
+1619747713677:SST
+1619747713680:BMS <- SSB / 3
+1619747713683:WMS <- SSW / 136
+1619747713685:BMS
+1619747713688:WMS
+1619747713690:F <- 4698.75/1566
+1619747713693:F
+1619747716888:pval <- 1 - pf(F, df1 = 3, df2 = 136)
+1619747716893:pval
+1619747716899:# I would reject it.
+1619747860266:grand.mean <- (83.5 + 92.3 + 88.6 + 99.4) /4
+1619747860271:grand.mean
+1619747860275:SSB <- 35 * (83.5 - grand.mean)^2 +
+1619747860277:35 * (92.3 - grand.mean)^2 +
+1619747860279:35 * (88.6 - grand.mean)^2 +
+1619747860281:35 * (99.4 - grand.mean)^2
+1619747860285:SSB
+1619747860289:SSW <- (35 - 1) * 16.9^2 + (35 - 1) * 14.6^ + (35 - 1) * 14.2^1 + (35 - 1) * 14.1^2
+1619747860295:SSW
+1619747860303:SST <- SSB+SSW
+1619747860306:SST
+1619747860308:BMS <- SSB / 3
+1619747860311:WMS <- SSW / 136
+1619747860313:BMS
+1619747860316:WMS
+1619747860319:F <- 1556.25/224.805
+1619747860321:F
+1619747881339:pval <- 1 - pf(F, df1 = 3, df2 = 136)
+1619747881344:pval
+1619747881350:# I would not reject it because the pvalue is smaller than .05.
+1619747949213:grand.mean <- (83.5 + 92.3 + 88.6 + 99.4) /4
+1619747949222:grand.mean
+1619747949226:SSB <- 35 * (83.5 - grand.mean)^2 +
+1619747949229:35 * (92.3 - grand.mean)^2 +
+1619747949231:35 * (88.6 - grand.mean)^2 +
+1619747949234:35 * (99.4 - grand.mean)^2
+1619747949237:SSB
+1619747949239:SSW <- (35 - 1) * 16.9^2 + (35 - 1) * 14.6^ + (35 - 1) * 14.2^1 + (35 - 1) * 14.1^2
+1619747949242:SSW
+1619747949245:SST <- SSB+SSW
+1619747949249:SST
+1619747949251:BMS <- SSB / 3
+1619747949254:WMS <- SSW / 136
+1619747949259:BMS
+1619747949263:WMS
+1619747949268:F <- 1556.25/224.805
+1619747949276:F
+1619748159343:grand.mean <- (83.5 + 92.3 + 88.6 + 99.4) /4
+1619748159348:grand.mean
+1619748159354:SSB <- 35 * (83.5 - grand.mean)^2 +
+1619748159356:35 * (92.3 - grand.mean)^2 +
+1619748159358:35 * (88.6 - grand.mean)^2 +
+1619748159360:35 * (99.4 - grand.mean)^2
+1619748159363:SSB
+1619748159366:SSW <- (35 - 1) * 16.9^2 + (35 - 1) * 14.6^2 + (35 - 1) * 14.2^2
+1619748159369:SSW
+1619748159371:SST <- SSB+SSW
+1619748159374:SST
+1619748159377:BMS <- SSB / 3
+1619748159379:WMS <- SSW / 136
+1619748159382:BMS
+1619748159384:WMS
+1619748159387:F <- 1556.25/224.805
+1619748159390:F
+1620059116110:knitr::opts_chunk$set(echo = TRUE)
+1620059116297:aggregate(Changes ~ Treatment, FUN = mean, data = anorexia)
+1620259787284:knitr::opts_chunk$set(echo = TRUE)
+1620259787471:1 - pbinom(156, 329, .5)
+1620260439691:mean <- 157 / 329
+1620260439693:mean
+1620261400494:knitr::opts_chunk$set(echo = TRUE)
+1620261400507:SandP <- scan("SandP-sample.txt", skip = 1)
+1620261605039:n = 329
+1620261605046:x_bar = 157 / 329
+1620261605050:sd_error = sqrt(x_bar * (1 - x_bar) / n)
+1620261605057:# Lower bound
+1620261605062:x_bar - qnorm(0.975) * sd_error
+1620261605064:# Upper bound
+1620261605066:x_bar + qnorm(0.975) * sd_error
+1620261625600:n = 329
+1620261625604:x_bar = 157 / 329
+1620261625611:sd_error = sqrt(x_bar * (1 - x_bar) / n)
+1620261625614:# Lower bound
+1620261625615:x_bar - qnorm(0.975) * sd_error
+1620261625617:# Upper bound
+1620261625619:x_bar + qnorm(0.975) * sd_error
+1620263390140:(5.1-6) / sqrt((2^2/393) + (2^2/388))
+1620263518565:(6-5.1) / sqrt((2^2/393) + (2^2/388))
+1620263524280:(6-5.1) / sqrt((2^2/393) + (2^2/388))
+1620263868905:welch <- (6-5.1) / sqrt((2^2/393) + (2^2/388))
+1620263868908:welch
+1620263868911:degrees <- ((2^2/393) + (2^2/388))^2 / (((2^2/393)^2/392) + ((2^2/388)^2/387))
+1620263868914:degrees
+1620263868916:2 * (1 - pt(abs(welch), df = degrees))
+1620264190864:SE <- 2 / sqrt(388)
+1620264190869:lower <- .9 - qt(.975, df = degrees) * SE
+1620264190872:higher <- .9 + qt(.975, df = degrees) * SE
+1620264197890:SE <- 2 / sqrt(388)
+1620264197893:lower <- .9 - qt(.975, df = degrees) * SE
+1620264197897:higher <- .9 + qt(.975, df = degrees) * SE
+1620264197901:SE
+1620264197903:lower
+1620264197907:higher
+1620265799196:B1 <- .6 * (15/3.75)
+1620265799201:B1
+1620265837331:B1 <- .6 * (15/3.75)
+1620265837334:B1
+1620265837337:B0 <- 50 - B1 * 48
+1620265837341:B0
+1620265855407:B1 <- .6 * (15/3.75)
+1620265855410:B1
+1620265855414:B0 <- 50 - (B1 * 48)
+1620265855417:B0
+1620265883252:B1 <- .6 * (15/3.75)
+1620265883255:B1
+1620265883258:B0 <- 50 - B1 * 48
+1620265883262:B0
+1620265884426:B1 <- .6 * (15/3.75)
+1620265884431:B1
+1620265884435:B0 <- 50 - B1 * 48
+1620265884438:B0
+1620265885515:B1 <- .6 * (15/3.75)
+1620265885518:B1
+1620265885521:B0 <- 50 - B1 * 48
+1620265885526:B0
+1620265930588:B1 <- .6 * (15/3.75)
+1620265930591:B1
+1620265930595:B0 <- 50 - B1 * 48
+1620265930598:B0
+1620265930600:prediction <- B1 + B0 * (50)
+1620265930604:prediction
+1620266385141:B1 <- .6 * (15/3.75)
+1620266385145:B1
+1620266385147:B0 <- 50 - (B1 * 48)
+1620266385150:B0
+1620266385152:prediction <- B1 + B0 * (50)
+1620266385155:prediction
+1620266396226:B1 <- .6 * (15/3.75)
+1620266396229:B1
+1620266396232:B0 <- 50 - B1 * 48
+1620266396235:B0
+1620266396238:prediction <- B1 + B0 * (50)
+1620266396241:prediction
+1620266408044:B1 <- .6 * (15/3.75)
+1620266408047:B1
+1620266408050:B0 <- 50 - B1 * 48
+1620266408054:B0
+1620266408056:prediction <- B1 + B0 * (50)
+1620266408059:prediction
+1620266442558:B1 <- .6 * (3.75/15)
+1620266442562:B1
+1620266442564:B0 <- 50 - B1 * 48
+1620266442568:B0
+1620266442571:prediction <- B1 + B0 * (50)
+1620266442574:prediction
+1620266451725:B1 <- .6 * (3.75/15)
+1620266451728:B1
+1620266451732:B0 <- 48 - B1 * 50
+1620266451736:B0
+1620266451738:prediction <- B1 + B0 * (50)
+1620266451741:prediction
+1620266665252:B1 <- .6 * (15/3.75)
+1620266665256:B1
+1620266665258:B0 <- 50 - B1 * 48
+1620266665261:B0
+1620266665263:prediction <- B0 + B1 *  50
+1620266665266:prediction
+1620267583888:grand.mean <- (.49 + -.56 + .04) /3
+1620267583896:grand.mean
+1620267583900:SSB <- 98 * (.49 - grand.mean)^2 +
+1620267583902:94 * (-.56 - grand.mean)^2 +
+1620267583903:98 * (.04 - grand.mean)^2
+1620267583905:SSB
+1620267583907:SSW <- (98 - 1) * 1.34^2 + (94 - 1) * 1.38^2 + (98 - 1) * 1.05^2
+1620267583910:SSW
+1620267583913:SST <- SSB+SSW
+1620267583917:SST
+1620267583921:BMS <- SSB / 3
+1620267583924:WMS <- SSW / 136
+1620267583929:BMS
+1620267583931:WMS
+1620267583936:F <- 1556.25/224.805
+1620267583939:F
+1620267816521:knitr::opts_chunk$set(echo = TRUE)
+1620267816537:anorexia <- read.table("anorexia.txt", header = TRUE)
+1620267816549:anorexia$Changes <- anorexia$After - anorexia$Before
+1620267816567:summary(anorexia)
+1620267828390:anorexia <- read.table("anorexia.txt", header = TRUE)
+1620267828399:anorexia$Changes <- anorexia$After - anorexia$Before
+1620267828406:summary(anorexia)
+1620267828416:anorexia
+1620267859994:grand.mean <- (.49 + -.56 + .04) / 3
+1620267859997:grand.mean
+1620267860000:SSB <- 98 * (.49 - grand.mean)^2 +
+1620267860003:94 * (-.56 - grand.mean)^2 +
+1620267860004:98 * (.04 - grand.mean)^2
+1620267860007:SSB
+1620267860009:SSW <- (98 - 1) * 1.34^2 + (94 - 1) * 1.38^2 + (98 - 1) * 1.05^2
+1620267860014:SSW
+1620267860016:SST <- SSB+SSW
+1620267860019:SST
+1620267860021:BMS <- SSB / 2
+1620267860023:WMS <- SSW / 287
+1620267860025:BMS
+1620267860027:WMS
+1620267860029:F <- BMS/WMS
+1620267860032:F
+1620268677852:1 - pf(16.65411, df1 = 2, df2 = 287)
+1620268884557:1 - pf(F, df1 = 2, df2 = 287)
+1620268886138:#300 vs V for Vendetta
+1620268886140:grand.mean <- (.49 + -.56) / 2
+1620268886144:grand.mean
+1620268886147:SSB <- 98 * (.49 - grand.mean)^2 +
+1620268886148:94 * (-.56 - grand.mean)^2
+1620268886151:SSB
+1620268886153:SSW <- (98 - 1) * 1.34^2 + (94 - 1) * 1.38^2
+1620268886156:SSW
+1620268886158:SST <- SSB+SSW
+1620268886160:SST
+1620268886163:BMS <- SSB / 1
+1620268886169:WMS <- SSW / 192
+1620268886174:BMS
+1620268886176:WMS
+1620268886178:F <- BMS/WMS
+1620268886181:F
+1620268886183:1 - pf(F, df1 = 1, df2 = 192)
+1620269017502:#300 vs 21 Jump Street
+1620269017503:grand.mean <- (.49 + .04) / 2
+1620269017507:grand.mean
+1620269017510:SSB <- 98 * (.49 - grand.mean)^2 +
+1620269017512:98 * (.04 - grand.mean)^2
+1620269017514:SSB
+1620269017516:SSW <- (98 - 1) * 1.34^2 + (98 - 1) * 1.05^2
+1620269017520:SSW
+1620269017522:SST <- SSB+SSW
+1620269017525:SST
+1620269017527:BMS <- SSB / 2
+1620269017529:WMS <- SSW / 195
+1620269017531:BMS
+1620269017533:WMS
+1620269017535:F <- BMS/WMS
+1620269017537:F
+1620269021945:#300 vs V for Vendetta
+1620269021947:grand.mean <- (.49 + -.56) / 2
+1620269021949:grand.mean
+1620269021951:SSB <- 98 * (.49 - grand.mean)^2 +
+1620269021953:94 * (-.56 - grand.mean)^2
+1620269021957:SSB
+1620269021960:SSW <- (98 - 1) * 1.34^2 + (94 - 1) * 1.38^2
+1620269021965:SSW
+1620269021970:SST <- SSB+SSW
+1620269021973:SST
+1620269021975:BMS <- SSB / 1
+1620269021977:WMS <- SSW / 191
+1620269021990:BMS
+1620269021992:WMS
+1620269021994:F <- BMS/WMS
+1620269021997:F
+1620269021999:1 - pf(F, df1 = 1, df2 = 192)
+1620269116008:#V for Vendetta vs 21 Jump Street
+1620269116009:grand.mean <- (-.56 + .04) / 2
+1620269116013:grand.mean
+1620269116017:SSB <- 94 * (-.56 - grand.mean)^2 +
+1620269116019:98 * (.04 - grand.mean)^2
+1620269116021:SSB
+1620269116023:SSW <- (94 - 1) * 1.38^2 + (98 - 1) * 1.05^2
+1620269116025:SSW
+1620269116028:SST <- SSB+SSW
+1620269116032:SST
+1620269116036:BMS <- SSB / 1
+1620269116040:WMS <- SSW / 191
+1620269116044:BMS
+1620269116046:WMS
+1620269116048:F <- BMS/WMS
+1620269116051:F
+1620269125225:#V for Vendetta vs 21 Jump Street
+1620269125227:grand.mean <- (-.56 + .04) / 2
+1620269125231:grand.mean
+1620269125234:SSB <- 94 * (-.56 - grand.mean)^2 +
+1620269125236:98 * (.04 - grand.mean)^2
+1620269125240:SSB
+1620269125241:SSW <- (94 - 1) * 1.38^2 + (98 - 1) * 1.05^2
+1620269125244:SSW
+1620269125247:SST <- SSB+SSW
+1620269125252:SST
+1620269125255:BMS <- SSB / 1
+1620269125259:WMS <- SSW / 191
+1620269125262:BMS
+1620269125264:WMS
+1620269125266:F <- BMS/WMS
+1620269125269:F
+1620269408526:laptopstudy1 <- read.table("laptopstudy1.txt", header = TRUE)
+1620269413727:laptopstudy1 <- read.table("laptopstudy1.txt", header = TRUE)
+1620269413765:laptopstudy1
+1620269514288:laptopstudy1 <- read.table("laptopstudy1.txt", header = TRUE)
+1620269514336:laptopstudy1
+1620269514360:laptopstudy1$condition = factor(laptopstudy1$condition)
+1620269514384:laptopstudy1$whichtalk = factor(laptopstudy1$whichtalk)
+1620269525036:laptopstudy1 <- read.table("laptopstudy1.txt", header = TRUE)
+1620269525089:laptopstudy1
+1620269525114:laptopstudy1$condition = factor(laptopstudy1$condition)
+1620269525140:laptopstudy1$whichtalk = factor(laptopstudy1$whichtalk)
+1620269525186:laptopstudy1$whichtalk
+1620269720951:laptopstudy1 <- read.table("laptopstudy1.txt", header = TRUE)
+1620269720993:laptopstudy1
+1620269721021:laptopstudy1$condition = factor(laptopstudy1$condition)
+1620269721049:laptopstudy1$whichtalk = factor(laptopstudy1$whichtalk)
+1620269721076:laptopstudy1$whichtalk
+1620269797621:laptopstudy1 <- read.table("laptopstudy1.txt", header = TRUE)
+1620269797650:laptopstudy1
+1620269797685:laptopstudy1$condition = factor(laptopstudy1$condition)
+1620269797717:laptopstudy1$whichtalk = factor(laptopstudy1$whichtalk)
+1620269797754:laptopstudy1$whichtalk
+1620269797768:laptopstudy1$condition
+1620269973042:laptopstudy1 <- read.table("laptopstudy1.txt", header = TRUE)
+1620269973077:laptopstudy1
+1620269973110:laptopstudy1$whichtalk
+1620269973132:laptopstudy1$condition
+1620269979860:laptopstudy1 <- read.table("laptopstudy1.txt", header = TRUE)
+1620269979901:laptopstudy1
+1620269979929:laptopstudy1$condition = factor(laptopstudy1$condition)
+1620269979966:laptopstudy1$whichtalk = factor(laptopstudy1$whichtalk)
+1620269980001:laptopstudy1$whichtalk
+1620269980017:laptopstudy1$condition
+1620270030345:laptopstudy1 <- read.table("laptopstudy1.txt", header = TRUE)
+1620270030379:laptopstudy1$condition = factor(laptopstudy1$condition)
+1620270030412:laptopstudy1$whichtalk = factor(laptopstudy1$whichtalk)
+1620270030443:laptopstudy1
+1620270030472:laptopstudy1$whichtalk
+1620270030489:laptopstudy1$condition
+1620270117562:laptopstudy1 <- read.table("laptopstudy1.txt", header = TRUE)
+1620270117597:laptopstudy1
+1620270117625:laptopstudy1$condition = factor(laptopstudy1$condition)
+1620270117666:laptopstudy1$whichtalk = factor(laptopstudy1$whichtalk)
+1620270117695:laptopstudy1$whichtalk
+1620270117706:laptopstudy1$condition
+1620270701182:laptopstudy1 <- read.table("laptopstudy1.txt", header = TRUE)
+1620270701227:laptopstudy1
+1620270701254:laptopstudy1$condition = factor(laptopstudy1$condition)
+1620270701285:laptopstudy1$whichtalk = factor(laptopstudy1$whichtalk)
+1620270701437:laptopstudy1$whichtalk
+1620270701457:laptopstudy1$condition
+1620270701478:islam <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "Islam")
+1620270701481:inequality <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "inequality")
+1620270701483:ideas <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "ideas")
+1620270701486:indus <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "he Indus script")
+1620270701488:algorithms <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "algorithms")
+1620270721490:laptopstudy1 <- read.table("laptopstudy1.txt", header = TRUE)
+1620270721523:laptopstudy1
+1620270721553:laptopstudy1$condition = factor(laptopstudy1$condition)
+1620270721591:laptopstudy1$whichtalk = factor(laptopstudy1$whichtalk)
+1620270721631:laptopstudy1$whichtalk
+1620270721645:laptopstudy1$condition
+1620270721667:islam <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "Islam")
+1620270721672:inequality <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "inequality")
+1620270721675:ideas <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "ideas")
+1620270721677:indus <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "he Indus script")
+1620270721680:algorithms <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "algorithms")
+1620270721682:algorithms
+1620270733263:laptopstudy1 <- read.table("laptopstudy1.txt", header = TRUE)
+1620270733302:laptopstudy1
+1620270733329:laptopstudy1$condition = factor(laptopstudy1$condition)
+1620270733363:laptopstudy1$whichtalk = factor(laptopstudy1$whichtalk)
+1620270733397:islam <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "Islam")
+1620270733399:inequality <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "inequality")
+1620270733404:ideas <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "ideas")
+1620270733408:indus <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "he Indus script")
+1620270733411:algorithms <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "algorithms")
+1620270733413:algorithms
+1620270993184:laptopstudy1 <- read.table("laptopstudy1.txt", header = TRUE)
+1620270993245:laptopstudy1
+1620270993294:laptopstudy1$condition = factor(laptopstudy1$condition)
+1620270993349:laptopstudy1$whichtalk = factor(laptopstudy1$whichtalk)
+1620270993402:print(laptopstudy1$whichtalk)
+1620270993430:islam <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "Islam")
+1620270993437:inequality <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "inequality")
+1620270993445:ideas <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "ideas")
+1620270993450:indus <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "he Indus script")
+1620270993458:algorithms <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "algorithms")
+1620270993461:algorithms
+1620271075158:knitr::opts_chunk$set(echo = TRUE)
+1620271075293:laptopstudy1 <- read.table("laptopstudy1.txt", header = TRUE)
+1620271075327:laptopstudy1
+1620271075513:laptopstudy1$condition = factor(laptopstudy1$condition)
+1620271075579:laptopstudy1$whichtalk = factor(laptopstudy1$whichtalk)
+1620271075623:print(laptopstudy1$whichtalk)
+1620271075644:islam <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "Islam")
+1620271075651:inequality <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "inequality")
+1620271075656:ideas <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "ideas")
+1620271075659:indus <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "he Indus script")
+1620271075662:algorithms <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "algorithms")
+1620271075670:algorithms
+1620271387190:laptopstudy1 <- read.table("laptopstudy1.txt", header = TRUE)
+1620271387231:laptopstudy1$condition = factor(laptopstudy1$condition)
+1620271387265:laptopstudy1$whichtalk = factor(laptopstudy1$whichtalk)
+1620271387294:print(laptopstudy1$whichtalk)
+1620271387312:#Not sure why factor() isn't working :(
+1620271387313:islam <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "Islam")
+1620271387316:inequality <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "inequality")
+1620271387319:ideas <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "ideas")
+1620271387321:indus <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "he Indus script")
+1620271387324:algorithms <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "algorithms")
+1620271387326:algorithms
+1620271430792:laptopstudy1 <- read.table("laptopstudy1.txt", header = TRUE)
+1620271430827:laptopstudy1$condition = factor(laptopstudy1$condition)
+1620271430862:laptopstudy1$whichtalk = factor(laptopstudy1$whichtalk)
+1620271430892:print(laptopstudy1$whichtalk)
+1620271430905:laptopstudy1
+1620271430934:#Not sure why factor() isn't working :(
+1620271430936:islam <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "Islam")
+1620271430938:inequality <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "inequality")
+1620271430941:ideas <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "ideas")
+1620271430943:indus <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "he Indus script")
+1620271430945:algorithms <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "algorithms")
+1620271430949:algorithms
+1620271520651:laptopstudy1 <- read.table("laptopstudy1.txt", header = TRUE)
+1620271520700:laptopstudy1$condition = factor(laptopstudy1$condition)
+1620271520739:laptopstudy1$whichtalk = factor(laptopstudy1$whichtalk)
+1620271520760:print(laptopstudy1$whichtalk)
+1620271520781:#Not sure why factor() isn't working :(
+1620271520783:islam <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "Islam")
+1620271520786:inequality <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "inequality")
+1620271520788:ideas <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "ideas")
+1620271520791:indus <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "he Indus script")
+1620271520793:algorithms <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "algorithms")
+1620271520796:summary(algorithms)
+1620271720576:laptopstudy1 <- read.table("laptopstudy1.txt", header = TRUE)
+1620271720617:laptopstudy1$condition = factor(laptopstudy1$condition)
+1620271720653:laptopstudy1$whichtalk = factor(laptopstudy1$whichtalk)
+1620271720681:print(laptopstudy1$whichtalk)
+1620271720700:#Not sure why factor() isn't working :(
+1620271720702:islam <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "Islam")
+1620271720704:inequality <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "inequality")
+1620271720707:ideas <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "ideas")
+1620271720711:indus <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "he Indus script")
+1620271720713:algorithms <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "algorithms")
+1620271720716:boxplot(objectiveZ ~ whichtalk, data = laptopstudy1,
+1620271720717:ylab="objectiveZ", main="objectiveZ by talk")
+1620271784939:laptopstudy1 <- read.table("laptopstudy1.txt", header = TRUE)
+1620271784968:laptopstudy1$condition = factor(laptopstudy1$condition)
+1620271784997:laptopstudy1$whichtalk = factor(laptopstudy1$whichtalk)
+1620271785032:print(laptopstudy1$whichtalk)
+1620271785046:#Not sure why factor() isn't working :(
+1620271785048:islam <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "1")
+1620271785051:inequality <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "2")
+1620271785054:ideas <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "3")
+1620271785057:indus <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "4")
+1620271785062:algorithms <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "5")
+1620271785067:boxplot(objectiveZ ~ whichtalk, data = laptopstudy1,
+1620271785070:ylab="objectiveZ", main="objectiveZ by talk")
+1620272020796:ggqqplot(my_data$len)
+1620272248182:laptopstudy1 <- read.csv("~/R/S350/Exams/laptopstudy1.txt", sep="")
+1620272248186:View(laptopstudy1)
+1620272260178:laptopstudy1 <- read.table("laptopstudy1.txt", header = TRUE)
+1620272260240:laptopstudy1$condition = factor(laptopstudy1$condition)
+1620272260296:laptopstudy1$whichtalk = factor(laptopstudy1$whichtalk)
+1620272260335:print(laptopstudy1$whichtalk)
+1620272260352:#Not sure why factor() isn't working :(
+1620272260354:islam <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "1")
+1620272260358:inequality <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "2")
+1620272260361:ideas <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "3")
+1620272260365:indus <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "4")
+1620272260371:algorithms <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "5")
+1620272260375:boxplot(objectiveZ ~ whichtalk, data = laptopstudy1,
+1620272260378:ylab="objectiveZ", main="objectiveZ by talk")
+1620272263653:ggqqplot(islam)
+1620272275292:laptopstudy1 <- read.table("laptopstudy1.txt", header = TRUE)
+1620272275345:laptopstudy1$condition = factor(laptopstudy1$condition)
+1620272275388:laptopstudy1$whichtalk = factor(laptopstudy1$whichtalk)
+1620272275417:print(laptopstudy1$whichtalk)
+1620272275434:#Not sure why factor() isn't working :(
+1620272275436:islam <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "1")
+1620272275439:inequality <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "2")
+1620272275442:ideas <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "3")
+1620272275445:indus <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "4")
+1620272275449:algorithms <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "5")
+1620272275452:boxplot(objectiveZ ~ whichtalk, data = laptopstudy1,
+1620272275453:ylab="objectiveZ", main="objectiveZ by talk")
+1620272301440:qqplot(islam)
+1620272332471:library("car")
+1620272352128:library("car")
+1620272360109:qqPlot(islam)
+1620272465995:qqnorm(islam)
+1620272466018:ggqqplot(inequality)
+1620272473277:qqnorm(islam)
+1620272473314:qqnorm(inequality)
+1620272473363:qqnorm(ideas)
+1620272473390:qqnorm(indus)
+1620272473452:qqnorm(algorithms)
+1620272502132:ggdensity(islam)
+1620272507088:qqdensity(islam)
+1620272511917:qqnorm(islam)
+1620272511945:qqnorm(inequality)
+1620272511995:qqnorm(ideas)
+1620272512025:qqnorm(indus)
+1620272512067:qqnorm(algorithms)
+1620272524687:qqnorm(islam)
+1620272524720:qqnorm(inequality)
+1620272524759:qqnorm(ideas)
+1620272524787:qqnorm(indus)
+1620272524830:qqnorm(algorithms)

@@ -1,0 +1,7 @@
+"0","onetail <- 1 - pnorm(tstat)"
+"0","onetail"
+"1","[1]"
+"1"," 1.165593e-05"
+"1","
+"
+"0","#The one-tailedP-value is .0000117"

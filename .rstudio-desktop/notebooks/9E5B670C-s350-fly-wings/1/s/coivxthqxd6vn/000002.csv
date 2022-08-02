@@ -1,0 +1,2 @@
+"0","plot(ecdf(wings), main = ""ECDF of housefly wing lengths"","
+"0","     xlab = ""Wing length (mm)"", ylab = ""Empirical CDF"")"

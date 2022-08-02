@@ -1,0 +1,108 @@
+---
+title: "In-class 4/21/21"
+author: "S350"
+date: "4/21/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Find the analysis of variance table for the anorexia data.
+
+```{r}
+anorexia <- read.table("anorexia.txt", header = TRUE)
+anorexia$Changes <- anorexia$After - anorexia$Before
+summary(anorexia)
+anorexia
+```
+
+Grand mean of weight changes ($\bar{X}_{..}$):
+
+```{r}
+mean(anorexia$Changes)
+```
+
+Three sample means for Cognitive, Family, and Standard treatments:
+
+```{r}
+aggregate(Changes ~ Treatment, FUN = mean, data = anorexia)
+```
+
+Or separate data into three subsets and look at them separately:
+
+```{r}
+cog.data <- subset(anorexia, Treatment == "Cognitive")
+cog.mean <- mean(cog.data$Changes)
+cog.var <- var(cog.data$Changes)
+cog.n <- nrow(cog.data)
+```
+```{r}
+fam.data <- subset(anorexia, Treatment == "Family")
+fam.mean <- mean(fam.data$Changes)
+fam.var <- var(fam.data$Changes)
+fam.n <- nrow(fam.data)
+
+```
+```{r}
+std.data <- subset(anorexia, Treatment == "Standard")
+std.mean <- mean(std.data$Changes)
+std.var <- var(std.data$Changes)
+std.n <- nrow(std.data)
+```
+
+Calculate SSB:
+
+```{r}
+grand.mean <- mean(anorexia$Changes)
+SSB <- cog.n * (cog.mean - grand.mean)^2 +
+  fam.n * (fam.mean - grand.mean)^2 +
+  std.n * (std.mean - grand.mean)^2
+SSB
+```
+Calculate SSW:
+```{r}
+SSW <- (cog.n - 1) * cog.var + (fam.n - 1) * fam.var + (std.n - 1) * std.var
+SSW
+```
+The between degrees of freedom is (no. of samples - 1) = 2.
+
+The within degrees of freedom is
+```{r}
+nrow(anorexia) - 3
+```
+The between meansquare and the within meansquare:
+```{r}
+BMS <- SSB / 2
+WMS <- SSW / 69
+BMS
+WMS
+```
+Calculate the F statistic:
+```{r}
+F <- BMS / WMS
+F
+```
+P-value:
+```{r}
+1 - pf(F, df1 = 2, df2 = 69)
+```
+The P-value is small, so there's evidence for the alternative, i.e. there's evidence that at least one treatment is different on average.
+
+Easy way:
+```{r}
+anova(lm(Changes ~ Treatment, data = anorexia))
+```
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,4 @@
+"0","plot(adults$Height, adults$Weight, pch = ""."")"
+"2","Error in plot(adults$Height, adults$Weight, pch = ""."") : 
+  object 'adults' not found
+"

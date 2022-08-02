@@ -1,0 +1,188 @@
+2021-11-16 18:36:27,559: WARNING	werkzeug:	WebSocket transport not available. Install simple-websocket for improved performance.
+2021-11-16 19:10:45,017: ERROR	pgadmin:	404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/helpers.py", line 1083, in send_static_file
+    return send_from_directory(
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/helpers.py", line 767, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2021-11-16 19:11:16,269: WARNING	werkzeug:	WebSocket transport not available. Install simple-websocket for improved performance.
+2021-11-16 19:11:35,505: ERROR	pgadmin:	404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/helpers.py", line 1083, in send_static_file
+    return send_from_directory(
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/helpers.py", line 767, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2021-11-16 19:11:51,955: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8750856(Query-id: 3165688):
+Error Message:ERROR:  syntax error at or near ";"
+LINE 7:                      salary float;
+                                         ^
+SQL state: 42601
+Character: 210
+2021-11-16 19:12:42,292: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8750856(Query-id: 5210479):
+Error Message:ERROR:  syntax error at or near ";"
+LINE 7:                      salary real;
+                                        ^
+SQL state: 42601
+Character: 209
+2021-11-16 19:13:24,784: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8750856(Query-id: 7635584):
+Error Message:ERROR:  relation "person" does not exist
+LINE 8: insert into person values
+                    ^
+SQL state: 42P01
+Character: 225
+2021-11-16 19:30:36,011: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8750856(Query-id: 6400731):
+Error Message:ERROR:  syntax error at or near "AS"
+LINE 1: ...LACE FUNCTION increment_salary (n integer) RETURNS table AS 
+                                                                    ^
+SQL state: 42601
+Character: 71
+2021-11-16 19:31:09,890: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8750856(Query-id: 3097960):
+Error Message:ERROR:  syntax error at or near "AS"
+LINE 1: ...LACE FUNCTION increment_salary (n integer) RETURNS TABLE AS 
+                                                                    ^
+SQL state: 42601
+Character: 71
+2021-11-16 19:31:22,943: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8750856(Query-id: 7794644):
+Error Message:ERROR:  syntax error at or near "AS"
+LINE 1: ...LACE FUNCTION increment_salary (n integer) RETURNS TABLE AS 
+                                                                    ^
+SQL state: 42601
+Character: 71
+2021-11-16 19:31:45,805: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8750856(Query-id: 2208207):
+Error Message:ERROR:  syntax error at or near "AS"
+LINE 1: ...LACE FUNCTION increment_salary (n integer) RETURNS TABLE AS 
+                                                                    ^
+SQL state: 42601
+Character: 71
+2021-11-16 19:32:49,823: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8750856(Query-id: 764577):
+Error Message:ERROR:  syntax error at or near "SELECT"
+LINE 7:  SELECT c.salary
+         ^
+SQL state: 42601
+Character: 228
+2021-11-16 19:33:05,352: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8750856(Query-id: 3721249):
+Error Message:ERROR:  syntax error at or near "SELECT"
+LINE 7:  SELECT salary
+         ^
+SQL state: 42601
+Character: 228
+2021-11-16 19:33:31,549: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8750856(Query-id: 6026835):
+Error Message:ERROR:  syntax error at or near "SELECT"
+LINE 7:  SELECT salary
+         ^
+SQL state: 42601
+Character: 217
+2021-11-16 19:34:06,856: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8750856(Query-id: 5517381):
+Error Message:ERROR:  syntax error at or near "SELECT"
+LINE 7:  SELECT c.salary
+         ^
+SQL state: 42601
+Character: 217
+2021-11-16 19:34:27,657: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8750856(Query-id: 1143997):
+Error Message:ERROR:  syntax error at or near "S"
+LINE 6: $$ S
+           ^
+SQL state: 42601
+Character: 215
+2021-11-16 19:34:34,756: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8750856(Query-id: 5054967):
+Error Message:ERROR:  syntax error at or near "SELECT"
+LINE 7:  SELECT c.salary
+         ^
+SQL state: 42601
+Character: 216
+2021-11-16 19:40:07,703: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8750856(Query-id: 8396109):
+Error Message:ERROR:  syntax error at or near "SELECT"
+LINE 7:  SELECT salary
+         ^
+SQL state: 42601
+Character: 174
+2021-11-16 19:40:40,161: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8750856(Query-id: 1114463):
+Error Message:ERROR:  syntax error at or near "SELECT"
+LINE 7:  SELECT salary
+         ^
+SQL state: 42601
+Character: 174
+2021-11-16 19:50:22,093: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8750856(Query-id: 2783798):
+Error Message:ERROR:  syntax error at or near "END"
+LINE 10: END;
+         ^
+SQL state: 42601
+Character: 237
+2021-11-16 19:51:23,880: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8750856(Query-id: 8964241):
+Error Message:ERROR:  column reference "salary" is ambiguous
+LINE 2:        SET salary = salary + n
+                            ^
+DETAIL:  It could refer to either a PL/pgSQL variable or a table column.
+QUERY:  UPDATE Customers as C
+       SET salary = salary + n
+CONTEXT:  PL/pgSQL function increment_salary(integer) line 3 at SQL statement
+SQL state: 42702
+2021-11-16 19:51:55,740: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8750856(Query-id: 9581507):
+Error Message:ERROR:  column reference "salary" is ambiguous
+LINE 2:        SET salary = salary + n
+                            ^
+DETAIL:  It could refer to either a PL/pgSQL variable or a table column.
+QUERY:  UPDATE Customers
+       SET salary = salary + n
+CONTEXT:  PL/pgSQL function increment_salary(integer) line 3 at SQL statement
+SQL state: 42702
+2021-11-16 20:01:44,892: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8750856(Query-id: 5822201):
+Error Message:ERROR:  syntax error at or near "num"
+LINE 8:     num number:=n;
+            ^
+SQL state: 42601
+Character: 120
+2021-11-16 20:02:03,159: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8750856(Query-id: 6875844):
+Error Message:ERROR:  syntax error at or near "rev"
+LINE 8:  rev number:=0;
+         ^
+SQL state: 42601
+Character: 117
+2021-11-16 20:03:13,015: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8750856(Query-id: 1289572):
+Error Message:ERROR:  syntax error at or near "result"
+LINE 8:  result number:=0;
+         ^
+SQL state: 42601
+Character: 117
+2021-11-16 20:03:19,040: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8750856(Query-id: 9893933):
+Error Message:ERROR:  syntax error at or near "result"
+LINE 8:  result number:=0;
+         ^
+SQL state: 42601
+Character: 117
+2021-11-16 20:17:45,587: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8750856(Query-id: 9280564):
+Error Message:ERROR:  syntax error at or near "IF"
+LINE 1:   END IF;
+              ^
+SQL state: 42601
+Character: 7
+2021-11-16 20:22:25,401: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8750856(Query-id: 93578):
+Error Message:ERROR:  cannot change return type of existing function
+HINT:  Use DROP FUNCTION pyramid_maker(integer) first.
+SQL state: 42P13
+2021-11-16 20:22:55,560: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8750856(Query-id: 7089352):
+Error Message:ERROR:  cannot change return type of existing function
+HINT:  Use DROP FUNCTION pyramid_maker(integer) first.
+SQL state: 42P13
+2021-11-16 20:23:01,700: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8750856(Query-id: 8803122):
+Error Message:ERROR:  cannot change return type of existing function
+HINT:  Use DROP FUNCTION pyramid_maker(integer) first.
+SQL state: 42P13
+2021-11-16 20:23:48,719: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8750856(Query-id: 9576292):
+Error Message:ERROR:  cannot change return type of existing function
+HINT:  Use DROP FUNCTION pyramid_maker(integer) first.
+SQL state: 42P13
+2021-11-16 20:28:25,893: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8750856(Query-id: 4571017):
+Error Message:ERROR:  cannot change return type of existing function
+HINT:  Use DROP FUNCTION pyramid_maker(integer) first.
+SQL state: 42P13

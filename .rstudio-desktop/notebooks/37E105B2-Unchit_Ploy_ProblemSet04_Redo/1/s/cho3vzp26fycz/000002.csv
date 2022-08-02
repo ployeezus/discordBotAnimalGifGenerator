@@ -1,0 +1,7 @@
+"0","prob <- 1 - pbinom(419, 50000, 0.008)"
+"0","prob"
+"1","[1]"
+"1"," 0.1637013"
+"1","
+"
+"0","#The probability that at least 420 people respond to the telephone poll andapprove of the President is "

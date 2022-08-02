@@ -1,0 +1,62 @@
+---
+title: "In-Class-3-26-21"
+author: "Ploy Unchit"
+date: "3/26/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+skulls <- scan("skulls.txt")
+summary(skulls)
+
+etruscan <- skulls[1:84]
+italian <- skulls[85:154]
+
+#Sample means:
+mean(etruscan)
+mean(italian)
+
+#delta
+delta.hat <- mean(etruscan) - mean(italian)
+delta.hat
+#11.33095
+SE <- sqrt(var(etruscan)/ 84 + var(italian)/70)
+SE 
+#0.946933
+```
+
+```{r}
+qqnorm(etruscan, main = "Normal QQ of Etruscan")
+qqnorm(italian, main = "Normal QQ of Italian")
+```
+
+```{r}
+# Welch's t-statistic
+t.welch <- delta.hat / SE
+t.welch
+```
+
+```{r}
+#Degrees of freedom (long):
+df <- (var(etruscan) / 84 + var(italian) / 70)^2 /
+         ((var(etruscan) / 84) ^2 /83 + (var(italian) / 70) ^2 /69)
+df
+       
+```
+
+```{r}
+qt(.975, df = df)
+```
+
+```{r}
+delta.hat - qt(.975, df =df) * SE
+delta.hat + qt(.975, df =df) * SE
+```
+
+```{r}
+t.test(etruscan, italian)
+```

@@ -1,0 +1,4 @@
+"0","home <- subset(currydist$made, currydist$venue == ""Home"")"
+"0","away <- subset(currydist$made, currydist$venue == ""Away"")"
+"0","plot(ecdf(home), main = ""Shots at Home"","
+"0","     xlab = ""Success percentage of shots"", ylab = ""Empirical CDF"")"

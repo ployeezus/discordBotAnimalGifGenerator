@@ -1,0 +1,145 @@
+ls
+cd Desktop
+ls
+mkdir website
+cd website
+ls
+git init businessWebsite
+git init
+git init 
+git -version
+git --version
+git --version
+cd ../
+ls
+cd website
+git init
+git init
+ls
+cd ../
+git init
+ls
+cd ../
+ls
+cd documents
+ls
+mkdir websites
+ls
+cd websites
+ls
+git --version
+xcode-select --install
+git init
+git status
+git add index.html
+ls
+git status
+git status
+git status
+git commit -am 'first commit'
+git push 
+git remote add website https://github.com/ployeezus
+git push website
+git push --set-upstream website master
+git remote add website https://github.com/ployeezus/website
+git push --set-upstream website master
+git push website
+git push --set-upstream website master
+cd ../
+ls
+cd websites
+ls
+git status
+git push
+git remote add websites https://github.com/ployeezus/websites
+git push
+git commit
+cd ../
+cd ../
+ls
+cd Desktop
+ls
+git clone https://github.com/ployeezus/website.git
+git open
+ls
+open website
+ls
+cd ../
+ls
+cd Documents
+ls
+cd website
+cd websites
+ls
+git remote add origin https://github.com/ployeezus/website.git
+git commit
+git push -u origin master
+Bengi987
+Bengi987
+git push -u origin master
+git push -u origin master
+git push -u origin master
+git push -u origin master
+git push -u origin master
+git commit
+git status
+git add .
+git status
+git push -am 'second push to get familiar w/ git'
+git push -m 'second push to get familiar w/ git'
+git commit -am 'second commit to get familiar w/ git'
+git push
+git commit -m "add css"
+git add .
+git commit -m "add css"
+git status
+git status
+git commit
+
+git status
+git add .
+git status
+git add .
+git commit -m "added title and address"
+git commit
+git add index.html
+git status
+git push
+git pull
+git push
+git status
+git add index.html
+git status
+git commit -m "changed title and address"
+git push
+git add style.css
+git commit -m "changed style"
+git push
+git add .
+git commit -m "update"
+git push
+git status
+ls
+cd ../
+ls
+open websites
+open websites
+open websites
+git add .
+cd
+pwd
+cd
+pwd
+ls
+cd Documents
+pwd
+ls
+cd Code
+pwd
+ls
+cd Website_Redesign
+pwd
+git pull
+ls
+open
+ls

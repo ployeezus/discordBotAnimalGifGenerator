@@ -1,0 +1,107 @@
+---
+title: "Housefly wing lengths"
+author: "Ploy Unchit"
+date: "March 8, 2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## The data
+
+What does the distribution of housefly wing lengths (in mm) look like? This was apparently an important question in 1955, and the data set we look at is a famous one, from Sokal & Hunter, reproduced here:
+
+https://seattlecentral.edu/qelp/sets/057/057.html
+
+The data set can be scanned in from the web:
+
+```{r}
+wings <- scan("wings.txt")
+```
+
+This reads the data in as a vector.
+
+## Summary statistics
+
+Find the sample mean:
+
+```{r}
+wings <- scan("wings.txt")
+mean <- mean(wings)
+mean
+```
+
+The sample mean fly wing length is 45.5 millimeters.
+
+Find the plug-in standard deviation and the sample standard deviation:
+
+```{r}
+# Plug-in
+sd <- sqrt(mean(wings^2) - mean(wings)^2)
+sd
+# Sample SD
+sd(wings)
+```
+
+There's hardly any difference. To one decimal place, the standard deviation of fly wing lengths is 3.9 millimeters.
+
+We can also describe the data using the five-number summary:
+
+```{r}
+summary <- summary(wings)
+summary
+```
+
+The median fly wing length is 45.5 millimeters. The interquartile range is 5 millimeters.
+
+
+
+## Plot the data
+
+Plot the empirical CDF, adding labels:
+
+```{r}
+plot(ecdf(wings), main = "ECDF of housefly wing lengths",
+     xlab = "Wing length (mm)", ylab = "Empirical CDF")
+```
+
+Draw a well-labeled frequency histogram, using bins of width 1 mm:
+
+```{r}
+hist(wings, breaks = 35.5:55.5, main = "Frequency histogram of housefly wing lengths",
+     xlab = "Wing length (mm)")
+```
+
+Draw a kernel density plot:
+
+```{r}
+plot(density(wings), main = "Kernel density plot of housefly wing lengths",
+     xlab = "Wing length (mm)")
+```
+
+Draw a boxplot:
+
+```{r}
+boxplot(wings, main = "Boxplot of housefly wing lengths",
+        ylab = "Wing length (mm)")
+```
+
+Draw a normal quantile-quantile plot:
+
+```{r}
+qqnorm(wings, main = "Normal QQ plot of housefly wing lengths")
+```
+
+Does the data look like it follows a normal distribution, apart from small discrepancies like rounding? Yes
+
+There's one thing about the data that might make one suspicious that the data is made up. The suspicious thing is: The negative quantiles
+
+```{r}
+a <- 2 * (1 - pbinom(267, 500, 0.5))
+a
+```
+

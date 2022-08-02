@@ -1,0 +1,65 @@
+---
+title: "Unchit_Ploy_ProblemSet10"
+author: "Ploy Unchit"
+date: "4/15/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+2)
+It is not the best practice to make statements about cause and effect for this experiment. A simpler explaination would be that the regression line for this experiment is negative.
+
+3A)
+It's too high because the average for all the 30 teams is 81 and that the correlation is .54. That means that 98 is too high of a prediction. A better prediction would be like 85 or something.
+
+3B)
+```{r}
+beta1 <- .54
+
+beta0 <- 81 - (beta1 * 81)
+beta0
+
+answer <- beta0 + (beta1 * 98)
+answer
+
+#The prediction for the Los Angeles Angel's is 90 games.
+```
+
+3C)
+Just because at least one team has won at least 96 games since 1961, it doesn't mean that it will happen every single year in the future. It's probably that everyone sucks this season. Again, this prediction is from the average of all the teams for this season, so if their wins are low, the predictions for next year is most likely low too.
+
+4A)
+```{r}
+beta1 <- .5 * (12 / 10)
+beta1
+
+beta0 <- 64 - (beta1 * 75)
+beta0
+
+answer <- (beta1 * 80) + beta0
+answer
+
+#Her test 2 score will be 67. I mean if she wants an 80 instead of a 67 I guess that's fine. I'd advise the professor to grade her an 80 on the second test.
+```
+
+4B)
+```{r}
+beta1 <- .5 * (11 / 13)
+beta1
+
+beta0 <- 75 - (beta1 * 64)
+beta0
+
+answer <- (beta1 * 76) + beta0
+answer
+
+#His test 1 score will be 80 I mean if he wants an 80 instead of a 76 I guess that's fine. I'd advise the professor to grade him an 80 on the first test just to make it fair for everyone.
+```
+
+
+
+
+

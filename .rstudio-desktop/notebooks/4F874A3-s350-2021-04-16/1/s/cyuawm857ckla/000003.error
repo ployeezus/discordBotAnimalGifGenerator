@@ -1,0 +1,1 @@
+{"frames":[{"character_number":0,"end_character_number":0,"end_line_number":0,"file":"","func":"plot(adults$Height, adults$Weight, pch = \".\")","line_number":0}],"message":"Error in plot(adults$Height, adults$Weight, pch = \".\") : \n  object 'adults' not found\n"}

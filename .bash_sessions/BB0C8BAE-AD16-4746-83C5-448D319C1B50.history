@@ -1,0 +1,41 @@
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+pwd
+ls
+cd Documents
+ls
+cd Code
+ls
+cd tech-proficiency-project-redesign
+pwd
+ls
+git push
+git status
+git add .
+git coomit -m 'update website'
+git push
+gitgit status
+git status
+git commit -am 'update website'
+git push
+pwd
+cd Documents
+cd Code
+ls
+cd tech-proficiency-project-redesign
+pwd
+git add .
+git commit -m "redid everything"
+git push
+git add .
+git commit -m "deleted theme"
+git push
+cd
+ls
+cd Code
+cd Documents
+cd COde
+pwd
+ls
+cd tech-proficiency-project-redesign
+git add .
+git commit -m "fixed menu tab"

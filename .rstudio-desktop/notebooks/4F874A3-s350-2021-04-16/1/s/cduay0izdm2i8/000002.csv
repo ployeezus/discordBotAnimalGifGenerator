@@ -1,0 +1,6 @@
+"0","library(ggplot2)"
+"0","ggplot(adults, aes(x = Height, y = Weight)) + geom_point() +"
+"0","  geom_smooth()"
+"2","Error in ggplot(adults, aes(x = Height, y = Weight)) : 
+  object 'adults' not found
+"

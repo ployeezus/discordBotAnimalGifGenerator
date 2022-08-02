@@ -1,0 +1,2 @@
+"0","means.unif100 <- replicate(9999, mean(runif(100)))"
+"0","plot(density(means.unif100))"

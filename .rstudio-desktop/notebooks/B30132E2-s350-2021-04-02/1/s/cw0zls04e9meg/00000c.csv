@@ -1,0 +1,4 @@
+"0","quote <- read.table(""quoteattribution.txt"", header = TRUE)"
+"2","cannot open file 'quoteattribution.txt': No such file or directory"
+"2","Error in file(file, ""rt"") : cannot open the connection
+"

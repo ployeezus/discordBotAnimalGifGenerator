@@ -1,0 +1,2 @@
+﻿2021-11-21 00:20:37,122 ployunchit ERROR PlasticScmRestApiClient - Unable to retrieve is beta enabled 'https://www.plasticscm.com/api/unity-package/beta/is-enabled': Error: NameResolutionFailure
+2022-03-27 16:44:18,775 ployunchit ERROR PlasticScmRestApiClient - Unable to retrieve is beta enabled 'https://www.plasticscm.com/api/unity-package/beta/is-enabled': The operation has timed out.

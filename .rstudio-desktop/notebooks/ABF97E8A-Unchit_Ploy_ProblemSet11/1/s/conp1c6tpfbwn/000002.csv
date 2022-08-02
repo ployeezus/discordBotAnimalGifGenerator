@@ -1,0 +1,5 @@
+"0","neutral.id <- subset(game.empathy$identify, game.empathy$game.type == ""neutral"")"
+"0","halflife.id <- subset(game.empathy$identify, game.empathy$game.type == ""HalfLife"")"
+"0","gta.id <- subset(game.empathy$identify, game.empathy$game.type == ""GTA"")"
+"0",""
+"0","plot(neutral.id, neutral.players)"

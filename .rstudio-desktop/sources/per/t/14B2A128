@@ -1,0 +1,27 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1617155166358.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2934666619",
+    "id" : "14B2A128",
+    "lastKnownWriteTime" : 1617330473,
+    "last_content_update" : 1617330473588,
+    "path" : "~/R/S350/Problem Sets/ProblemSet09/Unchit_Ploy_ProblemSet09.Rmd",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "12,125",
+        "last_setup_crc32" : "",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

@@ -1,0 +1,1 @@
+{"frames":[{"character_number":0,"end_character_number":0,"end_line_number":0,"file":"","func":"ggplot(adults, aes(x = Height, y = Weight))","line_number":0}],"message":"Error in ggplot(adults, aes(x = Height, y = Weight)) : \n  object 'adults' not found\n"}

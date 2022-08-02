@@ -1,0 +1,133 @@
+---
+title: "Exam2"
+author: "Ploy Unchit"
+date: "4/8/2021"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Sources:
+-notes
+-slides
+-homework
+-web
+
+1A)
+```{r}
+n <- 33 + (2*38) + (3*14) + (4*4) + (5*2) 
+mean <- n/100
+mean
+#The sample mean is 1.77
+```
+
+1B)
+```{r}
+lower <- 1.77 - qt(.975, df = 100) * (1.06 / sqrt(100))
+upper <- 1.77 + qt(.975, df = 100) * (1.06 / sqrt(100))
+lower
+upper
+#The confidence interval is between 1.560 and 1.980
+```
+
+1C)
+Confidence intervals are usually not whole numbers. All it is saying is that the average number of cars in a household is between 1.560 and 1.980. Saying between 1 to 2 cars is not that accurate.
+
+2A)
+I think it's normal because there's a bell curve around the mean, which is 64420. Also the qq plot graph has data clustered along a diagonal line across and there's not many outliers.
+
+2B)
+```{r}
+tenureLower <- 121491 - qt(.975, df= 99) * (56404.86 / sqrt(100))
+tenureUpper <- 121491 + qt(.975, df= 99) * (56404.86 / sqrt(100))
+tenureLower
+tenureUpper
+#The confidence interval is between 110299.1 and 132682.9
+```
+
+2C)
+```{r}
+nonTenureLower <- 64420 - qt(.975, df= 99) * (15460.95 / sqrt(100))
+nonTenureUpper <- 64420 + qt(.975, df= 99) * (15460.95 / sqrt(100))
+nonTenureLower
+nonTenureUpper
+#The confidence interval is between 61352.21 and 67487.79
+```
+
+2D) 
+I mean, usually tenure faculty earn more than non tenure faculty. In this situation, the student's interpretation is incorrect because the data just shows estimate for the parameters of the salary that was unknown before.
+
+3A)
+There are two independent samples: city and highway mpg. Those two mpg are different because highway burns less gas because of less stops while city burns more gas because of the frequent stopping. They are indepedent of each other due to their different environments.
+
+3B)
+```{r}
+highwayMPG <- c(29, 23, 21, 20, 29, 34, 22, 20, 22, 31, 34)
+cityMPG <- c(19, 15, 14, 14, 19, 25, 14, 14, 15, 25, 23)
+t.test(highwayMPG, cityMPG)
+#The degrees of freedom is 19.247.
+#The test statistic is 3.694.
+```
+
+3C)
+I can conclude that there is strong evidence against the null hypothesis because the p value is really small and less than alpha = 0.05. There is evidence average difference in means is 7 to 9 with the highway being higher than the city MPG.
+
+4A)
+```{r}
+currydist <- read.table("currydist.txt", header=TRUE)
+summary(currydist)
+lower <- 0.5038  - qt(.975, df= 1597) * (sd(currydist$made) / sqrt(1598))
+upper <- 0.5038  + qt(.975, df= 1597) * (sd(currydist$made) / sqrt(1598))
+lower
+upper
+#The point estimate is 0.504
+#The confidence interval is between 0.480 and 0.528
+```
+
+4B)
+```{r}
+home <- subset(currydist$made, currydist$venue == "Home")
+away <- subset(currydist$made, currydist$venue == "Away")
+plot(ecdf(home), main = "Shots at Home",
+     xlab = "Success percentage of shots", ylab = "Empirical CDF")
+plot(ecdf(away), main = "Shots Away",
+     xlab = "Success percentage of shots", ylab = "Empirical CDF")
+
+```
+
+4C)
+```{r}
+home <- subset(currydist$distance, currydist$venue == "Home")
+away <- subset(currydist$distance, currydist$venue == "Away")
+summary(home)
+summary(away)
+#The distance at home (17.83) is larger than the distance (16.94) at away games.
+```
+
+4D)
+The assumptions were met.
+
+5A)
+right railed test μ > μ0
+#μ > 0, μ0 <= 0
+
+5B)
+```{r}
+wii <- read.table("wii.txt", header=TRUE)
+summary(wii)
+#Treatment and Control
+treatment <- subset(wii$Change, wii$Group == "Treatment")
+control <- subset(wii$Change, wii$Group == "Control")
+pval <- 1-pnorm(wii$Group == "Treatment")
+pval
+```
+
+5C)
+I don't reject the hypothesis.
+
+5D)
+The weakness and limitations would be their usage of video games before the experiment. If I were to change the experiment, I would take into acconut of that. Also, Wii Sports and Wii Resort has nothing to do with surgery. I would rather they do a VR surgery to improve their surgery skills.

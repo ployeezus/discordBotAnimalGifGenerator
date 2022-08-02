@@ -1,0 +1,4 @@
+"0","aggregate(Changes ~ Treatment, FUN = mean, data = anorexia)"
+"2","Error in get(as.character(FUN), mode = ""function"", envir = envir) : 
+  object 'FUN' of mode 'function' was not found
+"

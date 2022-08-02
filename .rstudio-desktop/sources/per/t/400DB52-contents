@@ -1,0 +1,243 @@
+---
+title: "Unchit_Ploy_S350_Final"
+author: "Ploy Unchit"
+date: "5/5/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Sources:
+-my notes
+-course notes on Canvas (slides, PDF, rmd files, etc)
+-textbook
+
+1A)
+```{r}
+1 - pbinom(156, 329, .5)
+```
+The p value is 0.811.
+
+1B)
+```{r}
+n = 329
+x_bar = 157 / 329
+sd_error = sqrt(x_bar * (1 - x_bar) / n)
+# Lower bound
+x_bar - qnorm(0.975) * sd_error
+# Upper bound
+x_bar + qnorm(0.975) * sd_error
+```
+
+The 95% confidence interval goes from 42.323% to 53.118%.
+
+1C)
+There is evidence that beautiful parents are more likely to have more daughters than other parents (42%-53% of the time).
+
+2A)
+The mathematical null is H0: delta = 0. The alternate hypothesis is  H1: delta (not =) 0. I would use Welch's t-stastic.
+
+2B)
+```{r}
+welch <- (6-5.1) / sqrt((2^2/393) + (2^2/388))
+welch
+degrees <- ((2^2/393) + (2^2/388))^2 / (((2^2/393)^2/392) + ((2^2/388)^2/387))
+degrees
+2 * (1 - pt(abs(welch), df = degrees))
+```
+The t-stastic is 6.288 and the p-value is 5.361e-10.
+
+2C)
+```{r}
+SE <- 2 / sqrt(388)
+lower <- .9 - qt(.975, df = degrees) * SE
+higher <- .9 + qt(.975, df = degrees) * SE
+SE
+lower
+higher
+```
+The 95% confidence interval for the average effect of withholding supplemental bottle-feeding on percentage weight loss is between .70069 and 1.0993.
+
+2D)
+We are 95% confident that the percentage weight loss of withholding supplemental bottle-feeding on babies is higher than the bottle-feeding baby group by .70069 to 1.0993 percentage.
+
+3A)
+The equation for regression line is E(Y| X = x) = B0 + B1x where B1 is p*sigma y/sigma x and B0 is mean y - B1 * mean x.
+
+3B)
+```{r}
+B1 <- .6 * (15/3.75)
+B1
+B0 <- 50 - B1 * 48
+B0
+prediction <- B0 + B1 *  50
+prediction
+```
+The math test score is 54.8.
+
+3C)
+No, it doesn't mean that. The 95% confidence for the slope of the regression line means  how much the regression prediction changes for each unit that x changes. Correlation is not causation. 
+
+4A)
+```{r}
+grand.mean <- (.49 + -.56 + .04) / 3
+grand.mean
+SSB <- 98 * (.49 - grand.mean)^2 +
+  94 * (-.56 - grand.mean)^2 +
+  98 * (.04 - grand.mean)^2
+SSB
+
+SSW <- (98 - 1) * 1.34^2 + (94 - 1) * 1.38^2 + (98 - 1) * 1.05^2
+SSW
+
+SST <- SSB+SSW
+SST
+
+BMS <- SSB / 2
+WMS <- SSW / 287
+BMS
+WMS
+
+F <- BMS/WMS
+F
+```
+
+Variations   | Sum of Squares | DF   | Mean Squares | F
+Between      |      53.18     |  2   |    26.59     | 16.65411
+Within       |    458.2249    |  287 |   1.596602   | 
+Total        |    511.4049    |      |              | 
+
+4B)
+```{r}
+1 - pf(F, df1 = 2, df2 = 287)
+```
+
+```{r}
+#300 vs V for Vendetta
+grand.mean <- (.49 + -.56) / 2
+grand.mean
+SSB <- 98 * (.49 - grand.mean)^2 +
+  94 * (-.56 - grand.mean)^2
+SSB
+
+SSW <- (98 - 1) * 1.34^2 + (94 - 1) * 1.38^2
+SSW
+
+SST <- SSB+SSW
+SST
+
+BMS <- SSB / 1
+WMS <- SSW / 191
+BMS
+WMS
+
+F <- BMS/WMS
+F
+
+1 - pf(F, df1 = 1, df2 = 192)
+```
+
+The p value for 300 vs V for Vendetta is 2.324e-07.
+
+
+```{r}
+#300 vs 21 Jump Street
+grand.mean <- (.49 + .04) / 2
+grand.mean
+SSB <- 98 * (.49 - grand.mean)^2 +
+  98 * (.04 - grand.mean)^2
+SSB
+
+SSW <- (98 - 1) * 1.34^2 + (98 - 1) * 1.05^2
+SSW
+
+SST <- SSB+SSW
+SST
+
+BMS <- SSB / 2
+WMS <- SSW / 195
+BMS
+WMS
+
+F <- BMS/WMS
+F
+```
+
+The p value for 300 vs 21 Jump Street is 3.441.
+
+```{r}
+#V for Vendetta vs 21 Jump Street
+grand.mean <- (-.56 + .04) / 2
+grand.mean
+SSB <- 94 * (-.56 - grand.mean)^2 +
+  98 * (.04 - grand.mean)^2
+SSB
+
+SSW <- (94 - 1) * 1.38^2 + (98 - 1) * 1.05^2
+SSW
+
+SST <- SSB+SSW
+SST
+
+BMS <- SSB / 1
+WMS <- SSW / 191
+BMS
+WMS
+
+F <- BMS/WMS
+F
+```
+
+The p value for V for Vendetta vs 21 Jump Street is 11.619.
+
+5A)
+```{r}
+laptopstudy1 <- read.table("laptopstudy1.txt", header = TRUE)
+laptopstudy1$condition = factor(laptopstudy1$condition)
+laptopstudy1$whichtalk = factor(laptopstudy1$whichtalk)
+print(laptopstudy1$whichtalk)
+#Not sure why factor() isn't working :(
+islam <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "1")
+inequality <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "2")
+ideas <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "3")
+indus <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "4")
+algorithms <- subset(laptopstudy1$objectiveZ, laptopstudy1$whichtalk == "5")
+boxplot(objectiveZ ~ whichtalk, data = laptopstudy1,
+  ylab="objectiveZ", main="objectiveZ by talk")
+```
+
+
+The distributions do differ.
+
+5B)
+```{r}
+qqnorm(islam)
+qqnorm(inequality)
+qqnorm(ideas)
+qqnorm(indus)
+qqnorm(algorithms)
+```
+
+I think they were kinda successful because of the points matches a straight line.
+
+5C)
+```{r}
+laptop <- subset(laptopstudy1$objectiveZ, laptopstudy1$condition == "0")
+paper <- subset(laptopstudy1$objectiveZ, laptopstudy1$condition == "1")
+```
+
+5D)
+```{r}
+laptop <- subset(laptopstudy1$openZ, laptopstudy1$condition == "0")
+paper <- subset(laptopstudy1$openZ, laptopstudy1$condition == "1")
+```
+
+5E)
+
+5F)
+If you want more power, then the alternative has to be true and you have to reject the null. You also have to have the Type II error probability be low. Besides more including more samples, you could do a nonparametric test, which means a weaker assumption. 
+
+5G)
+I believe that different students learn differently so we should have options. Personally, I retain more information when I write it down, draw a picture, and try to summarize it myself.

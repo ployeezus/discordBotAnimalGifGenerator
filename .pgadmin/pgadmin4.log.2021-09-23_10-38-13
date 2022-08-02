@@ -1,0 +1,119 @@
+2021-09-22 15:07:11,381: WARNING	werkzeug:	WebSocket transport not available. Install simple-websocket for improved performance.
+2021-09-22 15:07:59,472: ERROR	pgadmin:	404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/helpers.py", line 1083, in send_static_file
+    return send_from_directory(
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/helpers.py", line 767, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2021-09-22 15:08:30,619: ERROR	pgadmin:	404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/helpers.py", line 1083, in send_static_file
+    return send_from_directory(
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/helpers.py", line 767, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2021-09-22 15:57:13,216: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7279440(Query-id: 2851438):
+Error Message:ERROR:  missing FROM-clause entry for table "e"
+LINE 3: WHERE P.pid = W.pid AND e.empsalary <
+                                ^
+SQL state: 42P01
+Character: 72
+2021-09-22 16:01:54,344: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7279440(Query-id: 8075639):
+Error Message:ERROR:  column "IBM" does not exist
+LINE 6: WHERE W.cname = "IBM"); 
+                        ^
+SQL state: 42703
+Character: 132
+2021-09-22 16:01:56,921: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7279440(Query-id: 8532080):
+Error Message:ERROR:  column "IBM" does not exist
+LINE 6: WHERE W.cname = "IBM"); 
+                        ^
+SQL state: 42703
+Character: 132
+2021-09-22 16:02:04,878: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7279440(Query-id: 4464113):
+Error Message:ERROR:  more than one row returned by a subquery used as an expression
+SQL state: 21000
+2021-09-22 16:05:14,519: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7279440(Query-id: 9458435):
+Error Message:ERROR:  more than one row returned by a subquery used as an expression
+SQL state: 21000
+2021-09-22 16:23:31,140: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7279440(Query-id: 3736912):
+Error Message:ERROR:  missing FROM-clause entry for table "w2"
+LINE 3: ...E P.pid = W.pid AND W.cname = 'IBM' AND W.salary < W2.salary
+                                                              ^
+SQL state: 42P01
+Character: 117
+2021-09-22 16:29:26,115: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7279440(Query-id: 7083648):
+Error Message:ERROR:  table name "w" specified more than once
+SQL state: 42712
+2021-09-22 16:29:40,637: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7279440(Query-id: 9821286):
+Error Message:ERROR:  table name "w" specified more than once
+SQL state: 42712
+2021-09-23 00:09:50,184: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7279440(Query-id: 631800):
+Error Message:ERROR:  argument of AND must be type boolean, not type integer
+LINE 7: AND P2.pid = W2.pid AND W2.cname = 'IBM' AND P2.pid AND P2.p...
+                                                     ^
+SQL state: 42804
+Character: 242
+2021-09-23 00:12:35,977: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7279440(Query-id: 2970485):
+Error Message:ERROR:  syntax error at or near "ALL"
+LINE 4: ...2.pid  AND P2.pid = PK.pid  AND PK.skill = 'Programming' ALL
+                                                                    ^
+SQL state: 42601
+Character: 216
+2021-09-23 10:34:47,629: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7279440(Query-id: 8632034):
+Error Message:ERROR:  syntax error at or near "("
+LINE 5: (SELECT ALL W.cname, W2.cname
+        ^
+SQL state: 42601
+Character: 216
+2021-09-23 10:35:05,499: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7279440(Query-id: 4620830):
+Error Message:ERROR:  syntax error at or near "("
+LINE 5: (SELECT W.cname, W2.cname
+        ^
+SQL state: 42601
+Character: 211
+2021-09-23 10:35:16,976: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7279440(Query-id: 9168909):
+Error Message:ERROR:  subquery must return only one column
+LINE 5: (SELECT W.cname, W2.cname
+        ^
+SQL state: 42601
+Character: 215
+2021-09-23 10:35:34,082: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7279440(Query-id: 3681292):
+Error Message:ERROR:  syntax error at or near "WHERE"
+LINE 5: WHERE W.cname = 'IBM' AND W2.cname = 'IBM')
+        ^
+SQL state: 42601
+Character: 215
+2021-09-23 10:35:41,219: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7279440(Query-id: 4817717):
+Error Message:ERROR:  syntax error at or near ")"
+LINE 4: ...ll = 'Programming' AND W.cname = 'IBM' AND W2.cname = 'IBM')
+                                                                      ^
+SQL state: 42601
+Character: 251
+2021-09-23 10:36:38,303: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7279440(Query-id: 2817825):
+Error Message:ERROR:  subquery has too many columns
+LINE 4: ...pid = PK.pid  AND PK.skill = 'Programming' AND W.cname = ANY
+                                                                  ^
+SQL state: 42601
+Character: 228
+2021-09-23 10:37:07,794: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7279440(Query-id: 6562588):
+Error Message:ERROR:  subquery has too many columns
+LINE 4: ...pid = PK.pid  AND PK.skill = 'Programming' AND W.cname = ANY
+                                                                  ^
+SQL state: 42601
+Character: 228
+2021-09-23 10:38:13,717: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7279440(Query-id: 4122729):
+Error Message:ERROR:  column reference "cname" is ambiguous
+LINE 4: ...id = PK.pid  AND PK.skill = 'Programming' AND NOT cname = AN...
+                                                             ^
+SQL state: 42702
+Character: 224

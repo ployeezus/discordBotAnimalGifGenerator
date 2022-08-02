@@ -1,0 +1,1 @@
+"0","ggplot(examanxiety.lm.df, aes(x, abs(.resid))) + geom_point() + geom_smooth()"

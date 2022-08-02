@@ -1,0 +1,2 @@
+"0","twenty <- read.table(""twenty.txt"", header = TRUE)"
+"0","twenty"

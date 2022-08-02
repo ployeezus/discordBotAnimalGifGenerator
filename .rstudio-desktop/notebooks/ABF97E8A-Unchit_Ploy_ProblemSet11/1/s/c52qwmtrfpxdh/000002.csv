@@ -1,0 +1,7 @@
+"0","pval <- 1 - pf(F, df1 = 3, df2 = 136)"
+"0","pval"
+"1","[1]"
+"1"," 0.0002262672"
+"1","
+"
+"0","# I would not reject it because the pvalue is smaller than .05."

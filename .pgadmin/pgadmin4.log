@@ -1,0 +1,13 @@
+2021-12-18 21:47:57,462: WARNING	werkzeug:	WebSocket transport not available. Install simple-websocket for improved performance.
+2021-12-18 21:48:27,205: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:933147(Query-id: 852693):
+Error Message:ERROR:  SELECT * with no tables specified is not valid
+LINE 1: select *
+               ^
+SQL state: 42601
+Character: 8
+2021-12-18 21:48:33,486: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:933147(Query-id: 9104975):
+Error Message:ERROR:  SELECT * with no tables specified is not valid
+LINE 1: select *;
+               ^
+SQL state: 42601
+Character: 8

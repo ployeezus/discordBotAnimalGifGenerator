@@ -1,0 +1,28 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1620259203587.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "56583521",
+    "id" : "400DB52",
+    "lastKnownWriteTime" : 1620273025,
+    "last_content_update" : 1620273025393,
+    "path" : "~/R/S350/Exams/Unchit_Ploy_S350_Final.Rmd",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "239,257",
+        "docOutlineVisible" : "0",
+        "last_setup_crc32" : "94508D3Bbb338d19",
+        "scrollLine" : "221",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

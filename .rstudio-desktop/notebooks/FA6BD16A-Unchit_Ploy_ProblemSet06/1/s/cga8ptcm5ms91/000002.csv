@@ -1,0 +1,5 @@
+"0","pulses <- scan(""pulses.dat"")"
+"2","Read 39 items
+"
+"0","plot(ecdf(pulses), main = ""ECDF of Peruvian Indian Pulses"","
+"0","     xlab = ""Pulse Rate (bpm)"", ylab = ""Empirical CDF"")"

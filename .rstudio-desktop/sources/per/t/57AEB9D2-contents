@@ -1,0 +1,140 @@
+---
+title: "In-class 4/2/21"
+author: "S350"
+date: "4/2/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Q4: Quote attribution
+
+```{r}
+quote <- read.table("quoteattribution.txt", header = TRUE)
+summary(quote)
+nrow(quote)
+quote
+```
+
+Omit missing values:
+```{r}
+quote2 <- na.omit(quote)
+summary(quote2)
+nrow(quote2)
+```
+
+Separate the data into Washington and bin Laden groups:
+
+```{r}
+Washington <- subset(quote2, quoteGroup == 1)
+summary(Washington)
+```
+```{r}
+binLaden <- subset(quote2, quoteGroup == 0)
+summary(binLaden)
+```
+
+Graph the "quote" variable for each subset. Since the data is discrete, a histogram for each is a good choice.
+```{r}
+hist(Washington$quote, breaks = 0.5:9.5,
+     main = "Distribution of scores for Washington group",
+     xlab = "Score (1-9 scale)")
+hist(binLaden$quote, breaks = 0.5:9.5,
+     main = "Distribution of scores for bin Laden group",
+     xlab = "Score (1-9 scale)")
+```
+
+We have two population: one of people told the quote was by Washington, one of people told the quote was by bin Laden.
+
+Let mu_W be the expected score given by people told the quote was by Washington.
+
+Let mu_bL be the expected score given by people told the quote was by bin Laden.
+
+Let Delta = mu_W - mu_bL be the difference between these expected values.
+
+H0 : Delta <= 0
+
+H1 : Delta > 0
+
+We will do a Welch's two-sample t-test of these hypotheses. This test assumes: 
+
+- Two independent samples
+- from two normally distributed populations
+
+The samples are (close to) independent. The samples are *NOT* normally distributed. However, we can still do the test, because as the sample sizes are large, the test statistic should approach a normal distribution under the null hypothesis (which is indistiguishable for a t-distribution with high degrees of freedom.)
+
+```{r}
+t.test(Washington$quote, binLaden$quote, alt = "greater")
+```
+The Welch's t-statistic is 12.8. Comparing that to a t-distribution with 6323 degrees of freedom gives a P-value of basically zero.
+
+```{r}
+t.test(Washington$quote, binLaden$quote, conf.level = 0.99)$conf.int
+```
+A 99% confidence interval for Delta is 0.56 to 0.84 points on the 1-9 scale.
+
+We tried to replicate the original finding. The small P-value shows strong evidence against the null and for the alternative that attributing the quote to the more liked individual gets higher ratings on average. A 99% CI for the difference in average ratings is 0.56 to 0.84 points on the 1-9 scale, which seems like a reasonably sized difference.
+
+## Q5: Power posing
+
+We study the *differences* in testosterone measurements (after minus before) because people vary a lot in testosterone, and so by taking differences, we can more precisely determine the *effect* of the treatments.
+
+```{r}
+ranehill <- read.table("ranehill20.txt", header = TRUE)
+summary(ranehill)
+```
+```{r}
+ranehill$differences <- ranehill$test2 - ranehill$test1
+summary(ranehill)
+```
+```{r}
+library(ggplot2)
+ggplot(ranehill, aes(x = differences)) + geom_density() +
+  facet_grid(~hp_condition) +
+  ggtitle("Testosterone changes for low-power pose (0) and high-power pose (1) groups") +
+  xlab("Change in testosterone")
+```
+
+Let mu_0 be the expected change in testosterone in the low-power pose group.
+
+Let mu_1 be the expected change in testosterone in the high-power pose group.
+
+Let Delta = mu_1 - mu_0.
+
+H0 : Delta <= 0
+
+H1 : Delta > 0
+
+```{r}
+lowPower <- subset(ranehill, hp_condition == 0)
+highPower <- subset(ranehill, hp_condition == 1)
+summary(lowPower$differences)
+summary(highPower$differences)
+```
+The distributions are non-normal, but the sample sizes are largeish, so we can probably get away with doing Welch's two-sample t-test.
+
+```{r}
+t.test(highPower$differences, lowPower$differences, alt = "greater")
+```
+The Welch's t-statistic is -1.41. Comparing that to a t-distribution with 196 degrees of freedom gives a P-value of 0.92. This is *not* a small P-value, so the data is consistent with the null hypothesis; we haven't proved the alternative. From this study, there's no evidence that a high-power pose raises testosterone relative to the low-power pose (on average.)
+
+```{r}
+wilcox.test(highPower$differences, lowPower$differences, alt = "greater")
+```
+
+*Don't test hypotheses chosen after looking at the data!*
+
+
+
+
+
+
+
+
+
+
+
+
+

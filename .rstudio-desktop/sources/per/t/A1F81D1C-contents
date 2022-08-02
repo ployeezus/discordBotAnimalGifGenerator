@@ -1,0 +1,198 @@
+---
+title: "Unchit_Ploy_ProblemSet11"
+author: "Ploy Unchit"
+date: "4/27/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1A) 
+(Book 15.7, Ex: 5A)
+```{r}
+sis <- c(69, 64, 65, 63, 65, 62, 65, 64, 66, 59, 62)
+bro <- c(71, 68, 66, 67, 70, 71, 70, 73, 72, 65, 66)
+cor(sis, bro)^2
+#The sample coefficient of determination is 0.311
+```
+
+1B)
+(Book 15.7, Ex: 5B)
+```{r}
+a <- .05
+t.test(sis, bro)
+#We don't accept the null hypothesis because the p-value (0.0002581) is less than alpha.
+```
+
+1C)
+(Book 15.7, Ex: 5C)
+```{r}
+size <- c(sis, bro)
+slope <- cor(sis, bro) * (sd(bro) / sd(sis))
+intercept <- mean(bro) - (slope * mean(sis))
+slope
+intercept
+model <- lm(sis ~ bro)
+summary(model)
+
+0.5270 - qt(.95, df = 9) * 0.2612
+0.5270 + qt(.95, df = 9) * 0.2612
+#The confidence interval is between 0.0481909 and 1.005809
+```
+
+2A)
+```{r}
+examanxiety <- read.table("examanxiety.txt", header = TRUE)
+summary(examanxiety)
+male <- subset(examanxiety$Anxiety, examanxiety$Gender == "Male")
+female <- subset(examanxiety$Anxiety, examanxiety$Gender == "Female")
+summary(male)
+summary(female)
+```
+
+2B)
+```{r}
+x <- examanxiety$Anxiety
+y <- examanxiety$Exam
+mean.x <- mean(examanxiety$Anxiety)
+mean.y <- mean(examanxiety$Exam)
+r <- cor(x, y)
+
+beta1 <- r * (sd(y) / sd(x))
+beta1
+
+beta0 <- mean.y - (beta1 * mean.x)
+beta0
+
+answer <- beta0 + (beta1 * mean.x)
+answer
+
+#My regression line means that the slope is  -0.730 (beta1) and the intercept would be 111.244 (beta0). 
+```
+
+2C)
+```{r}
+#Graph 1
+examanxiety.lm <- lm(x ~ y, data = examanxiety)
+summary(examanxiety.lm)
+library(ggplot2)
+ggplot(examanxiety.lm, aes(log(x), log(y))) + geom_point() + geom_smooth()
+fitted.values(examanxiety.lm)
+res <- residuals(examanxiety.lm)
+plot(x, res)
+#Linearity: Yes (Look at graph 2)
+#Independence: They are indepedent because the experiment was on the same day and the whole class took it.
+#Homoskedasticity: No, there is no constant spread (Look at graph 3)
+#Normality of Errors: It does not follow a normal distribution (look at graph 4)
+```
+```{r}
+#Graph 2
+library(broom)
+examanxiety.lm.df <- augment(examanxiety.lm)
+ggplot(examanxiety.lm.df, aes(x, .resid)) + geom_point() + geom_smooth()
+```
+
+```{r}
+#Graph 3
+ggplot(examanxiety.lm.df, aes(x, abs(.resid))) + geom_point() + geom_smooth()
+```
+
+```{r}
+#Graph4
+ggplot(examanxiety.lm.df, aes(sample = .resid)) + stat_qq()
+```
+
+3A)
+We assume that all observations are independent of each other and that each sample comes from a normally distributed population with the same variance. The rats are all in seperate cages and split up randomly so they can be independent of each other. The proportions of the rats for each feed are equal. Therefore, the data is consistent with all the assumptions.
+
+3B)
+Variations   | Sum of Squares | DF   | Mean Squares | F
+Between      | 4698.75        | 3    |  1556.25     | 6.922666
+Within       | 23813.94       | 136  |  224.805     | 
+Total        | 28512.69       | 140  |              | 
+
+```{r}
+grand.mean <- (83.5 + 92.3 + 88.6 + 99.4) /4
+grand.mean
+SSB <- 35 * (83.5 - grand.mean)^2 +
+  35 * (92.3 - grand.mean)^2 +
+  35 * (88.6 - grand.mean)^2 +
+  35 * (99.4 - grand.mean)^2
+SSB
+
+SSW <- (35 - 1) * 16.9^2 + (35 - 1) * 14.6^2 + (35 - 1) * 14.2^2
+SSW
+
+SST <- SSB+SSW
+SST
+
+BMS <- SSB / 3
+WMS <- SSW / 136
+BMS
+WMS
+
+F <- 1556.25/224.805
+F
+```
+
+3C)
+```{r}
+pval <- 1 - pf(F, df1 = 3, df2 = 136)
+pval
+# I would not reject it because the pvalue is smaller than .05.
+```
+
+4A)
+```{r}
+game.empathy <- read.table("GameEmpathy.txt", header = TRUE)
+summary(game.empathy)
+
+neutral.players <- subset(game.empathy$empathy, game.empathy$game.type == "neutral")
+halflife.players <- subset(game.empathy$empathy, game.empathy$game.type == "HalfLife")
+gta.players <- subset(game.empathy$empathy, game.empathy$game.type == "GTA")
+
+summary(neutral.players)
+summary(halflife.players)
+summary(gta.players)
+
+sd(neutral.players)
+sd(halflife.players)
+sd(gta.players)
+
+grand.mean <- (5.05381 + 5.293939 + 5.029762) / 3
+grand.mean
+SSB <- 152 * (5.05381 - grand.mean)^2 +
+  152 * (5.293939 - grand.mean)^2 +
+  152 * (5.029762 - grand.mean)^2 
+SSB
+
+SSW <- (152 - 1) * 0.9542354^2 + (152 - 1) * 0.9227218^2 + (152 - 1) * 1.165788^2
+SSW
+
+SST <- SSB+SSW
+SST
+
+BMS <- SSB / 34
+WMS <- SSW / 1
+BMS
+WMS
+
+F <- BMS/WMS
+F
+
+#The averages are about the same (5.054, 5.294, 5.030)
+```
+
+4B)
+```{r}
+neutral.id <- subset(game.empathy$identify, game.empathy$game.type == "neutral")
+halflife.id <- subset(game.empathy$identify, game.empathy$game.type == "HalfLife")
+gta.id <- subset(game.empathy$identify, game.empathy$game.type == "GTA")
+
+plot(neutral.id, neutral.players)
+plot(halflife.id, halflife.players)
+plot(gta.id, gta.players)
+
+```

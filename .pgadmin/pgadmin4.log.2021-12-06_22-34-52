@@ -1,0 +1,13 @@
+2021-12-06 22:13:27,552: WARNING	werkzeug:	WebSocket transport not available. Install simple-websocket for improved performance.
+2021-12-06 22:34:47,318: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:5843520(Query-id: 7030281):
+Error Message:ERROR:  syntax error at or near "EXISTS"
+LINE 1: EXISTS  set predicates.
+        ^
+SQL state: 42601
+Character: 1
+2021-12-06 22:34:52,660: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:5843520(Query-id: 134638):
+Error Message:ERROR:  syntax error at or near "EXISTS"
+LINE 1: EXISTS  set predicates
+        ^
+SQL state: 42601
+Character: 1

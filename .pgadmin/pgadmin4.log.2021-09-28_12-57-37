@@ -1,0 +1,12 @@
+2021-09-28 12:45:22,449: WARNING	werkzeug:	WebSocket transport not available. Install simple-websocket for improved performance.
+2021-09-28 12:45:47,241: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:9660473(Query-id: 3431044):
+Error Message:ERROR:  return type mismatch in function declared to return text
+DETAIL:  Final statement must return exactly one column.
+CONTEXT:  SQL function "knowsemployeeatcompany"
+SQL state: 42P13
+2021-09-28 12:57:37,811: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:9660473(Query-id: 7305129):
+Error Message:ERROR:  missing FROM-clause entry for table "a"
+LINE 4: SELECT a.x as x, CBRT(a.x) AS cube_root_x, POWER(a.x, a.x) A...
+               ^
+SQL state: 42P01
+Character: 81

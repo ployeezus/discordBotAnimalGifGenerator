@@ -1,0 +1,4 @@
+"0","#Graph 2"
+"0","library(broom)"
+"0","examanxiety.lm.df <- augment(examanxiety.lm)"
+"0","ggplot(examanxiety.lm.df, aes(x, .resid)) + geom_point() + geom_smooth()"

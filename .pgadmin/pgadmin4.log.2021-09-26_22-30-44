@@ -1,0 +1,338 @@
+2021-09-25 20:39:29,869: WARNING	werkzeug:	WebSocket transport not available. Install simple-websocket for improved performance.
+2021-09-25 20:46:02,132: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7973178(Query-id: 1558552):
+Error Message:ERROR:  syntax error at or near "FROM"
+LINE 1: FROM person P, person P2, worksfor W,  worksfor W2, personsk...
+        ^
+SQL state: 42601
+Character: 1
+2021-09-25 20:46:07,522: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7973178(Query-id: 7422408):
+Error Message:ERROR:  syntax error at or near "FROM"
+LINE 1: FROM person P, person P2, worksfor W,  worksfor W2, personsk...
+        ^
+SQL state: 42601
+Character: 1
+2021-09-25 20:46:20,576: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7973178(Query-id: 1610311):
+Error Message:ERROR:  syntax error at or near "FROM"
+LINE 1: FROM person P, person P2, worksfor W,  worksfor W2, personsk...
+        ^
+SQL state: 42601
+Character: 1
+2021-09-25 20:48:13,600: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7973178(Query-id: 8911001):
+Error Message:ERROR:  syntax error at or near ")"
+LINE 6: ....pid = W2.pid AND W2.cname = 'IBM' AND P2.pid = PK.pid AND);
+                                                                     ^
+SQL state: 42601
+Character: 304
+2021-09-25 20:52:41,307: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7973178(Query-id: 5303822):
+Error Message:ERROR:  missing FROM-clause entry for table "k"
+LINE 4:  AND K.skill > ANY
+             ^
+SQL state: 42P01
+Character: 169
+2021-09-25 20:53:11,389: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7973178(Query-id: 5118543):
+Error Message:ERROR:  syntax error at or near "."
+LINE 4: (SELECT DISTICT W2.cname
+                          ^
+SQL state: 42601
+Character: 200
+2021-09-25 20:53:23,116: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7973178(Query-id: 326100):
+Error Message:ERROR:  syntax error at or near "."
+LINE 4: (SELECT DISTICT PK.skill
+                          ^
+SQL state: 42601
+Character: 200
+2021-09-25 21:21:52,390: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7973178(Query-id: 1479599):
+Error Message:ERROR:  syntax error at or near ","
+LINE 2: FROM person P, person P2, , person P3, personskill PK, knows...
+                                  ^
+SQL state: 42601
+Character: 57
+2021-09-25 21:49:15,156: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7973178(Query-id: 2534288):
+Error Message:ERROR:  syntax error at or near "="
+LINE 4: K.pid2 = PK.pid = PK.skils = 'Networks';
+                        ^
+SQL state: 42601
+Character: 195
+2021-09-25 21:49:41,186: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7973178(Query-id: 8217966):
+Error Message:ERROR:  column pk.skills does not exist
+LINE 4: K.pid2 = PK.pid AND PK.skills = 'Networks';
+                            ^
+HINT:  Perhaps you meant to reference the column "pk.skill".
+SQL state: 42703
+Character: 199
+2021-09-25 21:54:10,105: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7973178(Query-id: 6367849):
+Error Message:ERROR:  syntax error at or near "EXCEPT"
+LINE 4: EXCEPT
+        ^
+SQL state: 42601
+Character: 108
+2021-09-25 21:55:10,410: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7973178(Query-id: 5733749):
+Error Message:ERROR:  missing FROM-clause entry for table "p"
+LINE 6: SELECT DISTINCT P.pid, P.name
+                        ^
+SQL state: 42P01
+Character: 245
+2021-09-25 21:58:15,813: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7973178(Query-id: 3727417):
+Error Message:ERROR:  syntax error at or near "EXCEPT"
+LINE 4: EXCEPT
+        ^
+SQL state: 42601
+Character: 147
+2021-09-25 21:58:20,962: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7973178(Query-id: 4645569):
+Error Message:ERROR:  missing FROM-clause entry for table "w"
+LINE 3: ...E P.pid = K.pid1 AND P2.pid = K.pid2 AND K.pid2 = W.pid AND ...
+                                                             ^
+SQL state: 42P01
+Character: 119
+2021-09-25 22:08:53,042: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7973178(Query-id: 4649430):
+Error Message:ERROR:  syntax error at or near "SELECT"
+LINE 4: SELECT DISTINCT P2.pid, P.name
+        ^
+SQL state: 42601
+Character: 176
+2021-09-25 22:09:01,030: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7973178(Query-id: 4225341):
+Error Message:ERROR:  subquery has too many columns
+LINE 3: ...d2 AND K.pid2 = W.pid AND W.cname = 'Hulu'AND P2.pid NOT IN 
+                                                                ^
+SQL state: 42601
+Character: 168
+2021-09-25 22:14:53,594: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7973178(Query-id: 2612123):
+Error Message:ERROR:  syntax error at or near "AND"
+LINE 6: WHERE AND P2.pid = K.pid2 AND K.pid2 = W.pid AND W.cname = '...
+              ^
+SQL state: 42601
+Character: 258
+2021-09-25 22:28:06,758: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7973178(Query-id: 4904374):
+Error Message:ERROR:  syntax error at or near "NOT"
+LINE 3: ...AND K.pid2 = W.pid AND W.cname = 'Hulu'AND P2.pid NOT EXISTS
+                                                             ^
+SQL state: 42601
+Character: 168
+2021-09-25 22:38:13,711: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7973178(Query-id: 9404863):
+Error Message:ERROR:  missing FROM-clause entry for table "c2"
+LINE 3: WHERE C.city = 'Bloomington' AND C2.city != 'Indianapolis';
+                                         ^
+SQL state: 42P01
+Character: 76
+2021-09-25 22:52:57,349: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7973178(Query-id: 3768728):
+Error Message:ERROR:  each EXCEPT query must have the same number of columns
+LINE 5: SELECT C.cname
+               ^
+SQL state: 42601
+Character: 123
+2021-09-25 22:53:14,525: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7973178(Query-id: 4388904):
+Error Message:ERROR:  each EXCEPT query must have the same number of columns
+LINE 5: SELECT C.cname
+               ^
+SQL state: 42601
+Character: 123
+2021-09-25 22:53:19,736: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7973178(Query-id: 1422819):
+Error Message:ERROR:  each EXCEPT query must have the same number of columns
+LINE 5: SELECT C.cname
+               ^
+SQL state: 42601
+Character: 123
+2021-09-25 22:53:29,375: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7973178(Query-id: 3441052):
+Error Message:ERROR:  each EXCEPT query must have the same number of columns
+LINE 5: (SELECT C.cname
+                ^
+SQL state: 42601
+Character: 124
+2021-09-25 22:54:12,065: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7973178(Query-id: 5735240):
+Error Message:ERROR:  missing FROM-clause entry for table "p"
+LINE 5: SELECT C.cname,  P.pid, P.name, W.salary
+                         ^
+SQL state: 42P01
+Character: 133
+2021-09-25 22:55:55,117: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:7973178(Query-id: 7679303):
+Error Message:ERROR:  syntax error at or near "EXCEPT"
+LINE 4: EXCEPT 
+        ^
+SQL state: 42601
+Character: 126
+2021-09-25 22:59:53,522: ERROR	pgadmin:	404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/helpers.py", line 1083, in send_static_file
+    return send_from_directory(
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/helpers.py", line 767, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2021-09-25 23:04:02,129: ERROR	pgadmin:	404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/helpers.py", line 1083, in send_static_file
+    return send_from_directory(
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/helpers.py", line 767, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2021-09-26 12:02:30,564: WARNING	werkzeug:	WebSocket transport not available. Install simple-websocket for improved performance.
+2021-09-26 20:34:50,480: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:636450(Query-id: 6398231):
+Error Message:ERROR:  syntax error at or near "WHERE"
+LINE 3: WHERE C.city = 'Bloomington' 
+        ^
+SQL state: 42601
+Character: 80
+2021-09-26 20:34:56,140: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:636450(Query-id: 338830):
+Error Message:ERROR:  syntax error at or near "WHERE"
+LINE 3: WHERE C.city = 'Bloomington' 
+        ^
+SQL state: 42601
+Character: 80
+2021-09-26 20:35:03,669: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:636450(Query-id: 6507565):
+Error Message:ERROR:  each EXCEPT query must have the same number of columns
+LINE 5: SELECT C.cname
+               ^
+SQL state: 42601
+Character: 124
+2021-09-26 20:35:12,411: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:636450(Query-id: 4900421):
+Error Message:ERROR:  missing FROM-clause entry for table "p"
+LINE 5: SELECT C.cname, P.pid, P.name, W.salary
+                        ^
+SQL state: 42P01
+Character: 133
+2021-09-26 20:35:22,632: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:636450(Query-id: 1816763):
+Error Message:ERROR:  syntax error at or near "WHERE"
+LINE 8: WHERE C.city = 'Indianapolis';
+        ^
+SQL state: 42601
+Character: 225
+2021-09-26 20:38:43,872: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:636450(Query-id: 6339704):
+Error Message:ERROR:  column "company" does not exist
+LINE 4: GROUP BY company
+                 ^
+SQL state: 42703
+Character: 135
+2021-09-26 20:38:58,832: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:636450(Query-id: 4420880):
+Error Message:ERROR:  column "p.pid" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 1: SELECT C.cname, P.pid, P.name, W.salary
+                        ^
+SQL state: 42803
+Character: 17
+2021-09-26 20:39:06,289: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:636450(Query-id: 6354228):
+Error Message:ERROR:  syntax error at or near "GROUP"
+LINE 9: GROUP BY C.cname
+        ^
+SQL state: 42601
+Character: 260
+2021-09-26 20:39:13,459: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:636450(Query-id: 8579451):
+Error Message:ERROR:  column "p.pid" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 1: SELECT C.cname, P.pid, P.name, W.salary
+                        ^
+SQL state: 42803
+Character: 17
+2021-09-26 20:39:28,588: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:636450(Query-id: 3677780):
+Error Message:ERROR:  column "p.pid" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 1: SELECT C.cname, P.pid, P.name, W.salary
+                        ^
+SQL state: 42803
+Character: 17
+2021-09-26 20:39:44,548: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:636450(Query-id: 7280530):
+Error Message:ERROR:  column "w.salary" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 1: SELECT C.cname, P.pid, P.name, W.salary
+                                       ^
+SQL state: 42803
+Character: 32
+2021-09-26 20:40:00,920: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:636450(Query-id: 1635726):
+Error Message:ERROR:  column "p.pid" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 1: SELECT C.cname, P.pid, P.name, W.salary
+                        ^
+SQL state: 42803
+Character: 17
+2021-09-26 20:53:15,232: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:636450(Query-id: 6544666):
+Error Message:ERROR:  aggregate functions are not allowed in WHERE
+LINE 3: ...= 'Bloomington' AND P.pid = W.pid AND W.salary <> MAX(W.sala...
+                                                             ^
+SQL state: 42803
+Character: 142
+2021-09-26 20:53:27,510: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:636450(Query-id: 3638620):
+Error Message:ERROR:  aggregate functions are not allowed in WHERE
+LINE 3: ...= 'Bloomington' AND P.pid = W.pid AND W.salary != MAX(W.sala...
+                                                             ^
+SQL state: 42803
+Character: 142
+2021-09-26 20:54:57,091: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:636450(Query-id: 9676610):
+Error Message:ERROR:  syntax error at or near "EXCEPT"
+LINE 5: EXCEPT 
+        ^
+SQL state: 42601
+Character: 153
+2021-09-26 20:59:31,514: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:636450(Query-id: 373498):
+Error Message:ERROR:  column "max_sal" does not exist
+LINE 3: ...ity = 'Bloomington' AND P.pid = W.pid AND W.salary < max_sal
+                                                                ^
+SQL state: 42703
+Character: 167
+2021-09-26 21:03:19,079: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:636450(Query-id: 235350):
+Error Message:ERROR:  aggregate functions are not allowed in WHERE
+LINE 4: 2 = (SELECT COUNT(DISTINCT W.salary)
+                    ^
+SQL state: 42803
+Character: 142
+2021-09-26 21:04:17,965: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:636450(Query-id: 1567310):
+Error Message:ERROR:  aggregate functions are not allowed in WHERE
+LINE 4: 2=(SELECT COUNT(DISTINCT W.salary)
+                  ^
+SQL state: 42803
+Character: 140
+2021-09-26 21:11:10,995: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:636450(Query-id: 6913482):
+Error Message:ERROR:  syntax error at or near "FROM"
+LINE 5:      FROM worksfor W))
+             ^
+SQL state: 42601
+Character: 172
+2021-09-26 21:11:18,259: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:636450(Query-id: 5238087):
+Error Message:ERROR:  aggregate functions are not allowed in WHERE
+LINE 4: (SELECT MAX(W.salary))
+                ^
+SQL state: 42803
+Character: 154
+2021-09-26 21:11:30,109: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:636450(Query-id: 394290):
+Error Message:ERROR:  aggregate functions are not allowed in WHERE
+LINE 4: (SELECT Max(W.salary))
+                ^
+SQL state: 42803
+Character: 154
+2021-09-26 21:21:54,677: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:636450(Query-id: 3757648):
+Error Message:ERROR:  syntax error at or near "SELECT"
+LINE 4: SELECT C.cname
+        ^
+SQL state: 42601
+Character: 145
+2021-09-26 21:33:29,537: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:636450(Query-id: 4785595):
+Error Message:ERROR:  syntax error at or near "NOT"
+LINE 6: ...L(SELECT W2.salary FROM worksfor W2)) AND C.cname NOT EXISTS
+                                                             ^
+SQL state: 42601
+Character: 240
+2021-09-26 21:44:17,824: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:636450(Query-id: 1771453):
+Error Message:ERROR:  table name "p" specified more than once
+SQL state: 42712
+2021-09-26 21:44:29,724: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:636450(Query-id: 5547180):
+Error Message:ERROR:  column w.worksfor does not exist
+LINE 3: WHERE W.worksfor = 'Netflix' AND P.pid = S.pid;
+              ^
+SQL state: 42703
+Character: 89
+2021-09-26 21:51:05,495: WARNING	werkzeug:	WebSocket transport not available. Install simple-websocket for improved performance.
+2021-09-26 22:08:07,149: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8944509(Query-id: 1073479):
+Error Message:ERROR:  syntax error at or near "."
+LINE 1: SELECT P.pid, P.name P.city, P.birthYear
+                              ^
+SQL state: 42601
+Character: 23
+2021-09-26 22:09:28,351: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8944509(Query-id: 4660220):
+Error Message:ERROR:  syntax error at or near "W"
+LINE 1: W.pid = P.pid AND 
+        ^
+SQL state: 42601
+Character: 1
+2021-09-26 22:30:44,306: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8944509(Query-id: 7831286):
+Error Message:ERROR:  function "salaryabove" already exists with same argument types
+SQL state: 42723

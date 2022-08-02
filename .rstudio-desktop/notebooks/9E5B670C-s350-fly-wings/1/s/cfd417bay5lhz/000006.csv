@@ -1,0 +1,9 @@
+"0","wings <- scan(""wings.txt"")"
+"2","Read 100 items
+"
+"0","mean <- mean(wings)"
+"0","mean"
+"1","[1]"
+"1"," 45.5"
+"1","
+"

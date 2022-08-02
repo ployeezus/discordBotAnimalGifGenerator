@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1616119090863.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "310429196",
+    "id" : "7903CECA",
+    "lastKnownWriteTime" : 1616175328,
+    "last_content_update" : 1616175328691,
+    "path" : "~/R/S350/Problem Sets/ProblemSet06/s350-fly-wings.Rmd",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "67,0",
+        "last_setup_crc32" : "",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

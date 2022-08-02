@@ -1,0 +1,1 @@
+/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home:13:0:2:64:true:1576058191000

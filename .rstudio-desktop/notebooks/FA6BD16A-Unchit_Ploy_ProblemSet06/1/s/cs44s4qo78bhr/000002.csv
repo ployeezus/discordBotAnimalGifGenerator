@@ -1,0 +1,5 @@
+"0","t <- scan(""Trosset.dat"")"
+"2","Read 20 items
+"
+"0","plot(ecdf(t), main = ""ECDF of Trosset Data"","
+"0","     xlab = ""Units"", ylab = ""Empirical CDF"")"

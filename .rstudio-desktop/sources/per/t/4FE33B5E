@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1616777249715.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1937228328",
+    "id" : "4FE33B5E",
+    "lastKnownWriteTime" : 1616779301,
+    "last_content_update" : 1616779301639,
+    "path" : "~/R/S350/In Class/In-Class-3-26-21.Rmd",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "33,19",
+        "last_setup_crc32" : "",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

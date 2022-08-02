@@ -1,0 +1,2 @@
+"0","plot(density(pulses), main = ""Kernel density plot of Peruvian Indian Pulses"","
+"0","     xlab = ""Pulse rate (bpm)"")"

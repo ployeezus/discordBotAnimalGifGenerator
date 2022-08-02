@@ -1,0 +1,7 @@
+"0","pval <- 1 - pbinom(236, 720, .25)"
+"0","pval"
+"1","[1]"
+"1"," 1.157004e-06"
+"1","
+"
+"0","#The second option is the best option"

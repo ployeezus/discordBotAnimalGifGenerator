@@ -1,0 +1,2 @@
+"0","plot(density(wings), main = ""Kernel density plot of housefly wing lengths"","
+"0","     xlab = ""Wing length (mm)"")"

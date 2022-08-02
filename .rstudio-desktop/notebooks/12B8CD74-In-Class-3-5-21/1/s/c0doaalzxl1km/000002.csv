@@ -1,0 +1,2 @@
+"0","means.exp10000 <- replicate(9999, mean(rexp(10000)))"
+"0","qqnorm(means.exp10000)"

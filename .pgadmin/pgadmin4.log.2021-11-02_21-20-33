@@ -1,0 +1,162 @@
+2021-11-02 16:41:09,356: WARNING	werkzeug:	WebSocket transport not available. Install simple-websocket for improved performance.
+2021-11-02 16:45:37,088: ERROR	pgadmin:	404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/helpers.py", line 1083, in send_static_file
+    return send_from_directory(
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/helpers.py", line 767, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2021-11-02 16:47:41,218: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:8506325(Query-id: 4333457):
+Error Message:ERROR:  relation "worksfor" does not exist
+LINE 2: FROM worksfor w, person p
+             ^
+SQL state: 42P01
+Character: 21
+2021-11-02 16:54:09,148: ERROR	pgadmin:	404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/helpers.py", line 1083, in send_static_file
+    return send_from_directory(
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/helpers.py", line 767, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2021-11-02 19:34:57,181: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:9121802(Query-id: 1020933):
+Error Message:ERROR:  syntax error at or near "Indianapolis"
+LINE 1: Indianapolis
+        ^
+SQL state: 42601
+Character: 1
+2021-11-02 19:51:55,346: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:9121802(Query-id: 9971025):
+Error Message:ERROR:  syntax error at or near "="
+LINE 4: AND p1.pid = k.pid2 AND p1.pid = p1.city = 'Chicago'
+                                                 ^
+SQL state: 42601
+Character: 217
+2021-11-02 20:16:53,592: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:9121802(Query-id: 2776245):
+Error Message:ERROR:  column p1.byear does not exist
+LINE 4: AND w.salary >= 55000 AND p1.byear < 1985
+                                  ^
+SQL state: 42703
+Character: 187
+2021-11-02 20:34:26,418: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:9121802(Query-id: 1217235):
+Error Message:ERROR:  missing FROM-clause entry for table "w2"
+LINE 3: WHERE p.pid = w.pid AND p1.pid = w2.pid AND p1.pid = s.pid A...
+                                         ^
+SQL state: 42P01
+Character: 121
+2021-11-02 20:34:30,770: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:9121802(Query-id: 9480862):
+Error Message:ERROR:  missing FROM-clause entry for table "w2"
+LINE 3: WHERE p.pid = w.pid AND p1.pid = w2.pid AND p1.pid = s.pid A...
+                                         ^
+SQL state: 42P01
+Character: 121
+2021-11-02 21:00:36,584: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:9121802(Query-id: 3019478):
+Error Message:ERROR:  syntax error at or near "p"
+LINE 1: p.pid = w.pid AND w.salary > 50000
+        ^
+SQL state: 42601
+Character: 1
+2021-11-02 21:00:43,941: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:9121802(Query-id: 8343863):
+Error Message:ERROR:  syntax error at or near "p"
+LINE 1: p.pid = w.pid AND w.salary > 50000
+        ^
+SQL state: 42601
+Character: 1
+2021-11-02 21:04:34,074: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:9121802(Query-id: 7238213):
+Error Message:ERROR:  each EXCEPT query must have the same number of columns
+LINE 6: SELECT DISTINCT w.cname
+                        ^
+SQL state: 42601
+Character: 235
+2021-11-02 21:04:39,450: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:9121802(Query-id: 5117539):
+Error Message:ERROR:  each EXCEPT query must have the same number of columns
+LINE 6: SELECT DISTINCT w.cname
+                        ^
+SQL state: 42601
+Character: 235
+2021-11-02 21:10:28,345: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:9121802(Query-id: 1507739):
+Error Message:ERROR:  missing FROM-clause entry for table "p2"
+LINE 4: AND p.pid = k.pid1 AND p2.pid = k.pid2
+                               ^
+SQL state: 42P01
+Character: 194
+2021-11-02 21:27:04,436: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:9121802(Query-id: 1984999):
+Error Message:ERROR:  relation "person1" does not exist
+LINE 2: FROM person p, person1, worksfor w, worksfor w1
+                       ^
+SQL state: 42P01
+Character: 41
+2021-11-02 21:54:23,972: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:9121802(Query-id: 8608834):
+Error Message:ERROR:  missing FROM-clause entry for table "p2"
+LINE 1: SELECT DISTINCT p2.pid
+                        ^
+SQL state: 42P01
+Character: 17
+2021-11-02 22:12:37,588: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:9121802(Query-id: 2864426):
+Error Message:ERROR:  syntax error at or near "w1"
+LINE 1: w1.salary >
+        ^
+SQL state: 42601
+Character: 1
+2021-11-02 22:18:19,820: ERROR	pgadmin:	404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/helpers.py", line 1083, in send_static_file
+    return send_from_directory(
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/helpers.py", line 767, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2021-11-02 22:18:24,026: ERROR	pgadmin:	404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/helpers.py", line 1083, in send_static_file
+    return send_from_directory(
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/helpers.py", line 767, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2021-11-02 22:18:57,527: ERROR	pgadmin:	404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/helpers.py", line 1083, in send_static_file
+    return send_from_directory(
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/helpers.py", line 767, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2021-11-02 22:20:22,948: ERROR	pgadmin:	404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/helpers.py", line 1083, in send_static_file
+    return send_from_directory(
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/helpers.py", line 767, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2021-11-02 22:20:33,019: ERROR	pgadmin:	404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/helpers.py", line 1083, in send_static_file
+    return send_from_directory(
+  File "/Library/PostgreSQL/13/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/helpers.py", line 767, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.

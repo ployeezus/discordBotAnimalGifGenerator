@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- react library script, react DOM, and Babel -->
+    <script
+    src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/babel-standalone@6/babel.min.js"
+      crossorigin
+    ></script>
+    <title>React ⚛️</title>
+  </head>
+
+  <body>
+
+    <!-- Trying to recreate this:
+    <h1>Getting Started with React</h1> -->
+
+    <!-- To create react, first create an id div and then a script -->
+    <div id="root"></div>
+    <!-- change type from javascript to babel for list emojis to work -->
+    <script type="text/babel">
+    // <script type="text/javascript">
+      // creating react elemt with own seperate variable header example
+      // let heading = React.createElement(
+      //     "h1",
+      //     null,
+      //     "Getting Started with React!!!!!!!!"
+      //     );
+
+      // When our ui becomes more complex, we should use a helper (JSX) instead of this:
+      // let ul = React.createElement(
+      //   "ul",
+      //   {style: {color: "blue"}},
+      //   React.createElement("li", null, "Monday"),
+      //   React.createElement("li", null, "Tuesday"),
+      //   React.createElement("li", null, "Wednesday"),
+      //   React.createElement("li", null, "Thursday"),
+      //   React.createElement("li", null, "Friday"),
+      //   );
+
+      // let shyface = "🤭";
+      // let grapes = "🍇";
+      // let die = "🎲";
+      // let name = "React";
+
+      //props = component properties
+      function Header(props){
+        console.log(props)
+        return (
+          <header>
+            <h1>{props.name}'s Kitchen</h1>
+            </header>
+        )
+      }
+      function Main(props){
+        return (
+          <section>
+            <img 
+              height={200}
+              src="./pexels-elevate-1267320.jpg" 
+              alt="A cook placing food on table"
+            />
+            <ul>
+              {props.dishes.map((dish) => (
+                <li key={dish.id}>{dish.title}</li>
+              ))}
+            </ul>
+            </section>
+        );
+      }
+      function Footer(props){
+        return (
+          <footer>
+            <p>Copyright {props.year}</p>
+          </footer>
+        )
+      }
+
+      const dishes = [
+        "Dumplings",
+        "Quesadilla",
+        "Shrimp Tacos"
+      ]
+
+      const dishObjects = dishes.map(
+        (dish, i) => ({
+          id: i,
+          title: dish
+        })
+      );
+
+      //React component
+      function App(){
+        return (
+          <React.Fragment>
+            <Header name="Ploy" />
+            <Main 
+              adjective="amazing"
+              dishes={dishObjects} 
+            />
+            <Footer year={new Date().getFullYear} />
+          </React.Fragment>
+        )
+      }
+
+      // React DOM takes two different arguments
+      ReactDOM.render(
+        // 1. element we want to create
+        
+        // fix this by using babel
+          // <ul>
+          //   <li>{shyface}</li> //jsx expression in curly brackets
+          //   <li>{grapes}</li>
+          //   <li>{die}</li>
+          //   <li>{name.toUpperCase()}</li>
+          //   <li>{name.length}</li>
+          // </ul>,
+
+          <App />,
+
+        // 2. where we want to put this
+        document.getElementById("root")
+      );
+    </script>
+  </body>
+</html>

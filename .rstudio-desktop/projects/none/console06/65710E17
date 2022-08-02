@@ -1,0 +1,13 @@
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+]0;~[?1034hPloys-MacBook-Pro:~ ployunchit$ [KPloys-MacBook-Pro:~ ployunchit$ 
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[KPloys-MacBook-Pro:~ ployunchit$ render("input.Rmd", "pdf_document")
+bash: syntax error near unexpected token `"input.Rmd",'
+]0;~Ploys-MacBook-Pro:~ ployunchit$ render("input.Rmd", "pdf_document")[C[1P[1P[1P[1P[1P[1@U[1@n[1@c[1@h[1@i[1@t[1@_[1@P[1@l[1@o[1@y[1@_[1@P[1@r[1@o[1@b[1@l[1@e[1@m[1@S[1@e[1@t[1@0[1@4
+bash: syntax error near unexpected token `"Unchit_Ploy_ProblemSet04.Rmd",'
+]0;~Ploys-MacBook-Pro:~ ployunchit$ [KPloys-MacBook-Pro:~ ployunchit$ 
